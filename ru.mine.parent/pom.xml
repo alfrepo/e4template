@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>ru.mine</groupId>
+	<artifactId>ru.mine.parent</artifactId>
+	<version>1.0.0-SNAPSHOT</version>
+	<packaging>pom</packaging>
+
+	<modules>
+		<module>../ru.mine.application</module>
+		<module>../ru.mine.feature</module>
+		<module>../ru.mine.product</module>
+		<module>../ru.mine.target</module>
+	</modules>
+
+	<properties>
+		<tycho-version>0.19.0</tycho-version>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+	</properties>
+
+
+<!-- 	<repositories> -->
+<!-- 		<repository> -->
+<!-- 			<id>juno</id> -->
+<!-- 			<layout>p2</layout> -->
+<!-- 			<url>http://download.eclipse.org/releases/juno</url> -->
+<!-- 		</repository> -->
+<!-- 	</repositories> -->
+
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.eclipse.tycho</groupId>
+				<artifactId>tycho-maven-plugin</artifactId>
+				<version>${tycho-version}</version>
+				<extensions>true</extensions>
+			</plugin>
+
+			<plugin>
+				<groupId>org.eclipse.tycho</groupId>
+				<artifactId>target-platform-configuration</artifactId>
+				<version>${tycho-version}</version>
+				<configuration>
+
+					<target>
+						<artifact>
+							<groupId>target</groupId>
+							<artifactId>kepler</artifactId>
+							<version>1.0.0-SNAPSHOT</version>
+						</artifact>
+					</target>
+
+
+					<environments>
+						<environment>
+							<os>win32</os>
+							<ws>win32</ws>
+							<arch>x86</arch>
+						</environment>
+						<environment>
+							<os>win32</os>
+							<ws>win32</ws>
+							<arch>x86_64</arch>
+						</environment>
+						<environment>
+							<os>linux</os>
+							<ws>gtk</ws>
+							<arch>x86</arch>
+						</environment>
+						<environment>
+							<os>linux</os>
+							<ws>gtk</ws>
+							<arch>x86_64</arch>
+						</environment>
+						<environment>
+							<os>macosx</os>
+							<ws>cocoa</ws>
+							<arch>x86</arch>
+						</environment>
+						<environment>
+							<os>macosx</os>
+							<ws>cocoa</ws>
+							<arch>x86_64</arch>
+						</environment>
+					</environments>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
+
+</project> 

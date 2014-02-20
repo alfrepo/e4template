@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config transient="false" date="1392938039109">
+	<site enabled="true" updateable="true" policy="USER-EXCLUDE" url="platform:/base/">
+		<feature id="org.eclipse.emf.ecore" url="features/org.eclipse.emf.ecore_2.9.1.v20130827-0309/" version="2.9.1.v20130827-0309">
+		</feature>
+		<feature id="ru.mine.feature" url="features/ru.mine.feature_1.0.0.201402202313/" version="1.0.0.201402202313">
+		</feature>
+		<feature id="org.eclipse.emf.common" url="features/org.eclipse.emf.common_2.9.1.v20130827-0309/" version="2.9.1.v20130827-0309">
+		</feature>
+	</site>
+</config>
