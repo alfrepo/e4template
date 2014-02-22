@@ -5,8 +5,3 @@ Bundle-SymbolicName: ru.mine.lib.logging;singleton:=true
 Bundle-Version: 1.0.0.qualifier
 Bundle-Vendor: Alexander
 Bundle-RequiredExecutionEnvironment: JavaSE-1.7
-Bundle-ClassPath: lib/logback-classic-1.0.7.jar,
- lib/logback-core-1.0.7.jar,
- lib/slf4j-api-1.7.2.jar,
- .
- 

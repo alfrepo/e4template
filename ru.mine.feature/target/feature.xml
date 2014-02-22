@@ -2,7 +2,7 @@
 <feature
       id="ru.mine.feature"
       label="Feature"
-      version="1.0.0.201402221922"
+      version="1.0.0.201402222004"
       provider-name="Alexander">
 
    <description url="http://www.example.com/description">
@@ -21,13 +21,13 @@
          id="ru.mine.lib.logging"
          download-size="562"
          install-size="628"
-         version="1.0.0.201402221922"/>
+         version="1.0.0.201402222004"/>
 
    <plugin
          id="ru.mine.product.application"
          download-size="10"
          install-size="17"
-         version="1.0.0.201402221922"
+         version="1.0.0.201402222004"
          unpack="false"/>
 
 </feature>
