@@ -1,5 +1,144 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <units size='53'>
+  <unit id='toolingmine-e4-application-product.application' version='1.0.0.201402221922'>
+    <provides size='1'>
+      <provided namespace='org.eclipse.equinox.p2.iu' name='toolingmine-e4-application-product.application' version='1.0.0.201402221922'/>
+    </provides>
+    <requires size='27'>
+      <required namespace='org.eclipse.equinox.p2.iu' name='mine-e4-application-product.executable.cocoa.macosx.x86.eclipse' range='[1.0.0.201402221922,1.0.0.201402221922]'>
+        <filter>
+          (&amp;(osgi.arch=x86)(osgi.os=macosx)(osgi.ws=cocoa))
+        </filter>
+      </required>
+      <required namespace='org.eclipse.equinox.p2.iu' name='mine-e4-application-product.executable.win32.win32.x86.eclipse' range='[1.0.0.201402221922,1.0.0.201402221922]'>
+        <filter>
+          (&amp;(osgi.arch=x86)(osgi.os=win32)(osgi.ws=win32))
+        </filter>
+      </required>
+      <required namespace='org.eclipse.equinox.p2.iu' name='toolingmine-e4-application-product.executable.cocoa.macosx.x86_64-bundled' range='[1.0.0.201402221922,1.0.0.201402221922]'>
+        <filter>
+          (&amp;(macosx-bundled=true)(osgi.arch=x86_64)(osgi.os=macosx)(osgi.ws=cocoa))
+        </filter>
+      </required>
+      <required namespace='org.eclipse.equinox.p2.iu' name='toolingmine-e4-application-product.executable.cocoa.macosx.x86-bundled' range='[1.0.0.201402221922,1.0.0.201402221922]'>
+        <filter>
+          (&amp;(macosx-bundled=true)(osgi.arch=x86)(osgi.os=macosx)(osgi.ws=cocoa))
+        </filter>
+      </required>
+      <required namespace='org.eclipse.equinox.p2.iu' name='toolingmine-e4-application-product.executable.cocoa.macosx.x86_64' range='[1.0.0.201402221922,1.0.0.201402221922]'>
+        <filter>
+          (&amp;(!(macosx-bundled=*))(osgi.arch=x86_64)(osgi.os=macosx)(osgi.ws=cocoa))
+        </filter>
+      </required>
+      <required namespace='org.eclipse.equinox.p2.iu' name='toolingorg.eclipse.equinox.launcher.win32.win32.x86' range='[1.1.200.v20130807-1835,1.1.200.v20130807-1835]'>
+        <filter>
+          (&amp;(osgi.arch=x86)(osgi.os=win32)(osgi.ws=win32))
+        </filter>
+      </required>
+      <required namespace='org.eclipse.equinox.p2.iu' name='mine-e4-application-product.executable.win32.win32.x86' range='[1.0.0.201402221922,1.0.0.201402221922]'>
+        <filter>
+          (&amp;(osgi.arch=x86)(osgi.os=win32)(osgi.ws=win32))
+        </filter>
+      </required>
+      <required namespace='org.eclipse.equinox.p2.iu' name='toolingmine-e4-application-product.executable.gtk.linux.x86_64' range='[1.0.0.201402221922,1.0.0.201402221922]'>
+        <filter>
+          (&amp;(osgi.arch=x86_64)(osgi.os=linux)(osgi.ws=gtk))
+        </filter>
+      </required>
+      <required namespace='org.eclipse.equinox.p2.iu' name='toolingmine-e4-application-product.executable.gtk.linux.x86' range='[1.0.0.201402221922,1.0.0.201402221922]'>
+        <filter>
+          (&amp;(osgi.arch=x86)(osgi.os=linux)(osgi.ws=gtk))
+        </filter>
+      </required>
+      <required namespace='org.eclipse.equinox.p2.iu' name='toolingorg.eclipse.equinox.launcher' range='[1.3.0.v20130327-1440,1.3.0.v20130327-1440]'/>
+      <required namespace='org.eclipse.equinox.p2.iu' name='mine-e4-application-product.executable.cocoa.macosx.x86_64.eclipse' range='[1.0.0.201402221922,1.0.0.201402221922]'>
+        <filter>
+          (&amp;(osgi.arch=x86_64)(osgi.os=macosx)(osgi.ws=cocoa))
+        </filter>
+      </required>
+      <required namespace='org.eclipse.equinox.p2.iu' name='mine-e4-application-product.executable.win32.win32.x86_64.eclipse' range='[1.0.0.201402221922,1.0.0.201402221922]'>
+        <filter>
+          (&amp;(osgi.arch=x86_64)(osgi.os=win32)(osgi.ws=win32))
+        </filter>
+      </required>
+      <required namespace='org.eclipse.equinox.p2.iu' name='mine-e4-application-product.executable.cocoa.macosx.x86_64' range='[1.0.0.201402221922,1.0.0.201402221922]'>
+        <filter>
+          (&amp;(osgi.arch=x86_64)(osgi.os=macosx)(osgi.ws=cocoa))
+        </filter>
+      </required>
+      <required namespace='org.eclipse.equinox.p2.iu' name='mine-e4-application-product.executable.gtk.linux.x86_64' range='[1.0.0.201402221922,1.0.0.201402221922]'>
+        <filter>
+          (&amp;(osgi.arch=x86_64)(osgi.os=linux)(osgi.ws=gtk))
+        </filter>
+      </required>
+      <required namespace='org.eclipse.equinox.p2.iu' name='mine-e4-application-product.executable.gtk.linux.x86' range='[1.0.0.201402221922,1.0.0.201402221922]'>
+        <filter>
+          (&amp;(osgi.arch=x86)(osgi.os=linux)(osgi.ws=gtk))
+        </filter>
+      </required>
+      <required namespace='org.eclipse.equinox.p2.iu' name='toolingorg.eclipse.equinox.launcher.gtk.linux.x86_64' range='[1.1.200.v20130807-1835,1.1.200.v20130807-1835]'>
+        <filter>
+          (&amp;(osgi.arch=x86_64)(osgi.os=linux)(osgi.ws=gtk))
+        </filter>
+      </required>
+      <required namespace='org.eclipse.equinox.p2.iu' name='mine-e4-application-product.executable.cocoa.macosx.x86' range='[1.0.0.201402221922,1.0.0.201402221922]'>
+        <filter>
+          (&amp;(osgi.arch=x86)(osgi.os=macosx)(osgi.ws=cocoa))
+        </filter>
+      </required>
+      <required namespace='org.eclipse.equinox.p2.iu' name='toolingorg.eclipse.equinox.launcher.gtk.linux.x86' range='[1.1.200.v20130807-1835,1.1.200.v20130807-1835]'>
+        <filter>
+          (&amp;(osgi.arch=x86)(osgi.os=linux)(osgi.ws=gtk))
+        </filter>
+      </required>
+      <required namespace='org.eclipse.equinox.p2.iu' name='mine-e4-application-product.executable.gtk.linux.x86.eclipse' range='[1.0.0.201402221922,1.0.0.201402221922]'>
+        <filter>
+          (&amp;(osgi.arch=x86)(osgi.os=linux)(osgi.ws=gtk))
+        </filter>
+      </required>
+      <required namespace='org.eclipse.equinox.p2.iu' name='toolingmine-e4-application-product.executable.win32.win32.x86' range='[1.0.0.201402221922,1.0.0.201402221922]'>
+        <filter>
+          (&amp;(osgi.arch=x86)(osgi.os=win32)(osgi.ws=win32))
+        </filter>
+      </required>
+      <required namespace='org.eclipse.equinox.p2.iu' name='toolingorg.eclipse.equinox.launcher.cocoa.macosx' range='[1.1.200.v20130807-1835,1.1.200.v20130807-1835]'>
+        <filter>
+          (&amp;(osgi.arch=x86)(osgi.os=macosx)(osgi.ws=cocoa))
+        </filter>
+      </required>
+      <required namespace='org.eclipse.equinox.p2.iu' name='toolingorg.eclipse.equinox.launcher.cocoa.macosx.x86_64' range='[1.1.200.v20130807-1835,1.1.200.v20130807-1835]'>
+        <filter>
+          (&amp;(osgi.arch=x86_64)(osgi.os=macosx)(osgi.ws=cocoa))
+        </filter>
+      </required>
+      <required namespace='org.eclipse.equinox.p2.iu' name='toolingmine-e4-application-product.executable.cocoa.macosx.x86' range='[1.0.0.201402221922,1.0.0.201402221922]'>
+        <filter>
+          (&amp;(!(macosx-bundled=*))(osgi.arch=x86)(osgi.os=macosx)(osgi.ws=cocoa))
+        </filter>
+      </required>
+      <required namespace='org.eclipse.equinox.p2.iu' name='mine-e4-application-product.executable.gtk.linux.x86_64.eclipse' range='[1.0.0.201402221922,1.0.0.201402221922]'>
+        <filter>
+          (&amp;(osgi.arch=x86_64)(osgi.os=linux)(osgi.ws=gtk))
+        </filter>
+      </required>
+      <required namespace='org.eclipse.equinox.p2.iu' name='toolingorg.eclipse.equinox.launcher.win32.win32.x86_64' range='[1.1.200.v20130807-1835,1.1.200.v20130807-1835]'>
+        <filter>
+          (&amp;(osgi.arch=x86_64)(osgi.os=win32)(osgi.ws=win32))
+        </filter>
+      </required>
+      <required namespace='org.eclipse.equinox.p2.iu' name='toolingmine-e4-application-product.executable.win32.win32.x86_64' range='[1.0.0.201402221922,1.0.0.201402221922]'>
+        <filter>
+          (&amp;(osgi.arch=x86_64)(osgi.os=win32)(osgi.ws=win32))
+        </filter>
+      </required>
+      <required namespace='org.eclipse.equinox.p2.iu' name='mine-e4-application-product.executable.win32.win32.x86_64' range='[1.0.0.201402221922,1.0.0.201402221922]'>
+        <filter>
+          (&amp;(osgi.arch=x86_64)(osgi.os=win32)(osgi.ws=win32))
+        </filter>
+      </required>
+    </requires>
+    <touchpoint id='null' version='0.0.0'/>
+  </unit>
   <unit id='tooling.source.default' version='1.0.0' singleton='false'>
     <hostRequirements size='1'>
       <required namespace='org.eclipse.equinox.p2.eclipse.type' name='source' range='0.0.0' optional='true' multiple='true' greedy='false'/>
@@ -234,104 +373,6 @@
       </instructions>
     </touchpointData>
   </unit>
-  <unit id='toolingmine-e4-application-product.configuration' version='1.0.0.201402202313'>
-    <provides size='1'>
-      <provided namespace='org.eclipse.equinox.p2.iu' name='toolingmine-e4-application-product.configuration' version='1.0.0.201402202313'/>
-    </provides>
-    <requires size='18'>
-      <required namespace='org.eclipse.equinox.p2.iu' name='toolingmine-e4-application-product.config.win32.win32.x86' range='[1.0.0.201402202313,1.0.0.201402202313]'>
-        <filter>
-          (&amp;(osgi.arch=x86)(osgi.os=win32)(osgi.ws=win32))
-        </filter>
-      </required>
-      <required namespace='org.eclipse.equinox.p2.iu' name='toolingmine-e4-application-product.ini.gtk.linux.x86_64' range='[1.0.0.201402202313,1.0.0.201402202313]'>
-        <filter>
-          (&amp;(osgi.arch=x86_64)(osgi.os=linux)(osgi.ws=gtk))
-        </filter>
-      </required>
-      <required namespace='org.eclipse.equinox.p2.iu' name='toolingcocoa.macosx.x86_64org.eclipse.core.runtime' range='[1.0.0.201402202313,1.0.0.201402202313]'>
-        <filter>
-          (&amp;(osgi.arch=x86_64)(osgi.os=macosx)(osgi.ws=cocoa))
-        </filter>
-      </required>
-      <required namespace='org.eclipse.equinox.p2.iu' name='toolingcocoa.macosx.x86org.eclipse.core.runtime' range='[1.0.0.201402202313,1.0.0.201402202313]'>
-        <filter>
-          (&amp;(osgi.arch=x86)(osgi.os=macosx)(osgi.ws=cocoa))
-        </filter>
-      </required>
-      <required namespace='org.eclipse.equinox.p2.iu' name='toolingmine-e4-application-product.config.gtk.linux.x86' range='[1.0.0.201402202313,1.0.0.201402202313]'>
-        <filter>
-          (&amp;(osgi.arch=x86)(osgi.os=linux)(osgi.ws=gtk))
-        </filter>
-      </required>
-      <required namespace='org.eclipse.equinox.p2.iu' name='toolingmine-e4-application-product.ini.cocoa.macosx.x86' range='[1.0.0.201402202313,1.0.0.201402202313]'>
-        <filter>
-          (&amp;(osgi.arch=x86)(osgi.os=macosx)(osgi.ws=cocoa))
-        </filter>
-      </required>
-      <required namespace='org.eclipse.equinox.p2.iu' name='toolinggtk.linux.x86_64org.eclipse.core.runtime' range='[1.0.0.201402202313,1.0.0.201402202313]'>
-        <filter>
-          (&amp;(osgi.arch=x86_64)(osgi.os=linux)(osgi.ws=gtk))
-        </filter>
-      </required>
-      <required namespace='org.eclipse.equinox.p2.iu' name='toolingwin32.win32.x86_64org.eclipse.core.runtime' range='[1.0.0.201402202313,1.0.0.201402202313]'>
-        <filter>
-          (&amp;(osgi.arch=x86_64)(osgi.os=win32)(osgi.ws=win32))
-        </filter>
-      </required>
-      <required namespace='org.eclipse.equinox.p2.iu' name='toolingmine-e4-application-product.config.gtk.linux.x86_64' range='[1.0.0.201402202313,1.0.0.201402202313]'>
-        <filter>
-          (&amp;(osgi.arch=x86_64)(osgi.os=linux)(osgi.ws=gtk))
-        </filter>
-      </required>
-      <required namespace='org.eclipse.equinox.p2.iu' name='toolingmine-e4-application-product.ini.gtk.linux.x86' range='[1.0.0.201402202313,1.0.0.201402202313]'>
-        <filter>
-          (&amp;(osgi.arch=x86)(osgi.os=linux)(osgi.ws=gtk))
-        </filter>
-      </required>
-      <required namespace='org.eclipse.equinox.p2.iu' name='toolingmine-e4-application-product.ini.cocoa.macosx.x86_64' range='[1.0.0.201402202313,1.0.0.201402202313]'>
-        <filter>
-          (&amp;(osgi.arch=x86_64)(osgi.os=macosx)(osgi.ws=cocoa))
-        </filter>
-      </required>
-      <required namespace='org.eclipse.equinox.p2.iu' name='toolingmine-e4-application-product.config.cocoa.macosx.x86_64' range='[1.0.0.201402202313,1.0.0.201402202313]'>
-        <filter>
-          (&amp;(osgi.arch=x86_64)(osgi.os=macosx)(osgi.ws=cocoa))
-        </filter>
-      </required>
-      <required namespace='org.eclipse.equinox.p2.iu' name='toolinggtk.linux.x86org.eclipse.core.runtime' range='[1.0.0.201402202313,1.0.0.201402202313]'>
-        <filter>
-          (&amp;(osgi.arch=x86)(osgi.os=linux)(osgi.ws=gtk))
-        </filter>
-      </required>
-      <required namespace='org.eclipse.equinox.p2.iu' name='toolingmine-e4-application-product.config.cocoa.macosx.x86' range='[1.0.0.201402202313,1.0.0.201402202313]'>
-        <filter>
-          (&amp;(osgi.arch=x86)(osgi.os=macosx)(osgi.ws=cocoa))
-        </filter>
-      </required>
-      <required namespace='org.eclipse.equinox.p2.iu' name='toolingmine-e4-application-product.ini.win32.win32.x86' range='[1.0.0.201402202313,1.0.0.201402202313]'>
-        <filter>
-          (&amp;(osgi.arch=x86)(osgi.os=win32)(osgi.ws=win32))
-        </filter>
-      </required>
-      <required namespace='org.eclipse.equinox.p2.iu' name='toolingwin32.win32.x86org.eclipse.core.runtime' range='[1.0.0.201402202313,1.0.0.201402202313]'>
-        <filter>
-          (&amp;(osgi.arch=x86)(osgi.os=win32)(osgi.ws=win32))
-        </filter>
-      </required>
-      <required namespace='org.eclipse.equinox.p2.iu' name='toolingmine-e4-application-product.ini.win32.win32.x86_64' range='[1.0.0.201402202313,1.0.0.201402202313]'>
-        <filter>
-          (&amp;(osgi.arch=x86_64)(osgi.os=win32)(osgi.ws=win32))
-        </filter>
-      </required>
-      <required namespace='org.eclipse.equinox.p2.iu' name='toolingmine-e4-application-product.config.win32.win32.x86_64' range='[1.0.0.201402202313,1.0.0.201402202313]'>
-        <filter>
-          (&amp;(osgi.arch=x86_64)(osgi.os=win32)(osgi.ws=win32))
-        </filter>
-      </required>
-    </requires>
-    <touchpoint id='null' version='0.0.0'/>
-  </unit>
   <unit id='tooling.org.eclipse.update.feature.default' version='1.0.0' singleton='false'>
     <hostRequirements size='1'>
       <required namespace='org.eclipse.equinox.p2.eclipse.type' name='feature' range='0.0.0' optional='true' multiple='true' greedy='false'/>
@@ -361,140 +402,99 @@
       </instructions>
     </touchpointData>
   </unit>
-  <unit id='toolingmine-e4-application-product.application' version='1.0.0.201402202313'>
+  <unit id='toolingmine-e4-application-product.configuration' version='1.0.0.201402221922'>
     <provides size='1'>
-      <provided namespace='org.eclipse.equinox.p2.iu' name='toolingmine-e4-application-product.application' version='1.0.0.201402202313'/>
+      <provided namespace='org.eclipse.equinox.p2.iu' name='toolingmine-e4-application-product.configuration' version='1.0.0.201402221922'/>
     </provides>
-    <requires size='27'>
-      <required namespace='org.eclipse.equinox.p2.iu' name='mine-e4-application-product.executable.cocoa.macosx.x86_64.eclipse' range='[1.0.0.201402202313,1.0.0.201402202313]'>
+    <requires size='18'>
+      <required namespace='org.eclipse.equinox.p2.iu' name='toolingmine-e4-application-product.config.gtk.linux.x86' range='[1.0.0.201402221922,1.0.0.201402221922]'>
         <filter>
-          (&amp;(osgi.arch=x86_64)(osgi.os=macosx)(osgi.ws=cocoa))
+          (&amp;(osgi.arch=x86)(osgi.os=linux)(osgi.ws=gtk))
         </filter>
       </required>
-      <required namespace='org.eclipse.equinox.p2.iu' name='mine-e4-application-product.executable.cocoa.macosx.x86.eclipse' range='[1.0.0.201402202313,1.0.0.201402202313]'>
+      <required namespace='org.eclipse.equinox.p2.iu' name='toolinggtk.linux.x86_64org.eclipse.core.runtime' range='[1.0.0.201402221922,1.0.0.201402221922]'>
+        <filter>
+          (&amp;(osgi.arch=x86_64)(osgi.os=linux)(osgi.ws=gtk))
+        </filter>
+      </required>
+      <required namespace='org.eclipse.equinox.p2.iu' name='toolingcocoa.macosx.x86org.eclipse.core.runtime' range='[1.0.0.201402221922,1.0.0.201402221922]'>
         <filter>
           (&amp;(osgi.arch=x86)(osgi.os=macosx)(osgi.ws=cocoa))
         </filter>
       </required>
-      <required namespace='org.eclipse.equinox.p2.iu' name='mine-e4-application-product.executable.win32.win32.x86.eclipse' range='[1.0.0.201402202313,1.0.0.201402202313]'>
-        <filter>
-          (&amp;(osgi.arch=x86)(osgi.os=win32)(osgi.ws=win32))
-        </filter>
-      </required>
-      <required namespace='org.eclipse.equinox.p2.iu' name='mine-e4-application-product.executable.gtk.linux.x86_64.eclipse' range='[1.0.0.201402202313,1.0.0.201402202313]'>
-        <filter>
-          (&amp;(osgi.arch=x86_64)(osgi.os=linux)(osgi.ws=gtk))
-        </filter>
-      </required>
-      <required namespace='org.eclipse.equinox.p2.iu' name='mine-e4-application-product.executable.win32.win32.x86_64.eclipse' range='[1.0.0.201402202313,1.0.0.201402202313]'>
-        <filter>
-          (&amp;(osgi.arch=x86_64)(osgi.os=win32)(osgi.ws=win32))
-        </filter>
-      </required>
-      <required namespace='org.eclipse.equinox.p2.iu' name='mine-e4-application-product.executable.win32.win32.x86' range='[1.0.0.201402202313,1.0.0.201402202313]'>
-        <filter>
-          (&amp;(osgi.arch=x86)(osgi.os=win32)(osgi.ws=win32))
-        </filter>
-      </required>
-      <required namespace='org.eclipse.equinox.p2.iu' name='toolingorg.eclipse.equinox.launcher.win32.win32.x86' range='[1.1.200.v20130807-1835,1.1.200.v20130807-1835]'>
-        <filter>
-          (&amp;(osgi.arch=x86)(osgi.os=win32)(osgi.ws=win32))
-        </filter>
-      </required>
-      <required namespace='org.eclipse.equinox.p2.iu' name='mine-e4-application-product.executable.gtk.linux.x86' range='[1.0.0.201402202313,1.0.0.201402202313]'>
+      <required namespace='org.eclipse.equinox.p2.iu' name='toolinggtk.linux.x86org.eclipse.core.runtime' range='[1.0.0.201402221922,1.0.0.201402221922]'>
         <filter>
           (&amp;(osgi.arch=x86)(osgi.os=linux)(osgi.ws=gtk))
         </filter>
       </required>
-      <required namespace='org.eclipse.equinox.p2.iu' name='toolingmine-e4-application-product.executable.win32.win32.x86_64' range='[1.0.0.201402202313,1.0.0.201402202313]'>
+      <required namespace='org.eclipse.equinox.p2.iu' name='toolingmine-e4-application-product.config.win32.win32.x86_64' range='[1.0.0.201402221922,1.0.0.201402221922]'>
         <filter>
           (&amp;(osgi.arch=x86_64)(osgi.os=win32)(osgi.ws=win32))
         </filter>
       </required>
-      <required namespace='org.eclipse.equinox.p2.iu' name='toolingmine-e4-application-product.executable.gtk.linux.x86_64' range='[1.0.0.201402202313,1.0.0.201402202313]'>
-        <filter>
-          (&amp;(osgi.arch=x86_64)(osgi.os=linux)(osgi.ws=gtk))
-        </filter>
-      </required>
-      <required namespace='org.eclipse.equinox.p2.iu' name='toolingmine-e4-application-product.executable.cocoa.macosx.x86_64-bundled' range='[1.0.0.201402202313,1.0.0.201402202313]'>
-        <filter>
-          (&amp;(macosx-bundled=true)(osgi.arch=x86_64)(osgi.os=macosx)(osgi.ws=cocoa))
-        </filter>
-      </required>
-      <required namespace='org.eclipse.equinox.p2.iu' name='toolingorg.eclipse.equinox.launcher' range='[1.3.0.v20130327-1440,1.3.0.v20130327-1440]'/>
-      <required namespace='org.eclipse.equinox.p2.iu' name='mine-e4-application-product.executable.cocoa.macosx.x86_64' range='[1.0.0.201402202313,1.0.0.201402202313]'>
+      <required namespace='org.eclipse.equinox.p2.iu' name='toolingmine-e4-application-product.config.cocoa.macosx.x86_64' range='[1.0.0.201402221922,1.0.0.201402221922]'>
         <filter>
           (&amp;(osgi.arch=x86_64)(osgi.os=macosx)(osgi.ws=cocoa))
         </filter>
       </required>
-      <required namespace='org.eclipse.equinox.p2.iu' name='mine-e4-application-product.executable.gtk.linux.x86_64' range='[1.0.0.201402202313,1.0.0.201402202313]'>
-        <filter>
-          (&amp;(osgi.arch=x86_64)(osgi.os=linux)(osgi.ws=gtk))
-        </filter>
-      </required>
-      <required namespace='org.eclipse.equinox.p2.iu' name='mine-e4-application-product.executable.win32.win32.x86_64' range='[1.0.0.201402202313,1.0.0.201402202313]'>
-        <filter>
-          (&amp;(osgi.arch=x86_64)(osgi.os=win32)(osgi.ws=win32))
-        </filter>
-      </required>
-      <required namespace='org.eclipse.equinox.p2.iu' name='toolingorg.eclipse.equinox.launcher.gtk.linux.x86_64' range='[1.1.200.v20130807-1835,1.1.200.v20130807-1835]'>
-        <filter>
-          (&amp;(osgi.arch=x86_64)(osgi.os=linux)(osgi.ws=gtk))
-        </filter>
-      </required>
-      <required namespace='org.eclipse.equinox.p2.iu' name='mine-e4-application-product.executable.cocoa.macosx.x86' range='[1.0.0.201402202313,1.0.0.201402202313]'>
+      <required namespace='org.eclipse.equinox.p2.iu' name='toolingmine-e4-application-product.ini.cocoa.macosx.x86' range='[1.0.0.201402221922,1.0.0.201402221922]'>
         <filter>
           (&amp;(osgi.arch=x86)(osgi.os=macosx)(osgi.ws=cocoa))
         </filter>
       </required>
-      <required namespace='org.eclipse.equinox.p2.iu' name='toolingorg.eclipse.equinox.launcher.gtk.linux.x86' range='[1.1.200.v20130807-1835,1.1.200.v20130807-1835]'>
-        <filter>
-          (&amp;(osgi.arch=x86)(osgi.os=linux)(osgi.ws=gtk))
-        </filter>
-      </required>
-      <required namespace='org.eclipse.equinox.p2.iu' name='toolingmine-e4-application-product.executable.win32.win32.x86' range='[1.0.0.201402202313,1.0.0.201402202313]'>
+      <required namespace='org.eclipse.equinox.p2.iu' name='toolingwin32.win32.x86org.eclipse.core.runtime' range='[1.0.0.201402221922,1.0.0.201402221922]'>
         <filter>
           (&amp;(osgi.arch=x86)(osgi.os=win32)(osgi.ws=win32))
         </filter>
       </required>
-      <required namespace='org.eclipse.equinox.p2.iu' name='toolingorg.eclipse.equinox.launcher.cocoa.macosx' range='[1.1.200.v20130807-1835,1.1.200.v20130807-1835]'>
+      <required namespace='org.eclipse.equinox.p2.iu' name='toolingmine-e4-application-product.ini.gtk.linux.x86_64' range='[1.0.0.201402221922,1.0.0.201402221922]'>
         <filter>
-          (&amp;(osgi.arch=x86)(osgi.os=macosx)(osgi.ws=cocoa))
+          (&amp;(osgi.arch=x86_64)(osgi.os=linux)(osgi.ws=gtk))
         </filter>
       </required>
-      <required namespace='org.eclipse.equinox.p2.iu' name='toolingorg.eclipse.equinox.launcher.cocoa.macosx.x86_64' range='[1.1.200.v20130807-1835,1.1.200.v20130807-1835]'>
-        <filter>
-          (&amp;(osgi.arch=x86_64)(osgi.os=macosx)(osgi.ws=cocoa))
-        </filter>
-      </required>
-      <required namespace='org.eclipse.equinox.p2.iu' name='toolingmine-e4-application-product.executable.cocoa.macosx.x86-bundled' range='[1.0.0.201402202313,1.0.0.201402202313]'>
-        <filter>
-          (&amp;(macosx-bundled=true)(osgi.arch=x86)(osgi.os=macosx)(osgi.ws=cocoa))
-        </filter>
-      </required>
-      <required namespace='org.eclipse.equinox.p2.iu' name='toolingmine-e4-application-product.executable.gtk.linux.x86' range='[1.0.0.201402202313,1.0.0.201402202313]'>
-        <filter>
-          (&amp;(osgi.arch=x86)(osgi.os=linux)(osgi.ws=gtk))
-        </filter>
-      </required>
-      <required namespace='org.eclipse.equinox.p2.iu' name='toolingorg.eclipse.equinox.launcher.win32.win32.x86_64' range='[1.1.200.v20130807-1835,1.1.200.v20130807-1835]'>
+      <required namespace='org.eclipse.equinox.p2.iu' name='toolingwin32.win32.x86_64org.eclipse.core.runtime' range='[1.0.0.201402221922,1.0.0.201402221922]'>
         <filter>
           (&amp;(osgi.arch=x86_64)(osgi.os=win32)(osgi.ws=win32))
         </filter>
       </required>
-      <required namespace='org.eclipse.equinox.p2.iu' name='toolingmine-e4-application-product.executable.cocoa.macosx.x86_64' range='[1.0.0.201402202313,1.0.0.201402202313]'>
+      <required namespace='org.eclipse.equinox.p2.iu' name='toolingcocoa.macosx.x86_64org.eclipse.core.runtime' range='[1.0.0.201402221922,1.0.0.201402221922]'>
         <filter>
-          (&amp;(!(macosx-bundled=*))(osgi.arch=x86_64)(osgi.os=macosx)(osgi.ws=cocoa))
+          (&amp;(osgi.arch=x86_64)(osgi.os=macosx)(osgi.ws=cocoa))
         </filter>
       </required>
-      <required namespace='org.eclipse.equinox.p2.iu' name='toolingmine-e4-application-product.executable.cocoa.macosx.x86' range='[1.0.0.201402202313,1.0.0.201402202313]'>
+      <required namespace='org.eclipse.equinox.p2.iu' name='toolingmine-e4-application-product.config.gtk.linux.x86_64' range='[1.0.0.201402221922,1.0.0.201402221922]'>
         <filter>
-          (&amp;(!(macosx-bundled=*))(osgi.arch=x86)(osgi.os=macosx)(osgi.ws=cocoa))
+          (&amp;(osgi.arch=x86_64)(osgi.os=linux)(osgi.ws=gtk))
         </filter>
       </required>
-      <required namespace='org.eclipse.equinox.p2.iu' name='mine-e4-application-product.executable.gtk.linux.x86.eclipse' range='[1.0.0.201402202313,1.0.0.201402202313]'>
+      <required namespace='org.eclipse.equinox.p2.iu' name='toolingmine-e4-application-product.ini.win32.win32.x86' range='[1.0.0.201402221922,1.0.0.201402221922]'>
+        <filter>
+          (&amp;(osgi.arch=x86)(osgi.os=win32)(osgi.ws=win32))
+        </filter>
+      </required>
+      <required namespace='org.eclipse.equinox.p2.iu' name='toolingmine-e4-application-product.config.cocoa.macosx.x86' range='[1.0.0.201402221922,1.0.0.201402221922]'>
+        <filter>
+          (&amp;(osgi.arch=x86)(osgi.os=macosx)(osgi.ws=cocoa))
+        </filter>
+      </required>
+      <required namespace='org.eclipse.equinox.p2.iu' name='toolingmine-e4-application-product.ini.gtk.linux.x86' range='[1.0.0.201402221922,1.0.0.201402221922]'>
         <filter>
           (&amp;(osgi.arch=x86)(osgi.os=linux)(osgi.ws=gtk))
+        </filter>
+      </required>
+      <required namespace='org.eclipse.equinox.p2.iu' name='toolingmine-e4-application-product.ini.win32.win32.x86_64' range='[1.0.0.201402221922,1.0.0.201402221922]'>
+        <filter>
+          (&amp;(osgi.arch=x86_64)(osgi.os=win32)(osgi.ws=win32))
+        </filter>
+      </required>
+      <required namespace='org.eclipse.equinox.p2.iu' name='toolingmine-e4-application-product.ini.cocoa.macosx.x86_64' range='[1.0.0.201402221922,1.0.0.201402221922]'>
+        <filter>
+          (&amp;(osgi.arch=x86_64)(osgi.os=macosx)(osgi.ws=cocoa))
+        </filter>
+      </required>
+      <required namespace='org.eclipse.equinox.p2.iu' name='toolingmine-e4-application-product.config.win32.win32.x86' range='[1.0.0.201402221922,1.0.0.201402221922]'>
+        <filter>
+          (&amp;(osgi.arch=x86)(osgi.os=win32)(osgi.ws=win32))
         </filter>
       </required>
     </requires>
@@ -522,28 +522,9 @@
       </instructions>
     </touchpointData>
   </unit>
-  <unit id='mine-e4-application-product.executable.cocoa.macosx.x86_64.eclipse' version='1.0.0.201402202313' singleton='false'>
+  <unit id='mine-e4-application-product.executable.cocoa.macosx.x86.eclipse' version='1.0.0.201402221922' singleton='false'>
     <provides size='1'>
-      <provided namespace='org.eclipse.equinox.p2.iu' name='mine-e4-application-product.executable.cocoa.macosx.x86_64.eclipse' version='1.0.0.201402202313'/>
-    </provides>
-    <filter>
-      (&amp;(osgi.arch=x86_64)(osgi.os=macosx)(osgi.ws=cocoa))
-    </filter>
-    <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
-    <touchpointData size='1'>
-      <instructions size='2'>
-        <instruction key='unconfigure'>
-          setLauncherName()
-        </instruction>
-        <instruction key='configure'>
-          setLauncherName(name:eclipse)
-        </instruction>
-      </instructions>
-    </touchpointData>
-  </unit>
-  <unit id='mine-e4-application-product.executable.cocoa.macosx.x86.eclipse' version='1.0.0.201402202313' singleton='false'>
-    <provides size='1'>
-      <provided namespace='org.eclipse.equinox.p2.iu' name='mine-e4-application-product.executable.cocoa.macosx.x86.eclipse' version='1.0.0.201402202313'/>
+      <provided namespace='org.eclipse.equinox.p2.iu' name='mine-e4-application-product.executable.cocoa.macosx.x86.eclipse' version='1.0.0.201402221922'/>
     </provides>
     <filter>
       (&amp;(osgi.arch=x86)(osgi.os=macosx)(osgi.ws=cocoa))
@@ -560,9 +541,9 @@
       </instructions>
     </touchpointData>
   </unit>
-  <unit id='mine-e4-application-product.executable.win32.win32.x86.eclipse' version='1.0.0.201402202313' singleton='false'>
+  <unit id='mine-e4-application-product.executable.win32.win32.x86.eclipse' version='1.0.0.201402221922' singleton='false'>
     <provides size='1'>
-      <provided namespace='org.eclipse.equinox.p2.iu' name='mine-e4-application-product.executable.win32.win32.x86.eclipse' version='1.0.0.201402202313'/>
+      <provided namespace='org.eclipse.equinox.p2.iu' name='mine-e4-application-product.executable.win32.win32.x86.eclipse' version='1.0.0.201402221922'/>
     </provides>
     <filter>
       (&amp;(osgi.arch=x86)(osgi.os=win32)(osgi.ws=win32))
@@ -579,13 +560,42 @@
       </instructions>
     </touchpointData>
   </unit>
-  <unit id='toolingmine-e4-application-product.config.win32.win32.x86' version='1.0.0.201402202313' singleton='false'>
+  <unit id='toolingmine-e4-application-product.executable.cocoa.macosx.x86_64-bundled' version='1.0.0.201402221922' singleton='false'>
+    <hostRequirements size='1'>
+      <required namespace='org.eclipse.equinox.p2.iu' name='mine-e4-application-product.executable.cocoa.macosx.x86_64' range='[1.0.0.201402221922,1.0.0.201402221922]'/>
+    </hostRequirements>
+    <properties size='1'>
+      <property name='org.eclipse.equinox.p2.type.fragment' value='true'/>
+    </properties>
     <provides size='2'>
-      <provided namespace='org.eclipse.equinox.p2.iu' name='toolingmine-e4-application-product.config.win32.win32.x86' version='1.0.0.201402202313'/>
-      <provided namespace='toolingmine-e4-application-product' name='mine-e4-application-product.config' version='1.0.0.201402202313'/>
+      <provided namespace='org.eclipse.equinox.p2.iu' name='toolingmine-e4-application-product.executable.cocoa.macosx.x86_64' version='1.0.0.201402221922'/>
+      <provided namespace='org.eclipse.equinox.p2.iu' name='toolingmine-e4-application-product.executable.cocoa.macosx.x86_64-bundled' version='1.0.0.201402221922'/>
+    </provides>
+    <requires size='1'>
+      <required namespace='org.eclipse.equinox.p2.iu' name='mine-e4-application-product.executable.cocoa.macosx.x86_64' range='[1.0.0.201402221922,1.0.0.201402221922]'/>
+    </requires>
+    <filter>
+      (&amp;(macosx-bundled=true)(osgi.arch=x86_64)(osgi.os=macosx)(osgi.ws=cocoa))
+    </filter>
+    <touchpoint id='org.eclipse.equinox.p2.native' version='1.0.0'/>
+    <touchpointData size='1'>
+      <instructions size='2'>
+        <instruction key='install'>
+          unzip(source:@artifact, target:${installFolder}, path:Eclipse.app); chmod(targetDir:${installFolder}/Contents/MacOS/, targetFile:eclipse, permissions:755);
+        </instruction>
+        <instruction key='uninstall'>
+          cleanupzip(source:@artifact, target:${installFolder});
+        </instruction>
+      </instructions>
+    </touchpointData>
+  </unit>
+  <unit id='toolingmine-e4-application-product.config.gtk.linux.x86' version='1.0.0.201402221922' singleton='false'>
+    <provides size='2'>
+      <provided namespace='org.eclipse.equinox.p2.iu' name='toolingmine-e4-application-product.config.gtk.linux.x86' version='1.0.0.201402221922'/>
+      <provided namespace='toolingmine-e4-application-product' name='mine-e4-application-product.config' version='1.0.0.201402221922'/>
     </provides>
     <filter>
-      (&amp;(osgi.arch=x86)(osgi.os=win32)(osgi.ws=win32))
+      (&amp;(osgi.arch=x86)(osgi.os=linux)(osgi.ws=gtk))
     </filter>
     <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
     <touchpointData size='1'>
@@ -594,130 +604,64 @@
           setProgramProperty(propName:eclipse.application,propValue:);setProgramProperty(propName:eclipse.product,propValue:);
         </instruction>
         <instruction key='configure'>
-          setProgramProperty(propName:eclipse.application,propValue:org.eclipse.e4.ui.workbench.swt.E4Application);setProgramProperty(propName:eclipse.product,propValue:ru.mine.application.product);
+          setProgramProperty(propName:eclipse.application,propValue:org.eclipse.e4.ui.workbench.swt.E4Application);setProgramProperty(propName:eclipse.product,propValue:ru.mine.product.application.product);
         </instruction>
       </instructions>
     </touchpointData>
   </unit>
-  <unit id='mine-e4-application-product.executable.gtk.linux.x86_64.eclipse' version='1.0.0.201402202313' singleton='false'>
-    <provides size='1'>
-      <provided namespace='org.eclipse.equinox.p2.iu' name='mine-e4-application-product.executable.gtk.linux.x86_64.eclipse' version='1.0.0.201402202313'/>
-    </provides>
-    <filter>
-      (&amp;(osgi.arch=x86_64)(osgi.os=linux)(osgi.ws=gtk))
-    </filter>
-    <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
-    <touchpointData size='1'>
-      <instructions size='2'>
-        <instruction key='unconfigure'>
-          setLauncherName()
-        </instruction>
-        <instruction key='configure'>
-          setLauncherName(name:eclipse)
-        </instruction>
-      </instructions>
-    </touchpointData>
-  </unit>
-  <unit id='mine-e4-application-product' version='1.0.0.201402202313'>
-    <update id='mine-e4-application-product' range='0.0.0' severity='0'/>
-    <properties size='3'>
-      <property name='org.eclipse.equinox.p2.name' value='ru.mine.application'/>
-      <property name='org.eclipse.equinox.p2.type.product' value='true'/>
-      <property name='org.eclipse.equinox.p2.type.group' value='true'/>
-    </properties>
-    <provides size='1'>
-      <provided namespace='org.eclipse.equinox.p2.iu' name='mine-e4-application-product' version='1.0.0.201402202313'/>
-    </provides>
-    <requires size='10'>
-      <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.emf.ecore.feature.group' range='[2.9.1.v20130827-0309,2.9.1.v20130827-0309]'/>
-      <required namespace='org.eclipse.equinox.p2.iu' name='tooling.source.default' range='[1.0.0,1.0.0]'/>
-      <required namespace='org.eclipse.equinox.p2.iu' name='a.jre.javase' range='[1.6.0,1.6.0]'/>
-      <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.emf.common.feature.group' range='[2.9.1.v20130827-0309,2.9.1.v20130827-0309]'/>
-      <required namespace='org.eclipse.equinox.p2.iu' name='tooling.osgi.bundle.default' range='[1.0.0,1.0.0]'/>
-      <required namespace='org.eclipse.equinox.p2.iu' name='toolingmine-e4-application-product.configuration' range='[1.0.0.201402202313,1.0.0.201402202313]'/>
-      <required namespace='org.eclipse.equinox.p2.iu' name='tooling.org.eclipse.update.feature.default' range='[1.0.0,1.0.0]'>
-        <filter>
-          (org.eclipse.update.install.features=true)
-        </filter>
-      </required>
-      <required namespace='org.eclipse.equinox.p2.iu' name='ru.mine.feature.feature.group' range='[1.0.0.201402202313,1.0.0.201402202313]'/>
-      <required namespace='org.eclipse.equinox.p2.iu' name='toolingmine-e4-application-product.application' range='[1.0.0.201402202313,1.0.0.201402202313]'/>
-      <required namespace='org.eclipse.equinox.p2.iu' name='config.a.jre.javase' range='[1.6.0,1.6.0]'/>
-    </requires>
-    <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
-  </unit>
-  <unit id='mine-e4-application-product.executable.win32.win32.x86_64.eclipse' version='1.0.0.201402202313' singleton='false'>
-    <provides size='1'>
-      <provided namespace='org.eclipse.equinox.p2.iu' name='mine-e4-application-product.executable.win32.win32.x86_64.eclipse' version='1.0.0.201402202313'/>
-    </provides>
-    <filter>
-      (&amp;(osgi.arch=x86_64)(osgi.os=win32)(osgi.ws=win32))
-    </filter>
-    <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
-    <touchpointData size='1'>
-      <instructions size='2'>
-        <instruction key='unconfigure'>
-          setLauncherName()
-        </instruction>
-        <instruction key='configure'>
-          setLauncherName(name:eclipse)
-        </instruction>
-      </instructions>
-    </touchpointData>
-  </unit>
-  <unit id='mine-e4-application-product.executable.win32.win32.x86' version='1.0.0.201402202313'>
-    <provides size='2'>
-      <provided namespace='org.eclipse.equinox.p2.iu' name='mine-e4-application-product.executable.win32.win32.x86' version='1.0.0.201402202313'/>
-      <provided namespace='toolingmine-e4-application-product' name='mine-e4-application-product.executable' version='1.0.0.201402202313'/>
-    </provides>
-    <requires size='1'>
-      <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.equinox.launcher.win32.win32.x86' range='0.0.0'>
-        <filter>
-          (&amp;(osgi.arch=x86)(osgi.os=win32)(osgi.ws=win32))
-        </filter>
-      </required>
-    </requires>
-    <filter>
-      (&amp;(osgi.arch=x86)(osgi.os=win32)(osgi.ws=win32))
-    </filter>
-    <artifacts size='1'>
-      <artifact classifier='binary' id='mine-e4-application-product.executable.win32.win32.x86' version='1.0.0.201402202313'/>
-    </artifacts>
-    <touchpoint id='org.eclipse.equinox.p2.native' version='1.0.0'/>
-  </unit>
-  <unit id='toolingwin32.win32.x86_64org.eclipse.core.runtime' version='1.0.0.201402202313' singleton='false'>
-    <hostRequirements size='2'>
-      <required namespace='osgi.bundle' name='org.eclipse.core.runtime' range='3.9.0.v20130326-1255'/>
-      <required namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' range='[1.0.0,2.0.0)' greedy='false'/>
+  <unit id='toolingmine-e4-application-product.executable.cocoa.macosx.x86-bundled' version='1.0.0.201402221922' singleton='false'>
+    <hostRequirements size='1'>
+      <required namespace='org.eclipse.equinox.p2.iu' name='mine-e4-application-product.executable.cocoa.macosx.x86' range='[1.0.0.201402221922,1.0.0.201402221922]'/>
     </hostRequirements>
     <properties size='1'>
       <property name='org.eclipse.equinox.p2.type.fragment' value='true'/>
     </properties>
     <provides size='2'>
-      <provided namespace='org.eclipse.equinox.p2.iu' name='toolingwin32.win32.x86_64org.eclipse.core.runtime' version='1.0.0.201402202313'/>
-      <provided namespace='org.eclipse.equinox.p2.flavor' name='toolingwin32.win32.x86_64' version='1.0.0'/>
+      <provided namespace='org.eclipse.equinox.p2.iu' name='toolingmine-e4-application-product.executable.cocoa.macosx.x86' version='1.0.0.201402221922'/>
+      <provided namespace='org.eclipse.equinox.p2.iu' name='toolingmine-e4-application-product.executable.cocoa.macosx.x86-bundled' version='1.0.0.201402221922'/>
     </provides>
-    <requires size='2'>
-      <required namespace='osgi.bundle' name='org.eclipse.core.runtime' range='3.9.0.v20130326-1255'/>
-      <required namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' range='[1.0.0,2.0.0)' greedy='false'/>
+    <requires size='1'>
+      <required namespace='org.eclipse.equinox.p2.iu' name='mine-e4-application-product.executable.cocoa.macosx.x86' range='[1.0.0.201402221922,1.0.0.201402221922]'/>
     </requires>
     <filter>
-      (&amp;(osgi.arch=x86_64)(osgi.os=win32)(osgi.ws=win32))
+      (&amp;(macosx-bundled=true)(osgi.arch=x86)(osgi.os=macosx)(osgi.ws=cocoa))
     </filter>
-    <touchpoint id='null' version='0.0.0'/>
+    <touchpoint id='org.eclipse.equinox.p2.native' version='1.0.0'/>
     <touchpointData size='1'>
-      <instructions size='4'>
+      <instructions size='2'>
         <instruction key='install'>
-          installBundle(bundle:${artifact})
+          unzip(source:@artifact, target:${installFolder}, path:Eclipse.app); chmod(targetDir:${installFolder}/Contents/MacOS/, targetFile:eclipse, permissions:755);
         </instruction>
         <instruction key='uninstall'>
-          uninstallBundle(bundle:${artifact})
+          cleanupzip(source:@artifact, target:${installFolder});
         </instruction>
-        <instruction key='unconfigure'>
-          setStartLevel(startLevel:-1);markStarted(started: false);
+      </instructions>
+    </touchpointData>
+  </unit>
+  <unit id='toolingmine-e4-application-product.executable.cocoa.macosx.x86_64' version='1.0.0.201402221922' singleton='false'>
+    <hostRequirements size='1'>
+      <required namespace='org.eclipse.equinox.p2.iu' name='mine-e4-application-product.executable.cocoa.macosx.x86_64' range='[1.0.0.201402221922,1.0.0.201402221922]'/>
+    </hostRequirements>
+    <properties size='1'>
+      <property name='org.eclipse.equinox.p2.type.fragment' value='true'/>
+    </properties>
+    <provides size='1'>
+      <provided namespace='org.eclipse.equinox.p2.iu' name='toolingmine-e4-application-product.executable.cocoa.macosx.x86_64' version='1.0.0.201402221922'/>
+    </provides>
+    <requires size='1'>
+      <required namespace='org.eclipse.equinox.p2.iu' name='mine-e4-application-product.executable.cocoa.macosx.x86_64' range='[1.0.0.201402221922,1.0.0.201402221922]'/>
+    </requires>
+    <filter>
+      (&amp;(!(macosx-bundled=*))(osgi.arch=x86_64)(osgi.os=macosx)(osgi.ws=cocoa))
+    </filter>
+    <touchpoint id='org.eclipse.equinox.p2.native' version='1.0.0'/>
+    <touchpointData size='1'>
+      <instructions size='2'>
+        <instruction key='install'>
+          unzip(source:@artifact, target:${installFolder}); chmod(targetDir:${installFolder}/Eclipse.app/Contents/MacOS/, targetFile:eclipse, permissions:755); ln(targetDir:${installFolder}, linkTarget:Eclipse.app/Contents/MacOS/eclipse, linkName:eclipse);
         </instruction>
-        <instruction key='configure'>
-          setStartLevel(startLevel:2);markStarted(started: true);
+        <instruction key='uninstall'>
+          cleanupzip(source:@artifact, target:${installFolder});
         </instruction>
       </instructions>
     </touchpointData>
@@ -759,50 +703,30 @@
       </instructions>
     </touchpointData>
   </unit>
-  <unit id='mine-e4-application-product.executable.gtk.linux.x86' version='1.0.0.201402202313'>
+  <unit id='mine-e4-application-product.executable.win32.win32.x86' version='1.0.0.201402221922'>
     <provides size='2'>
-      <provided namespace='org.eclipse.equinox.p2.iu' name='mine-e4-application-product.executable.gtk.linux.x86' version='1.0.0.201402202313'/>
-      <provided namespace='toolingmine-e4-application-product' name='mine-e4-application-product.executable' version='1.0.0.201402202313'/>
+      <provided namespace='org.eclipse.equinox.p2.iu' name='mine-e4-application-product.executable.win32.win32.x86' version='1.0.0.201402221922'/>
+      <provided namespace='toolingmine-e4-application-product' name='mine-e4-application-product.executable' version='1.0.0.201402221922'/>
     </provides>
     <requires size='1'>
-      <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.equinox.launcher.gtk.linux.x86' range='0.0.0'>
+      <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.equinox.launcher.win32.win32.x86' range='0.0.0'>
         <filter>
-          (&amp;(osgi.arch=x86)(osgi.os=linux)(osgi.ws=gtk))
+          (&amp;(osgi.arch=x86)(osgi.os=win32)(osgi.ws=win32))
         </filter>
       </required>
     </requires>
     <filter>
-      (&amp;(osgi.arch=x86)(osgi.os=linux)(osgi.ws=gtk))
+      (&amp;(osgi.arch=x86)(osgi.os=win32)(osgi.ws=win32))
     </filter>
     <artifacts size='1'>
-      <artifact classifier='binary' id='mine-e4-application-product.executable.gtk.linux.x86' version='1.0.0.201402202313'/>
+      <artifact classifier='binary' id='mine-e4-application-product.executable.win32.win32.x86' version='1.0.0.201402221922'/>
     </artifacts>
     <touchpoint id='org.eclipse.equinox.p2.native' version='1.0.0'/>
   </unit>
-  <unit id='toolingmine-e4-application-product.ini.gtk.linux.x86' version='1.0.0.201402202313' singleton='false'>
+  <unit id='toolingmine-e4-application-product.config.cocoa.macosx.x86_64' version='1.0.0.201402221922' singleton='false'>
     <provides size='2'>
-      <provided namespace='org.eclipse.equinox.p2.iu' name='toolingmine-e4-application-product.ini.gtk.linux.x86' version='1.0.0.201402202313'/>
-      <provided namespace='toolingmine-e4-application-product' name='mine-e4-application-product.ini' version='1.0.0.201402202313'/>
-    </provides>
-    <filter>
-      (&amp;(osgi.arch=x86)(osgi.os=linux)(osgi.ws=gtk))
-    </filter>
-    <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
-    <touchpointData size='1'>
-      <instructions size='2'>
-        <instruction key='unconfigure'>
-          removeProgramArg(programArg:-clearPersistedState);
-        </instruction>
-        <instruction key='configure'>
-          addProgramArg(programArg:-clearPersistedState);
-        </instruction>
-      </instructions>
-    </touchpointData>
-  </unit>
-  <unit id='toolingmine-e4-application-product.config.cocoa.macosx.x86_64' version='1.0.0.201402202313' singleton='false'>
-    <provides size='2'>
-      <provided namespace='org.eclipse.equinox.p2.iu' name='toolingmine-e4-application-product.config.cocoa.macosx.x86_64' version='1.0.0.201402202313'/>
-      <provided namespace='toolingmine-e4-application-product' name='mine-e4-application-product.config' version='1.0.0.201402202313'/>
+      <provided namespace='org.eclipse.equinox.p2.iu' name='toolingmine-e4-application-product.config.cocoa.macosx.x86_64' version='1.0.0.201402221922'/>
+      <provided namespace='toolingmine-e4-application-product' name='mine-e4-application-product.config' version='1.0.0.201402221922'/>
     </provides>
     <filter>
       (&amp;(osgi.arch=x86_64)(osgi.os=macosx)(osgi.ws=cocoa))
@@ -814,12 +738,40 @@
           setProgramProperty(propName:eclipse.application,propValue:);setProgramProperty(propName:eclipse.product,propValue:);
         </instruction>
         <instruction key='configure'>
-          setProgramProperty(propName:eclipse.application,propValue:org.eclipse.e4.ui.workbench.swt.E4Application);setProgramProperty(propName:eclipse.product,propValue:ru.mine.application.product);
+          setProgramProperty(propName:eclipse.application,propValue:org.eclipse.e4.ui.workbench.swt.E4Application);setProgramProperty(propName:eclipse.product,propValue:ru.mine.product.application.product);
         </instruction>
       </instructions>
     </touchpointData>
   </unit>
-  <unit id='toolinggtk.linux.x86org.eclipse.core.runtime' version='1.0.0.201402202313' singleton='false'>
+  <unit id='toolingmine-e4-application-product.executable.gtk.linux.x86_64' version='1.0.0.201402221922' singleton='false'>
+    <hostRequirements size='1'>
+      <required namespace='org.eclipse.equinox.p2.iu' name='mine-e4-application-product.executable.gtk.linux.x86_64' range='[1.0.0.201402221922,1.0.0.201402221922]'/>
+    </hostRequirements>
+    <properties size='1'>
+      <property name='org.eclipse.equinox.p2.type.fragment' value='true'/>
+    </properties>
+    <provides size='1'>
+      <provided namespace='org.eclipse.equinox.p2.iu' name='toolingmine-e4-application-product.executable.gtk.linux.x86_64' version='1.0.0.201402221922'/>
+    </provides>
+    <requires size='1'>
+      <required namespace='org.eclipse.equinox.p2.iu' name='mine-e4-application-product.executable.gtk.linux.x86_64' range='[1.0.0.201402221922,1.0.0.201402221922]'/>
+    </requires>
+    <filter>
+      (&amp;(osgi.arch=x86_64)(osgi.os=linux)(osgi.ws=gtk))
+    </filter>
+    <touchpoint id='org.eclipse.equinox.p2.native' version='1.0.0'/>
+    <touchpointData size='1'>
+      <instructions size='2'>
+        <instruction key='install'>
+          unzip(source:@artifact, target:${installFolder}); chmod(targetDir:${installFolder}, targetFile:eclipse, permissions:755); chmod(targetDir:${installFolder}, targetFile:icon.xpm, permissions:755);
+        </instruction>
+        <instruction key='uninstall'>
+          cleanupzip(source:@artifact, target:${installFolder});
+        </instruction>
+      </instructions>
+    </touchpointData>
+  </unit>
+  <unit id='toolingwin32.win32.x86org.eclipse.core.runtime' version='1.0.0.201402221922' singleton='false'>
     <hostRequirements size='2'>
       <required namespace='osgi.bundle' name='org.eclipse.core.runtime' range='3.9.0.v20130326-1255'/>
       <required namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' range='[1.0.0,2.0.0)' greedy='false'/>
@@ -828,15 +780,15 @@
       <property name='org.eclipse.equinox.p2.type.fragment' value='true'/>
     </properties>
     <provides size='2'>
-      <provided namespace='org.eclipse.equinox.p2.iu' name='toolinggtk.linux.x86org.eclipse.core.runtime' version='1.0.0.201402202313'/>
-      <provided namespace='org.eclipse.equinox.p2.flavor' name='toolinggtk.linux.x86' version='1.0.0'/>
+      <provided namespace='org.eclipse.equinox.p2.iu' name='toolingwin32.win32.x86org.eclipse.core.runtime' version='1.0.0.201402221922'/>
+      <provided namespace='org.eclipse.equinox.p2.flavor' name='toolingwin32.win32.x86' version='1.0.0'/>
     </provides>
     <requires size='2'>
       <required namespace='osgi.bundle' name='org.eclipse.core.runtime' range='3.9.0.v20130326-1255'/>
       <required namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' range='[1.0.0,2.0.0)' greedy='false'/>
     </requires>
     <filter>
-      (&amp;(osgi.arch=x86)(osgi.os=linux)(osgi.ws=gtk))
+      (&amp;(osgi.arch=x86)(osgi.os=win32)(osgi.ws=win32))
     </filter>
     <touchpoint id='null' version='0.0.0'/>
     <touchpointData size='1'>
@@ -856,107 +808,59 @@
       </instructions>
     </touchpointData>
   </unit>
-  <unit id='toolingmine-e4-application-product.executable.win32.win32.x86_64' version='1.0.0.201402202313' singleton='false'>
-    <hostRequirements size='1'>
-      <required namespace='org.eclipse.equinox.p2.iu' name='mine-e4-application-product.executable.win32.win32.x86_64' range='[1.0.0.201402202313,1.0.0.201402202313]'/>
-    </hostRequirements>
-    <properties size='1'>
-      <property name='org.eclipse.equinox.p2.type.fragment' value='true'/>
-    </properties>
-    <provides size='1'>
-      <provided namespace='org.eclipse.equinox.p2.iu' name='toolingmine-e4-application-product.executable.win32.win32.x86_64' version='1.0.0.201402202313'/>
-    </provides>
-    <requires size='1'>
-      <required namespace='org.eclipse.equinox.p2.iu' name='mine-e4-application-product.executable.win32.win32.x86_64' range='[1.0.0.201402202313,1.0.0.201402202313]'/>
-    </requires>
-    <filter>
-      (&amp;(osgi.arch=x86_64)(osgi.os=win32)(osgi.ws=win32))
-    </filter>
-    <touchpoint id='org.eclipse.equinox.p2.native' version='1.0.0'/>
-    <touchpointData size='1'>
-      <instructions size='2'>
-        <instruction key='install'>
-          unzip(source:@artifact, target:${installFolder});
-        </instruction>
-        <instruction key='uninstall'>
-          cleanupzip(source:@artifact, target:${installFolder});
-        </instruction>
-      </instructions>
-    </touchpointData>
-  </unit>
-  <unit id='toolingmine-e4-application-product.executable.gtk.linux.x86_64' version='1.0.0.201402202313' singleton='false'>
-    <hostRequirements size='1'>
-      <required namespace='org.eclipse.equinox.p2.iu' name='mine-e4-application-product.executable.gtk.linux.x86_64' range='[1.0.0.201402202313,1.0.0.201402202313]'/>
-    </hostRequirements>
-    <properties size='1'>
-      <property name='org.eclipse.equinox.p2.type.fragment' value='true'/>
-    </properties>
-    <provides size='1'>
-      <provided namespace='org.eclipse.equinox.p2.iu' name='toolingmine-e4-application-product.executable.gtk.linux.x86_64' version='1.0.0.201402202313'/>
-    </provides>
-    <requires size='1'>
-      <required namespace='org.eclipse.equinox.p2.iu' name='mine-e4-application-product.executable.gtk.linux.x86_64' range='[1.0.0.201402202313,1.0.0.201402202313]'/>
-    </requires>
-    <filter>
-      (&amp;(osgi.arch=x86_64)(osgi.os=linux)(osgi.ws=gtk))
-    </filter>
-    <touchpoint id='org.eclipse.equinox.p2.native' version='1.0.0'/>
-    <touchpointData size='1'>
-      <instructions size='2'>
-        <instruction key='install'>
-          unzip(source:@artifact, target:${installFolder}); chmod(targetDir:${installFolder}, targetFile:eclipse, permissions:755); chmod(targetDir:${installFolder}, targetFile:icon.xpm, permissions:755);
-        </instruction>
-        <instruction key='uninstall'>
-          cleanupzip(source:@artifact, target:${installFolder});
-        </instruction>
-      </instructions>
-    </touchpointData>
-  </unit>
-  <unit id='toolingmine-e4-application-product.executable.cocoa.macosx.x86_64-bundled' version='1.0.0.201402202313' singleton='false'>
-    <hostRequirements size='1'>
-      <required namespace='org.eclipse.equinox.p2.iu' name='mine-e4-application-product.executable.cocoa.macosx.x86_64' range='[1.0.0.201402202313,1.0.0.201402202313]'/>
-    </hostRequirements>
-    <properties size='1'>
-      <property name='org.eclipse.equinox.p2.type.fragment' value='true'/>
-    </properties>
+  <unit id='toolingmine-e4-application-product.ini.cocoa.macosx.x86' version='1.0.0.201402221922' singleton='false'>
     <provides size='2'>
-      <provided namespace='org.eclipse.equinox.p2.iu' name='toolingmine-e4-application-product.executable.cocoa.macosx.x86_64' version='1.0.0.201402202313'/>
-      <provided namespace='org.eclipse.equinox.p2.iu' name='toolingmine-e4-application-product.executable.cocoa.macosx.x86_64-bundled' version='1.0.0.201402202313'/>
-    </provides>
-    <requires size='1'>
-      <required namespace='org.eclipse.equinox.p2.iu' name='mine-e4-application-product.executable.cocoa.macosx.x86_64' range='[1.0.0.201402202313,1.0.0.201402202313]'/>
-    </requires>
-    <filter>
-      (&amp;(macosx-bundled=true)(osgi.arch=x86_64)(osgi.os=macosx)(osgi.ws=cocoa))
-    </filter>
-    <touchpoint id='org.eclipse.equinox.p2.native' version='1.0.0'/>
-    <touchpointData size='1'>
-      <instructions size='2'>
-        <instruction key='install'>
-          unzip(source:@artifact, target:${installFolder}, path:Eclipse.app); chmod(targetDir:${installFolder}/Contents/MacOS/, targetFile:eclipse, permissions:755);
-        </instruction>
-        <instruction key='uninstall'>
-          cleanupzip(source:@artifact, target:${installFolder});
-        </instruction>
-      </instructions>
-    </touchpointData>
-  </unit>
-  <unit id='toolingmine-e4-application-product.ini.win32.win32.x86' version='1.0.0.201402202313' singleton='false'>
-    <provides size='2'>
-      <provided namespace='org.eclipse.equinox.p2.iu' name='toolingmine-e4-application-product.ini.win32.win32.x86' version='1.0.0.201402202313'/>
-      <provided namespace='toolingmine-e4-application-product' name='mine-e4-application-product.ini' version='1.0.0.201402202313'/>
+      <provided namespace='org.eclipse.equinox.p2.iu' name='toolingmine-e4-application-product.ini.cocoa.macosx.x86' version='1.0.0.201402221922'/>
+      <provided namespace='toolingmine-e4-application-product' name='mine-e4-application-product.ini' version='1.0.0.201402221922'/>
     </provides>
     <filter>
-      (&amp;(osgi.arch=x86)(osgi.os=win32)(osgi.ws=win32))
+      (&amp;(osgi.arch=x86)(osgi.os=macosx)(osgi.ws=cocoa))
     </filter>
     <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
     <touchpointData size='1'>
       <instructions size='2'>
         <instruction key='unconfigure'>
-          removeProgramArg(programArg:-clearPersistedState);
+          removeJvmArg(jvmArg:-XstartOnFirstThread);removeJvmArg(jvmArg:-Dorg.eclipse.swt.internal.carbon.smallFonts);removeProgramArg(programArg:-clearPersistedState);
         </instruction>
         <instruction key='configure'>
-          addProgramArg(programArg:-clearPersistedState);
+          addJvmArg(jvmArg:-XstartOnFirstThread);addJvmArg(jvmArg:-Dorg.eclipse.swt.internal.carbon.smallFonts);addProgramArg(programArg:-clearPersistedState);
+        </instruction>
+      </instructions>
+    </touchpointData>
+  </unit>
+  <unit id='toolingcocoa.macosx.x86_64org.eclipse.core.runtime' version='1.0.0.201402221922' singleton='false'>
+    <hostRequirements size='2'>
+      <required namespace='osgi.bundle' name='org.eclipse.core.runtime' range='3.9.0.v20130326-1255'/>
+      <required namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' range='[1.0.0,2.0.0)' greedy='false'/>
+    </hostRequirements>
+    <properties size='1'>
+      <property name='org.eclipse.equinox.p2.type.fragment' value='true'/>
+    </properties>
+    <provides size='2'>
+      <provided namespace='org.eclipse.equinox.p2.iu' name='toolingcocoa.macosx.x86_64org.eclipse.core.runtime' version='1.0.0.201402221922'/>
+      <provided namespace='org.eclipse.equinox.p2.flavor' name='toolingcocoa.macosx.x86_64' version='1.0.0'/>
+    </provides>
+    <requires size='2'>
+      <required namespace='osgi.bundle' name='org.eclipse.core.runtime' range='3.9.0.v20130326-1255'/>
+      <required namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' range='[1.0.0,2.0.0)' greedy='false'/>
+    </requires>
+    <filter>
+      (&amp;(osgi.arch=x86_64)(osgi.os=macosx)(osgi.ws=cocoa))
+    </filter>
+    <touchpoint id='null' version='0.0.0'/>
+    <touchpointData size='1'>
+      <instructions size='4'>
+        <instruction key='install'>
+          installBundle(bundle:${artifact})
+        </instruction>
+        <instruction key='uninstall'>
+          uninstallBundle(bundle:${artifact})
+        </instruction>
+        <instruction key='unconfigure'>
+          setStartLevel(startLevel:-1);markStarted(started: false);
+        </instruction>
+        <instruction key='configure'>
+          setStartLevel(startLevel:2);markStarted(started: true);
         </instruction>
       </instructions>
     </touchpointData>
@@ -995,73 +899,61 @@
       </instructions>
     </touchpointData>
   </unit>
-  <unit id='mine-e4-application-product.executable.cocoa.macosx.x86_64' version='1.0.0.201402202313'>
-    <provides size='2'>
-      <provided namespace='org.eclipse.equinox.p2.iu' name='mine-e4-application-product.executable.cocoa.macosx.x86_64' version='1.0.0.201402202313'/>
-      <provided namespace='toolingmine-e4-application-product' name='mine-e4-application-product.executable' version='1.0.0.201402202313'/>
+  <unit id='toolingmine-e4-application-product.executable.gtk.linux.x86' version='1.0.0.201402221922' singleton='false'>
+    <hostRequirements size='1'>
+      <required namespace='org.eclipse.equinox.p2.iu' name='mine-e4-application-product.executable.gtk.linux.x86' range='[1.0.0.201402221922,1.0.0.201402221922]'/>
+    </hostRequirements>
+    <properties size='1'>
+      <property name='org.eclipse.equinox.p2.type.fragment' value='true'/>
+    </properties>
+    <provides size='1'>
+      <provided namespace='org.eclipse.equinox.p2.iu' name='toolingmine-e4-application-product.executable.gtk.linux.x86' version='1.0.0.201402221922'/>
     </provides>
     <requires size='1'>
-      <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.equinox.launcher.cocoa.macosx.x86_64' range='0.0.0'>
-        <filter>
-          (&amp;(osgi.arch=x86_64)(osgi.os=macosx)(osgi.ws=cocoa))
-        </filter>
-      </required>
+      <required namespace='org.eclipse.equinox.p2.iu' name='mine-e4-application-product.executable.gtk.linux.x86' range='[1.0.0.201402221922,1.0.0.201402221922]'/>
     </requires>
     <filter>
-      (&amp;(osgi.arch=x86_64)(osgi.os=macosx)(osgi.ws=cocoa))
+      (&amp;(osgi.arch=x86)(osgi.os=linux)(osgi.ws=gtk))
     </filter>
-    <artifacts size='1'>
-      <artifact classifier='binary' id='mine-e4-application-product.executable.cocoa.macosx.x86_64' version='1.0.0.201402202313'/>
-    </artifacts>
     <touchpoint id='org.eclipse.equinox.p2.native' version='1.0.0'/>
+    <touchpointData size='1'>
+      <instructions size='2'>
+        <instruction key='install'>
+          unzip(source:@artifact, target:${installFolder}); chmod(targetDir:${installFolder}, targetFile:eclipse, permissions:755); chmod(targetDir:${installFolder}, targetFile:icon.xpm, permissions:755);
+        </instruction>
+        <instruction key='uninstall'>
+          cleanupzip(source:@artifact, target:${installFolder});
+        </instruction>
+      </instructions>
+    </touchpointData>
   </unit>
-  <unit id='mine-e4-application-product.executable.gtk.linux.x86_64' version='1.0.0.201402202313'>
+  <unit id='toolingmine-e4-application-product.config.gtk.linux.x86_64' version='1.0.0.201402221922' singleton='false'>
     <provides size='2'>
-      <provided namespace='org.eclipse.equinox.p2.iu' name='mine-e4-application-product.executable.gtk.linux.x86_64' version='1.0.0.201402202313'/>
-      <provided namespace='toolingmine-e4-application-product' name='mine-e4-application-product.executable' version='1.0.0.201402202313'/>
+      <provided namespace='org.eclipse.equinox.p2.iu' name='toolingmine-e4-application-product.config.gtk.linux.x86_64' version='1.0.0.201402221922'/>
+      <provided namespace='toolingmine-e4-application-product' name='mine-e4-application-product.config' version='1.0.0.201402221922'/>
     </provides>
-    <requires size='1'>
-      <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.equinox.launcher.gtk.linux.x86_64' range='0.0.0'>
-        <filter>
-          (&amp;(osgi.arch=x86_64)(osgi.os=linux)(osgi.ws=gtk))
-        </filter>
-      </required>
-    </requires>
     <filter>
       (&amp;(osgi.arch=x86_64)(osgi.os=linux)(osgi.ws=gtk))
     </filter>
-    <artifacts size='1'>
-      <artifact classifier='binary' id='mine-e4-application-product.executable.gtk.linux.x86_64' version='1.0.0.201402202313'/>
-    </artifacts>
-    <touchpoint id='org.eclipse.equinox.p2.native' version='1.0.0'/>
+    <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+    <touchpointData size='1'>
+      <instructions size='2'>
+        <instruction key='unconfigure'>
+          setProgramProperty(propName:eclipse.application,propValue:);setProgramProperty(propName:eclipse.product,propValue:);
+        </instruction>
+        <instruction key='configure'>
+          setProgramProperty(propName:eclipse.application,propValue:org.eclipse.e4.ui.workbench.swt.E4Application);setProgramProperty(propName:eclipse.product,propValue:ru.mine.product.application.product);
+        </instruction>
+      </instructions>
+    </touchpointData>
   </unit>
-  <unit id='mine-e4-application-product.executable.win32.win32.x86_64' version='1.0.0.201402202313'>
+  <unit id='toolingmine-e4-application-product.ini.win32.win32.x86' version='1.0.0.201402221922' singleton='false'>
     <provides size='2'>
-      <provided namespace='org.eclipse.equinox.p2.iu' name='mine-e4-application-product.executable.win32.win32.x86_64' version='1.0.0.201402202313'/>
-      <provided namespace='toolingmine-e4-application-product' name='mine-e4-application-product.executable' version='1.0.0.201402202313'/>
-    </provides>
-    <requires size='1'>
-      <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.equinox.launcher.win32.win32.x86_64' range='0.0.0'>
-        <filter>
-          (&amp;(osgi.arch=x86_64)(osgi.os=win32)(osgi.ws=win32))
-        </filter>
-      </required>
-    </requires>
-    <filter>
-      (&amp;(osgi.arch=x86_64)(osgi.os=win32)(osgi.ws=win32))
-    </filter>
-    <artifacts size='1'>
-      <artifact classifier='binary' id='mine-e4-application-product.executable.win32.win32.x86_64' version='1.0.0.201402202313'/>
-    </artifacts>
-    <touchpoint id='org.eclipse.equinox.p2.native' version='1.0.0'/>
-  </unit>
-  <unit id='toolingmine-e4-application-product.ini.gtk.linux.x86_64' version='1.0.0.201402202313' singleton='false'>
-    <provides size='2'>
-      <provided namespace='org.eclipse.equinox.p2.iu' name='toolingmine-e4-application-product.ini.gtk.linux.x86_64' version='1.0.0.201402202313'/>
-      <provided namespace='toolingmine-e4-application-product' name='mine-e4-application-product.ini' version='1.0.0.201402202313'/>
+      <provided namespace='org.eclipse.equinox.p2.iu' name='toolingmine-e4-application-product.ini.win32.win32.x86' version='1.0.0.201402221922'/>
+      <provided namespace='toolingmine-e4-application-product' name='mine-e4-application-product.ini' version='1.0.0.201402221922'/>
     </provides>
     <filter>
-      (&amp;(osgi.arch=x86_64)(osgi.os=linux)(osgi.ws=gtk))
+      (&amp;(osgi.arch=x86)(osgi.os=win32)(osgi.ws=win32))
     </filter>
     <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
     <touchpointData size='1'>
@@ -1075,42 +967,123 @@
       </instructions>
     </touchpointData>
   </unit>
-  <unit id='toolingcocoa.macosx.x86_64org.eclipse.core.runtime' version='1.0.0.201402202313' singleton='false'>
-    <hostRequirements size='2'>
-      <required namespace='osgi.bundle' name='org.eclipse.core.runtime' range='3.9.0.v20130326-1255'/>
-      <required namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' range='[1.0.0,2.0.0)' greedy='false'/>
-    </hostRequirements>
-    <properties size='1'>
-      <property name='org.eclipse.equinox.p2.type.fragment' value='true'/>
-    </properties>
+  <unit id='toolingmine-e4-application-product.ini.win32.win32.x86_64' version='1.0.0.201402221922' singleton='false'>
     <provides size='2'>
-      <provided namespace='org.eclipse.equinox.p2.iu' name='toolingcocoa.macosx.x86_64org.eclipse.core.runtime' version='1.0.0.201402202313'/>
-      <provided namespace='org.eclipse.equinox.p2.flavor' name='toolingcocoa.macosx.x86_64' version='1.0.0'/>
+      <provided namespace='org.eclipse.equinox.p2.iu' name='toolingmine-e4-application-product.ini.win32.win32.x86_64' version='1.0.0.201402221922'/>
+      <provided namespace='toolingmine-e4-application-product' name='mine-e4-application-product.ini' version='1.0.0.201402221922'/>
     </provides>
-    <requires size='2'>
-      <required namespace='osgi.bundle' name='org.eclipse.core.runtime' range='3.9.0.v20130326-1255'/>
-      <required namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' range='[1.0.0,2.0.0)' greedy='false'/>
+    <filter>
+      (&amp;(osgi.arch=x86_64)(osgi.os=win32)(osgi.ws=win32))
+    </filter>
+    <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+    <touchpointData size='1'>
+      <instructions size='2'>
+        <instruction key='unconfigure'>
+          removeProgramArg(programArg:-clearPersistedState);
+        </instruction>
+        <instruction key='configure'>
+          addProgramArg(programArg:-clearPersistedState);
+        </instruction>
+      </instructions>
+    </touchpointData>
+  </unit>
+  <unit id='mine-e4-application-product.executable.cocoa.macosx.x86_64.eclipse' version='1.0.0.201402221922' singleton='false'>
+    <provides size='1'>
+      <provided namespace='org.eclipse.equinox.p2.iu' name='mine-e4-application-product.executable.cocoa.macosx.x86_64.eclipse' version='1.0.0.201402221922'/>
+    </provides>
+    <filter>
+      (&amp;(osgi.arch=x86_64)(osgi.os=macosx)(osgi.ws=cocoa))
+    </filter>
+    <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+    <touchpointData size='1'>
+      <instructions size='2'>
+        <instruction key='unconfigure'>
+          setLauncherName()
+        </instruction>
+        <instruction key='configure'>
+          setLauncherName(name:eclipse)
+        </instruction>
+      </instructions>
+    </touchpointData>
+  </unit>
+  <unit id='mine-e4-application-product.executable.win32.win32.x86_64.eclipse' version='1.0.0.201402221922' singleton='false'>
+    <provides size='1'>
+      <provided namespace='org.eclipse.equinox.p2.iu' name='mine-e4-application-product.executable.win32.win32.x86_64.eclipse' version='1.0.0.201402221922'/>
+    </provides>
+    <filter>
+      (&amp;(osgi.arch=x86_64)(osgi.os=win32)(osgi.ws=win32))
+    </filter>
+    <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+    <touchpointData size='1'>
+      <instructions size='2'>
+        <instruction key='unconfigure'>
+          setLauncherName()
+        </instruction>
+        <instruction key='configure'>
+          setLauncherName(name:eclipse)
+        </instruction>
+      </instructions>
+    </touchpointData>
+  </unit>
+  <unit id='mine-e4-application-product.executable.cocoa.macosx.x86_64' version='1.0.0.201402221922'>
+    <provides size='2'>
+      <provided namespace='org.eclipse.equinox.p2.iu' name='mine-e4-application-product.executable.cocoa.macosx.x86_64' version='1.0.0.201402221922'/>
+      <provided namespace='toolingmine-e4-application-product' name='mine-e4-application-product.executable' version='1.0.0.201402221922'/>
+    </provides>
+    <requires size='1'>
+      <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.equinox.launcher.cocoa.macosx.x86_64' range='0.0.0'>
+        <filter>
+          (&amp;(osgi.arch=x86_64)(osgi.os=macosx)(osgi.ws=cocoa))
+        </filter>
+      </required>
     </requires>
     <filter>
       (&amp;(osgi.arch=x86_64)(osgi.os=macosx)(osgi.ws=cocoa))
     </filter>
-    <touchpoint id='null' version='0.0.0'/>
-    <touchpointData size='1'>
-      <instructions size='4'>
-        <instruction key='install'>
-          installBundle(bundle:${artifact})
-        </instruction>
-        <instruction key='uninstall'>
-          uninstallBundle(bundle:${artifact})
-        </instruction>
-        <instruction key='unconfigure'>
-          setStartLevel(startLevel:-1);markStarted(started: false);
-        </instruction>
-        <instruction key='configure'>
-          setStartLevel(startLevel:2);markStarted(started: true);
-        </instruction>
-      </instructions>
-    </touchpointData>
+    <artifacts size='1'>
+      <artifact classifier='binary' id='mine-e4-application-product.executable.cocoa.macosx.x86_64' version='1.0.0.201402221922'/>
+    </artifacts>
+    <touchpoint id='org.eclipse.equinox.p2.native' version='1.0.0'/>
+  </unit>
+  <unit id='mine-e4-application-product.executable.gtk.linux.x86_64' version='1.0.0.201402221922'>
+    <provides size='2'>
+      <provided namespace='org.eclipse.equinox.p2.iu' name='mine-e4-application-product.executable.gtk.linux.x86_64' version='1.0.0.201402221922'/>
+      <provided namespace='toolingmine-e4-application-product' name='mine-e4-application-product.executable' version='1.0.0.201402221922'/>
+    </provides>
+    <requires size='1'>
+      <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.equinox.launcher.gtk.linux.x86_64' range='0.0.0'>
+        <filter>
+          (&amp;(osgi.arch=x86_64)(osgi.os=linux)(osgi.ws=gtk))
+        </filter>
+      </required>
+    </requires>
+    <filter>
+      (&amp;(osgi.arch=x86_64)(osgi.os=linux)(osgi.ws=gtk))
+    </filter>
+    <artifacts size='1'>
+      <artifact classifier='binary' id='mine-e4-application-product.executable.gtk.linux.x86_64' version='1.0.0.201402221922'/>
+    </artifacts>
+    <touchpoint id='org.eclipse.equinox.p2.native' version='1.0.0'/>
+  </unit>
+  <unit id='mine-e4-application-product.executable.gtk.linux.x86' version='1.0.0.201402221922'>
+    <provides size='2'>
+      <provided namespace='org.eclipse.equinox.p2.iu' name='mine-e4-application-product.executable.gtk.linux.x86' version='1.0.0.201402221922'/>
+      <provided namespace='toolingmine-e4-application-product' name='mine-e4-application-product.executable' version='1.0.0.201402221922'/>
+    </provides>
+    <requires size='1'>
+      <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.equinox.launcher.gtk.linux.x86' range='0.0.0'>
+        <filter>
+          (&amp;(osgi.arch=x86)(osgi.os=linux)(osgi.ws=gtk))
+        </filter>
+      </required>
+    </requires>
+    <filter>
+      (&amp;(osgi.arch=x86)(osgi.os=linux)(osgi.ws=gtk))
+    </filter>
+    <artifacts size='1'>
+      <artifact classifier='binary' id='mine-e4-application-product.executable.gtk.linux.x86' version='1.0.0.201402221922'/>
+    </artifacts>
+    <touchpoint id='org.eclipse.equinox.p2.native' version='1.0.0'/>
   </unit>
   <unit id='toolingorg.eclipse.equinox.launcher.gtk.linux.x86_64' version='1.1.200.v20130807-1835' singleton='false'>
     <hostRequirements size='2'>
@@ -1149,47 +1122,10 @@
       </instructions>
     </touchpointData>
   </unit>
-  <unit id='toolingcocoa.macosx.x86org.eclipse.core.runtime' version='1.0.0.201402202313' singleton='false'>
-    <hostRequirements size='2'>
-      <required namespace='osgi.bundle' name='org.eclipse.core.runtime' range='3.9.0.v20130326-1255'/>
-      <required namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' range='[1.0.0,2.0.0)' greedy='false'/>
-    </hostRequirements>
-    <properties size='1'>
-      <property name='org.eclipse.equinox.p2.type.fragment' value='true'/>
-    </properties>
+  <unit id='mine-e4-application-product.executable.cocoa.macosx.x86' version='1.0.0.201402221922'>
     <provides size='2'>
-      <provided namespace='org.eclipse.equinox.p2.iu' name='toolingcocoa.macosx.x86org.eclipse.core.runtime' version='1.0.0.201402202313'/>
-      <provided namespace='org.eclipse.equinox.p2.flavor' name='toolingcocoa.macosx.x86' version='1.0.0'/>
-    </provides>
-    <requires size='2'>
-      <required namespace='osgi.bundle' name='org.eclipse.core.runtime' range='3.9.0.v20130326-1255'/>
-      <required namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' range='[1.0.0,2.0.0)' greedy='false'/>
-    </requires>
-    <filter>
-      (&amp;(osgi.arch=x86)(osgi.os=macosx)(osgi.ws=cocoa))
-    </filter>
-    <touchpoint id='null' version='0.0.0'/>
-    <touchpointData size='1'>
-      <instructions size='4'>
-        <instruction key='install'>
-          installBundle(bundle:${artifact})
-        </instruction>
-        <instruction key='uninstall'>
-          uninstallBundle(bundle:${artifact})
-        </instruction>
-        <instruction key='unconfigure'>
-          setStartLevel(startLevel:-1);markStarted(started: false);
-        </instruction>
-        <instruction key='configure'>
-          setStartLevel(startLevel:2);markStarted(started: true);
-        </instruction>
-      </instructions>
-    </touchpointData>
-  </unit>
-  <unit id='mine-e4-application-product.executable.cocoa.macosx.x86' version='1.0.0.201402202313'>
-    <provides size='2'>
-      <provided namespace='org.eclipse.equinox.p2.iu' name='mine-e4-application-product.executable.cocoa.macosx.x86' version='1.0.0.201402202313'/>
-      <provided namespace='toolingmine-e4-application-product' name='mine-e4-application-product.executable' version='1.0.0.201402202313'/>
+      <provided namespace='org.eclipse.equinox.p2.iu' name='mine-e4-application-product.executable.cocoa.macosx.x86' version='1.0.0.201402221922'/>
+      <provided namespace='toolingmine-e4-application-product' name='mine-e4-application-product.executable' version='1.0.0.201402221922'/>
     </provides>
     <requires size='1'>
       <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.equinox.launcher.cocoa.macosx' range='0.0.0'>
@@ -1202,57 +1138,9 @@
       (&amp;(osgi.arch=x86)(osgi.os=macosx)(osgi.ws=cocoa))
     </filter>
     <artifacts size='1'>
-      <artifact classifier='binary' id='mine-e4-application-product.executable.cocoa.macosx.x86' version='1.0.0.201402202313'/>
+      <artifact classifier='binary' id='mine-e4-application-product.executable.cocoa.macosx.x86' version='1.0.0.201402221922'/>
     </artifacts>
     <touchpoint id='org.eclipse.equinox.p2.native' version='1.0.0'/>
-  </unit>
-  <unit id='toolingmine-e4-application-product.config.gtk.linux.x86' version='1.0.0.201402202313' singleton='false'>
-    <provides size='2'>
-      <provided namespace='org.eclipse.equinox.p2.iu' name='toolingmine-e4-application-product.config.gtk.linux.x86' version='1.0.0.201402202313'/>
-      <provided namespace='toolingmine-e4-application-product' name='mine-e4-application-product.config' version='1.0.0.201402202313'/>
-    </provides>
-    <filter>
-      (&amp;(osgi.arch=x86)(osgi.os=linux)(osgi.ws=gtk))
-    </filter>
-    <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
-    <touchpointData size='1'>
-      <instructions size='2'>
-        <instruction key='unconfigure'>
-          setProgramProperty(propName:eclipse.application,propValue:);setProgramProperty(propName:eclipse.product,propValue:);
-        </instruction>
-        <instruction key='configure'>
-          setProgramProperty(propName:eclipse.application,propValue:org.eclipse.e4.ui.workbench.swt.E4Application);setProgramProperty(propName:eclipse.product,propValue:ru.mine.application.product);
-        </instruction>
-      </instructions>
-    </touchpointData>
-  </unit>
-  <unit id='toolingmine-e4-application-product.executable.win32.win32.x86' version='1.0.0.201402202313' singleton='false'>
-    <hostRequirements size='1'>
-      <required namespace='org.eclipse.equinox.p2.iu' name='mine-e4-application-product.executable.win32.win32.x86' range='[1.0.0.201402202313,1.0.0.201402202313]'/>
-    </hostRequirements>
-    <properties size='1'>
-      <property name='org.eclipse.equinox.p2.type.fragment' value='true'/>
-    </properties>
-    <provides size='1'>
-      <provided namespace='org.eclipse.equinox.p2.iu' name='toolingmine-e4-application-product.executable.win32.win32.x86' version='1.0.0.201402202313'/>
-    </provides>
-    <requires size='1'>
-      <required namespace='org.eclipse.equinox.p2.iu' name='mine-e4-application-product.executable.win32.win32.x86' range='[1.0.0.201402202313,1.0.0.201402202313]'/>
-    </requires>
-    <filter>
-      (&amp;(osgi.arch=x86)(osgi.os=win32)(osgi.ws=win32))
-    </filter>
-    <touchpoint id='org.eclipse.equinox.p2.native' version='1.0.0'/>
-    <touchpointData size='1'>
-      <instructions size='2'>
-        <instruction key='install'>
-          unzip(source:@artifact, target:${installFolder});
-        </instruction>
-        <instruction key='uninstall'>
-          cleanupzip(source:@artifact, target:${installFolder});
-        </instruction>
-      </instructions>
-    </touchpointData>
   </unit>
   <unit id='toolingorg.eclipse.equinox.launcher.gtk.linux.x86' version='1.1.200.v20130807-1835' singleton='false'>
     <hostRequirements size='2'>
@@ -1291,7 +1179,54 @@
       </instructions>
     </touchpointData>
   </unit>
-  <unit id='toolinggtk.linux.x86_64org.eclipse.core.runtime' version='1.0.0.201402202313' singleton='false'>
+  <unit id='mine-e4-application-product.executable.gtk.linux.x86.eclipse' version='1.0.0.201402221922' singleton='false'>
+    <provides size='1'>
+      <provided namespace='org.eclipse.equinox.p2.iu' name='mine-e4-application-product.executable.gtk.linux.x86.eclipse' version='1.0.0.201402221922'/>
+    </provides>
+    <filter>
+      (&amp;(osgi.arch=x86)(osgi.os=linux)(osgi.ws=gtk))
+    </filter>
+    <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+    <touchpointData size='1'>
+      <instructions size='2'>
+        <instruction key='unconfigure'>
+          setLauncherName()
+        </instruction>
+        <instruction key='configure'>
+          setLauncherName(name:eclipse)
+        </instruction>
+      </instructions>
+    </touchpointData>
+  </unit>
+  <unit id='toolingmine-e4-application-product.executable.win32.win32.x86' version='1.0.0.201402221922' singleton='false'>
+    <hostRequirements size='1'>
+      <required namespace='org.eclipse.equinox.p2.iu' name='mine-e4-application-product.executable.win32.win32.x86' range='[1.0.0.201402221922,1.0.0.201402221922]'/>
+    </hostRequirements>
+    <properties size='1'>
+      <property name='org.eclipse.equinox.p2.type.fragment' value='true'/>
+    </properties>
+    <provides size='1'>
+      <provided namespace='org.eclipse.equinox.p2.iu' name='toolingmine-e4-application-product.executable.win32.win32.x86' version='1.0.0.201402221922'/>
+    </provides>
+    <requires size='1'>
+      <required namespace='org.eclipse.equinox.p2.iu' name='mine-e4-application-product.executable.win32.win32.x86' range='[1.0.0.201402221922,1.0.0.201402221922]'/>
+    </requires>
+    <filter>
+      (&amp;(osgi.arch=x86)(osgi.os=win32)(osgi.ws=win32))
+    </filter>
+    <touchpoint id='org.eclipse.equinox.p2.native' version='1.0.0'/>
+    <touchpointData size='1'>
+      <instructions size='2'>
+        <instruction key='install'>
+          unzip(source:@artifact, target:${installFolder});
+        </instruction>
+        <instruction key='uninstall'>
+          cleanupzip(source:@artifact, target:${installFolder});
+        </instruction>
+      </instructions>
+    </touchpointData>
+  </unit>
+  <unit id='toolinggtk.linux.x86_64org.eclipse.core.runtime' version='1.0.0.201402221922' singleton='false'>
     <hostRequirements size='2'>
       <required namespace='osgi.bundle' name='org.eclipse.core.runtime' range='3.9.0.v20130326-1255'/>
       <required namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' range='[1.0.0,2.0.0)' greedy='false'/>
@@ -1300,7 +1235,7 @@
       <property name='org.eclipse.equinox.p2.type.fragment' value='true'/>
     </properties>
     <provides size='2'>
-      <provided namespace='org.eclipse.equinox.p2.iu' name='toolinggtk.linux.x86_64org.eclipse.core.runtime' version='1.0.0.201402202313'/>
+      <provided namespace='org.eclipse.equinox.p2.iu' name='toolinggtk.linux.x86_64org.eclipse.core.runtime' version='1.0.0.201402221922'/>
       <provided namespace='org.eclipse.equinox.p2.flavor' name='toolinggtk.linux.x86_64' version='1.0.0'/>
     </provides>
     <requires size='2'>
@@ -1328,22 +1263,39 @@
       </instructions>
     </touchpointData>
   </unit>
-  <unit id='toolingmine-e4-application-product.ini.cocoa.macosx.x86' version='1.0.0.201402202313' singleton='false'>
+  <unit id='toolingcocoa.macosx.x86org.eclipse.core.runtime' version='1.0.0.201402221922' singleton='false'>
+    <hostRequirements size='2'>
+      <required namespace='osgi.bundle' name='org.eclipse.core.runtime' range='3.9.0.v20130326-1255'/>
+      <required namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' range='[1.0.0,2.0.0)' greedy='false'/>
+    </hostRequirements>
+    <properties size='1'>
+      <property name='org.eclipse.equinox.p2.type.fragment' value='true'/>
+    </properties>
     <provides size='2'>
-      <provided namespace='org.eclipse.equinox.p2.iu' name='toolingmine-e4-application-product.ini.cocoa.macosx.x86' version='1.0.0.201402202313'/>
-      <provided namespace='toolingmine-e4-application-product' name='mine-e4-application-product.ini' version='1.0.0.201402202313'/>
+      <provided namespace='org.eclipse.equinox.p2.iu' name='toolingcocoa.macosx.x86org.eclipse.core.runtime' version='1.0.0.201402221922'/>
+      <provided namespace='org.eclipse.equinox.p2.flavor' name='toolingcocoa.macosx.x86' version='1.0.0'/>
     </provides>
+    <requires size='2'>
+      <required namespace='osgi.bundle' name='org.eclipse.core.runtime' range='3.9.0.v20130326-1255'/>
+      <required namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' range='[1.0.0,2.0.0)' greedy='false'/>
+    </requires>
     <filter>
       (&amp;(osgi.arch=x86)(osgi.os=macosx)(osgi.ws=cocoa))
     </filter>
-    <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+    <touchpoint id='null' version='0.0.0'/>
     <touchpointData size='1'>
-      <instructions size='2'>
+      <instructions size='4'>
+        <instruction key='install'>
+          installBundle(bundle:${artifact})
+        </instruction>
+        <instruction key='uninstall'>
+          uninstallBundle(bundle:${artifact})
+        </instruction>
         <instruction key='unconfigure'>
-          removeJvmArg(jvmArg:-XstartOnFirstThread);removeJvmArg(jvmArg:-Dorg.eclipse.swt.internal.carbon.smallFonts);removeProgramArg(programArg:-clearPersistedState);
+          setStartLevel(startLevel:-1);markStarted(started: false);
         </instruction>
         <instruction key='configure'>
-          addJvmArg(jvmArg:-XstartOnFirstThread);addJvmArg(jvmArg:-Dorg.eclipse.swt.internal.carbon.smallFonts);addProgramArg(programArg:-clearPersistedState);
+          setStartLevel(startLevel:2);markStarted(started: true);
         </instruction>
       </instructions>
     </touchpointData>
@@ -1422,28 +1374,27 @@
       </instructions>
     </touchpointData>
   </unit>
-  <unit id='toolingmine-e4-application-product.executable.cocoa.macosx.x86-bundled' version='1.0.0.201402202313' singleton='false'>
+  <unit id='toolingmine-e4-application-product.executable.cocoa.macosx.x86' version='1.0.0.201402221922' singleton='false'>
     <hostRequirements size='1'>
-      <required namespace='org.eclipse.equinox.p2.iu' name='mine-e4-application-product.executable.cocoa.macosx.x86' range='[1.0.0.201402202313,1.0.0.201402202313]'/>
+      <required namespace='org.eclipse.equinox.p2.iu' name='mine-e4-application-product.executable.cocoa.macosx.x86' range='[1.0.0.201402221922,1.0.0.201402221922]'/>
     </hostRequirements>
     <properties size='1'>
       <property name='org.eclipse.equinox.p2.type.fragment' value='true'/>
     </properties>
-    <provides size='2'>
-      <provided namespace='org.eclipse.equinox.p2.iu' name='toolingmine-e4-application-product.executable.cocoa.macosx.x86' version='1.0.0.201402202313'/>
-      <provided namespace='org.eclipse.equinox.p2.iu' name='toolingmine-e4-application-product.executable.cocoa.macosx.x86-bundled' version='1.0.0.201402202313'/>
+    <provides size='1'>
+      <provided namespace='org.eclipse.equinox.p2.iu' name='toolingmine-e4-application-product.executable.cocoa.macosx.x86' version='1.0.0.201402221922'/>
     </provides>
     <requires size='1'>
-      <required namespace='org.eclipse.equinox.p2.iu' name='mine-e4-application-product.executable.cocoa.macosx.x86' range='[1.0.0.201402202313,1.0.0.201402202313]'/>
+      <required namespace='org.eclipse.equinox.p2.iu' name='mine-e4-application-product.executable.cocoa.macosx.x86' range='[1.0.0.201402221922,1.0.0.201402221922]'/>
     </requires>
     <filter>
-      (&amp;(macosx-bundled=true)(osgi.arch=x86)(osgi.os=macosx)(osgi.ws=cocoa))
+      (&amp;(!(macosx-bundled=*))(osgi.arch=x86)(osgi.os=macosx)(osgi.ws=cocoa))
     </filter>
     <touchpoint id='org.eclipse.equinox.p2.native' version='1.0.0'/>
     <touchpointData size='1'>
       <instructions size='2'>
         <instruction key='install'>
-          unzip(source:@artifact, target:${installFolder}, path:Eclipse.app); chmod(targetDir:${installFolder}/Contents/MacOS/, targetFile:eclipse, permissions:755);
+          unzip(source:@artifact, target:${installFolder}); chmod(targetDir:${installFolder}/Eclipse.app/Contents/MacOS/, targetFile:eclipse, permissions:755); ln(targetDir:${installFolder}, linkTarget:Eclipse.app/Contents/MacOS/eclipse, linkName:eclipse);
         </instruction>
         <instruction key='uninstall'>
           cleanupzip(source:@artifact, target:${installFolder});
@@ -1451,10 +1402,46 @@
       </instructions>
     </touchpointData>
   </unit>
-  <unit id='toolingmine-e4-application-product.config.gtk.linux.x86_64' version='1.0.0.201402202313' singleton='false'>
+  <unit id='toolinggtk.linux.x86org.eclipse.core.runtime' version='1.0.0.201402221922' singleton='false'>
+    <hostRequirements size='2'>
+      <required namespace='osgi.bundle' name='org.eclipse.core.runtime' range='3.9.0.v20130326-1255'/>
+      <required namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' range='[1.0.0,2.0.0)' greedy='false'/>
+    </hostRequirements>
+    <properties size='1'>
+      <property name='org.eclipse.equinox.p2.type.fragment' value='true'/>
+    </properties>
     <provides size='2'>
-      <provided namespace='org.eclipse.equinox.p2.iu' name='toolingmine-e4-application-product.config.gtk.linux.x86_64' version='1.0.0.201402202313'/>
-      <provided namespace='toolingmine-e4-application-product' name='mine-e4-application-product.config' version='1.0.0.201402202313'/>
+      <provided namespace='org.eclipse.equinox.p2.iu' name='toolinggtk.linux.x86org.eclipse.core.runtime' version='1.0.0.201402221922'/>
+      <provided namespace='org.eclipse.equinox.p2.flavor' name='toolinggtk.linux.x86' version='1.0.0'/>
+    </provides>
+    <requires size='2'>
+      <required namespace='osgi.bundle' name='org.eclipse.core.runtime' range='3.9.0.v20130326-1255'/>
+      <required namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' range='[1.0.0,2.0.0)' greedy='false'/>
+    </requires>
+    <filter>
+      (&amp;(osgi.arch=x86)(osgi.os=linux)(osgi.ws=gtk))
+    </filter>
+    <touchpoint id='null' version='0.0.0'/>
+    <touchpointData size='1'>
+      <instructions size='4'>
+        <instruction key='install'>
+          installBundle(bundle:${artifact})
+        </instruction>
+        <instruction key='uninstall'>
+          uninstallBundle(bundle:${artifact})
+        </instruction>
+        <instruction key='unconfigure'>
+          setStartLevel(startLevel:-1);markStarted(started: false);
+        </instruction>
+        <instruction key='configure'>
+          setStartLevel(startLevel:2);markStarted(started: true);
+        </instruction>
+      </instructions>
+    </touchpointData>
+  </unit>
+  <unit id='mine-e4-application-product.executable.gtk.linux.x86_64.eclipse' version='1.0.0.201402221922' singleton='false'>
+    <provides size='1'>
+      <provided namespace='org.eclipse.equinox.p2.iu' name='mine-e4-application-product.executable.gtk.linux.x86_64.eclipse' version='1.0.0.201402221922'/>
     </provides>
     <filter>
       (&amp;(osgi.arch=x86_64)(osgi.os=linux)(osgi.ws=gtk))
@@ -1463,58 +1450,30 @@
     <touchpointData size='1'>
       <instructions size='2'>
         <instruction key='unconfigure'>
-          setProgramProperty(propName:eclipse.application,propValue:);setProgramProperty(propName:eclipse.product,propValue:);
+          setLauncherName()
         </instruction>
         <instruction key='configure'>
-          setProgramProperty(propName:eclipse.application,propValue:org.eclipse.e4.ui.workbench.swt.E4Application);setProgramProperty(propName:eclipse.product,propValue:ru.mine.application.product);
+          setLauncherName(name:eclipse)
         </instruction>
       </instructions>
     </touchpointData>
   </unit>
-  <unit id='toolingmine-e4-application-product.ini.cocoa.macosx.x86_64' version='1.0.0.201402202313' singleton='false'>
+  <unit id='toolingmine-e4-application-product.config.win32.win32.x86_64' version='1.0.0.201402221922' singleton='false'>
     <provides size='2'>
-      <provided namespace='org.eclipse.equinox.p2.iu' name='toolingmine-e4-application-product.ini.cocoa.macosx.x86_64' version='1.0.0.201402202313'/>
-      <provided namespace='toolingmine-e4-application-product' name='mine-e4-application-product.ini' version='1.0.0.201402202313'/>
+      <provided namespace='org.eclipse.equinox.p2.iu' name='toolingmine-e4-application-product.config.win32.win32.x86_64' version='1.0.0.201402221922'/>
+      <provided namespace='toolingmine-e4-application-product' name='mine-e4-application-product.config' version='1.0.0.201402221922'/>
     </provides>
     <filter>
-      (&amp;(osgi.arch=x86_64)(osgi.os=macosx)(osgi.ws=cocoa))
+      (&amp;(osgi.arch=x86_64)(osgi.os=win32)(osgi.ws=win32))
     </filter>
     <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
     <touchpointData size='1'>
       <instructions size='2'>
         <instruction key='unconfigure'>
-          removeJvmArg(jvmArg:-XstartOnFirstThread);removeJvmArg(jvmArg:-Dorg.eclipse.swt.internal.carbon.smallFonts);removeProgramArg(programArg:-clearPersistedState);
+          setProgramProperty(propName:eclipse.application,propValue:);setProgramProperty(propName:eclipse.product,propValue:);
         </instruction>
         <instruction key='configure'>
-          addJvmArg(jvmArg:-XstartOnFirstThread);addJvmArg(jvmArg:-Dorg.eclipse.swt.internal.carbon.smallFonts);addProgramArg(programArg:-clearPersistedState);
-        </instruction>
-      </instructions>
-    </touchpointData>
-  </unit>
-  <unit id='toolingmine-e4-application-product.executable.gtk.linux.x86' version='1.0.0.201402202313' singleton='false'>
-    <hostRequirements size='1'>
-      <required namespace='org.eclipse.equinox.p2.iu' name='mine-e4-application-product.executable.gtk.linux.x86' range='[1.0.0.201402202313,1.0.0.201402202313]'/>
-    </hostRequirements>
-    <properties size='1'>
-      <property name='org.eclipse.equinox.p2.type.fragment' value='true'/>
-    </properties>
-    <provides size='1'>
-      <provided namespace='org.eclipse.equinox.p2.iu' name='toolingmine-e4-application-product.executable.gtk.linux.x86' version='1.0.0.201402202313'/>
-    </provides>
-    <requires size='1'>
-      <required namespace='org.eclipse.equinox.p2.iu' name='mine-e4-application-product.executable.gtk.linux.x86' range='[1.0.0.201402202313,1.0.0.201402202313]'/>
-    </requires>
-    <filter>
-      (&amp;(osgi.arch=x86)(osgi.os=linux)(osgi.ws=gtk))
-    </filter>
-    <touchpoint id='org.eclipse.equinox.p2.native' version='1.0.0'/>
-    <touchpointData size='1'>
-      <instructions size='2'>
-        <instruction key='install'>
-          unzip(source:@artifact, target:${installFolder}); chmod(targetDir:${installFolder}, targetFile:eclipse, permissions:755); chmod(targetDir:${installFolder}, targetFile:icon.xpm, permissions:755);
-        </instruction>
-        <instruction key='uninstall'>
-          cleanupzip(source:@artifact, target:${installFolder});
+          setProgramProperty(propName:eclipse.application,propValue:org.eclipse.e4.ui.workbench.swt.E4Application);setProgramProperty(propName:eclipse.product,propValue:ru.mine.product.application.product);
         </instruction>
       </instructions>
     </touchpointData>
@@ -1556,83 +1515,27 @@
       </instructions>
     </touchpointData>
   </unit>
-  <unit id='toolingmine-e4-application-product.config.cocoa.macosx.x86' version='1.0.0.201402202313' singleton='false'>
+  <unit id='toolingmine-e4-application-product.ini.gtk.linux.x86_64' version='1.0.0.201402221922' singleton='false'>
     <provides size='2'>
-      <provided namespace='org.eclipse.equinox.p2.iu' name='toolingmine-e4-application-product.config.cocoa.macosx.x86' version='1.0.0.201402202313'/>
-      <provided namespace='toolingmine-e4-application-product' name='mine-e4-application-product.config' version='1.0.0.201402202313'/>
+      <provided namespace='org.eclipse.equinox.p2.iu' name='toolingmine-e4-application-product.ini.gtk.linux.x86_64' version='1.0.0.201402221922'/>
+      <provided namespace='toolingmine-e4-application-product' name='mine-e4-application-product.ini' version='1.0.0.201402221922'/>
     </provides>
     <filter>
-      (&amp;(osgi.arch=x86)(osgi.os=macosx)(osgi.ws=cocoa))
+      (&amp;(osgi.arch=x86_64)(osgi.os=linux)(osgi.ws=gtk))
     </filter>
     <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
     <touchpointData size='1'>
       <instructions size='2'>
         <instruction key='unconfigure'>
-          setProgramProperty(propName:eclipse.application,propValue:);setProgramProperty(propName:eclipse.product,propValue:);
+          removeProgramArg(programArg:-clearPersistedState);
         </instruction>
         <instruction key='configure'>
-          setProgramProperty(propName:eclipse.application,propValue:org.eclipse.e4.ui.workbench.swt.E4Application);setProgramProperty(propName:eclipse.product,propValue:ru.mine.application.product);
+          addProgramArg(programArg:-clearPersistedState);
         </instruction>
       </instructions>
     </touchpointData>
   </unit>
-  <unit id='toolingmine-e4-application-product.executable.cocoa.macosx.x86_64' version='1.0.0.201402202313' singleton='false'>
-    <hostRequirements size='1'>
-      <required namespace='org.eclipse.equinox.p2.iu' name='mine-e4-application-product.executable.cocoa.macosx.x86_64' range='[1.0.0.201402202313,1.0.0.201402202313]'/>
-    </hostRequirements>
-    <properties size='1'>
-      <property name='org.eclipse.equinox.p2.type.fragment' value='true'/>
-    </properties>
-    <provides size='1'>
-      <provided namespace='org.eclipse.equinox.p2.iu' name='toolingmine-e4-application-product.executable.cocoa.macosx.x86_64' version='1.0.0.201402202313'/>
-    </provides>
-    <requires size='1'>
-      <required namespace='org.eclipse.equinox.p2.iu' name='mine-e4-application-product.executable.cocoa.macosx.x86_64' range='[1.0.0.201402202313,1.0.0.201402202313]'/>
-    </requires>
-    <filter>
-      (&amp;(!(macosx-bundled=*))(osgi.arch=x86_64)(osgi.os=macosx)(osgi.ws=cocoa))
-    </filter>
-    <touchpoint id='org.eclipse.equinox.p2.native' version='1.0.0'/>
-    <touchpointData size='1'>
-      <instructions size='2'>
-        <instruction key='install'>
-          unzip(source:@artifact, target:${installFolder}); chmod(targetDir:${installFolder}/Eclipse.app/Contents/MacOS/, targetFile:eclipse, permissions:755); ln(targetDir:${installFolder}, linkTarget:Eclipse.app/Contents/MacOS/eclipse, linkName:eclipse);
-        </instruction>
-        <instruction key='uninstall'>
-          cleanupzip(source:@artifact, target:${installFolder});
-        </instruction>
-      </instructions>
-    </touchpointData>
-  </unit>
-  <unit id='toolingmine-e4-application-product.executable.cocoa.macosx.x86' version='1.0.0.201402202313' singleton='false'>
-    <hostRequirements size='1'>
-      <required namespace='org.eclipse.equinox.p2.iu' name='mine-e4-application-product.executable.cocoa.macosx.x86' range='[1.0.0.201402202313,1.0.0.201402202313]'/>
-    </hostRequirements>
-    <properties size='1'>
-      <property name='org.eclipse.equinox.p2.type.fragment' value='true'/>
-    </properties>
-    <provides size='1'>
-      <provided namespace='org.eclipse.equinox.p2.iu' name='toolingmine-e4-application-product.executable.cocoa.macosx.x86' version='1.0.0.201402202313'/>
-    </provides>
-    <requires size='1'>
-      <required namespace='org.eclipse.equinox.p2.iu' name='mine-e4-application-product.executable.cocoa.macosx.x86' range='[1.0.0.201402202313,1.0.0.201402202313]'/>
-    </requires>
-    <filter>
-      (&amp;(!(macosx-bundled=*))(osgi.arch=x86)(osgi.os=macosx)(osgi.ws=cocoa))
-    </filter>
-    <touchpoint id='org.eclipse.equinox.p2.native' version='1.0.0'/>
-    <touchpointData size='1'>
-      <instructions size='2'>
-        <instruction key='install'>
-          unzip(source:@artifact, target:${installFolder}); chmod(targetDir:${installFolder}/Eclipse.app/Contents/MacOS/, targetFile:eclipse, permissions:755); ln(targetDir:${installFolder}, linkTarget:Eclipse.app/Contents/MacOS/eclipse, linkName:eclipse);
-        </instruction>
-        <instruction key='uninstall'>
-          cleanupzip(source:@artifact, target:${installFolder});
-        </instruction>
-      </instructions>
-    </touchpointData>
-  </unit>
-  <unit id='toolingwin32.win32.x86org.eclipse.core.runtime' version='1.0.0.201402202313' singleton='false'>
+  <unit id='toolingwin32.win32.x86_64org.eclipse.core.runtime' version='1.0.0.201402221922' singleton='false'>
     <hostRequirements size='2'>
       <required namespace='osgi.bundle' name='org.eclipse.core.runtime' range='3.9.0.v20130326-1255'/>
       <required namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' range='[1.0.0,2.0.0)' greedy='false'/>
@@ -1641,15 +1544,15 @@
       <property name='org.eclipse.equinox.p2.type.fragment' value='true'/>
     </properties>
     <provides size='2'>
-      <provided namespace='org.eclipse.equinox.p2.iu' name='toolingwin32.win32.x86org.eclipse.core.runtime' version='1.0.0.201402202313'/>
-      <provided namespace='org.eclipse.equinox.p2.flavor' name='toolingwin32.win32.x86' version='1.0.0'/>
+      <provided namespace='org.eclipse.equinox.p2.iu' name='toolingwin32.win32.x86_64org.eclipse.core.runtime' version='1.0.0.201402221922'/>
+      <provided namespace='org.eclipse.equinox.p2.flavor' name='toolingwin32.win32.x86_64' version='1.0.0'/>
     </provides>
     <requires size='2'>
       <required namespace='osgi.bundle' name='org.eclipse.core.runtime' range='3.9.0.v20130326-1255'/>
       <required namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' range='[1.0.0,2.0.0)' greedy='false'/>
     </requires>
     <filter>
-      (&amp;(osgi.arch=x86)(osgi.os=win32)(osgi.ws=win32))
+      (&amp;(osgi.arch=x86_64)(osgi.os=win32)(osgi.ws=win32))
     </filter>
     <touchpoint id='null' version='0.0.0'/>
     <touchpointData size='1'>
@@ -1669,13 +1572,13 @@
       </instructions>
     </touchpointData>
   </unit>
-  <unit id='toolingmine-e4-application-product.ini.win32.win32.x86_64' version='1.0.0.201402202313' singleton='false'>
+  <unit id='toolingmine-e4-application-product.ini.gtk.linux.x86' version='1.0.0.201402221922' singleton='false'>
     <provides size='2'>
-      <provided namespace='org.eclipse.equinox.p2.iu' name='toolingmine-e4-application-product.ini.win32.win32.x86_64' version='1.0.0.201402202313'/>
-      <provided namespace='toolingmine-e4-application-product' name='mine-e4-application-product.ini' version='1.0.0.201402202313'/>
+      <provided namespace='org.eclipse.equinox.p2.iu' name='toolingmine-e4-application-product.ini.gtk.linux.x86' version='1.0.0.201402221922'/>
+      <provided namespace='toolingmine-e4-application-product' name='mine-e4-application-product.ini' version='1.0.0.201402221922'/>
     </provides>
     <filter>
-      (&amp;(osgi.arch=x86_64)(osgi.os=win32)(osgi.ws=win32))
+      (&amp;(osgi.arch=x86)(osgi.os=linux)(osgi.ws=gtk))
     </filter>
     <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
     <touchpointData size='1'>
@@ -1689,32 +1592,13 @@
       </instructions>
     </touchpointData>
   </unit>
-  <unit id='mine-e4-application-product.executable.gtk.linux.x86.eclipse' version='1.0.0.201402202313' singleton='false'>
-    <provides size='1'>
-      <provided namespace='org.eclipse.equinox.p2.iu' name='mine-e4-application-product.executable.gtk.linux.x86.eclipse' version='1.0.0.201402202313'/>
-    </provides>
-    <filter>
-      (&amp;(osgi.arch=x86)(osgi.os=linux)(osgi.ws=gtk))
-    </filter>
-    <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
-    <touchpointData size='1'>
-      <instructions size='2'>
-        <instruction key='unconfigure'>
-          setLauncherName()
-        </instruction>
-        <instruction key='configure'>
-          setLauncherName(name:eclipse)
-        </instruction>
-      </instructions>
-    </touchpointData>
-  </unit>
-  <unit id='toolingmine-e4-application-product.config.win32.win32.x86_64' version='1.0.0.201402202313' singleton='false'>
+  <unit id='toolingmine-e4-application-product.config.cocoa.macosx.x86' version='1.0.0.201402221922' singleton='false'>
     <provides size='2'>
-      <provided namespace='org.eclipse.equinox.p2.iu' name='toolingmine-e4-application-product.config.win32.win32.x86_64' version='1.0.0.201402202313'/>
-      <provided namespace='toolingmine-e4-application-product' name='mine-e4-application-product.config' version='1.0.0.201402202313'/>
+      <provided namespace='org.eclipse.equinox.p2.iu' name='toolingmine-e4-application-product.config.cocoa.macosx.x86' version='1.0.0.201402221922'/>
+      <provided namespace='toolingmine-e4-application-product' name='mine-e4-application-product.config' version='1.0.0.201402221922'/>
     </provides>
     <filter>
-      (&amp;(osgi.arch=x86_64)(osgi.os=win32)(osgi.ws=win32))
+      (&amp;(osgi.arch=x86)(osgi.os=macosx)(osgi.ws=cocoa))
     </filter>
     <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
     <touchpointData size='1'>
@@ -1723,7 +1607,123 @@
           setProgramProperty(propName:eclipse.application,propValue:);setProgramProperty(propName:eclipse.product,propValue:);
         </instruction>
         <instruction key='configure'>
-          setProgramProperty(propName:eclipse.application,propValue:org.eclipse.e4.ui.workbench.swt.E4Application);setProgramProperty(propName:eclipse.product,propValue:ru.mine.application.product);
+          setProgramProperty(propName:eclipse.application,propValue:org.eclipse.e4.ui.workbench.swt.E4Application);setProgramProperty(propName:eclipse.product,propValue:ru.mine.product.application.product);
+        </instruction>
+      </instructions>
+    </touchpointData>
+  </unit>
+  <unit id='mine-e4-application-product' version='1.0.0.201402221922'>
+    <update id='mine-e4-application-product' range='0.0.0' severity='0'/>
+    <properties size='3'>
+      <property name='org.eclipse.equinox.p2.name' value='ru.mine.application.product'/>
+      <property name='org.eclipse.equinox.p2.type.product' value='true'/>
+      <property name='org.eclipse.equinox.p2.type.group' value='true'/>
+    </properties>
+    <provides size='1'>
+      <provided namespace='org.eclipse.equinox.p2.iu' name='mine-e4-application-product' version='1.0.0.201402221922'/>
+    </provides>
+    <requires size='10'>
+      <required namespace='org.eclipse.equinox.p2.iu' name='toolingmine-e4-application-product.application' range='[1.0.0.201402221922,1.0.0.201402221922]'/>
+      <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.emf.ecore.feature.group' range='[2.9.1.v20130827-0309,2.9.1.v20130827-0309]'/>
+      <required namespace='org.eclipse.equinox.p2.iu' name='tooling.source.default' range='[1.0.0,1.0.0]'/>
+      <required namespace='org.eclipse.equinox.p2.iu' name='ru.mine.feature.feature.group' range='[1.0.0.201402221922,1.0.0.201402221922]'/>
+      <required namespace='org.eclipse.equinox.p2.iu' name='a.jre.javase' range='[1.6.0,1.6.0]'/>
+      <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.emf.common.feature.group' range='[2.9.1.v20130827-0309,2.9.1.v20130827-0309]'/>
+      <required namespace='org.eclipse.equinox.p2.iu' name='tooling.osgi.bundle.default' range='[1.0.0,1.0.0]'/>
+      <required namespace='org.eclipse.equinox.p2.iu' name='tooling.org.eclipse.update.feature.default' range='[1.0.0,1.0.0]'>
+        <filter>
+          (org.eclipse.update.install.features=true)
+        </filter>
+      </required>
+      <required namespace='org.eclipse.equinox.p2.iu' name='toolingmine-e4-application-product.configuration' range='[1.0.0.201402221922,1.0.0.201402221922]'/>
+      <required namespace='org.eclipse.equinox.p2.iu' name='config.a.jre.javase' range='[1.6.0,1.6.0]'/>
+    </requires>
+    <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+  </unit>
+  <unit id='toolingmine-e4-application-product.executable.win32.win32.x86_64' version='1.0.0.201402221922' singleton='false'>
+    <hostRequirements size='1'>
+      <required namespace='org.eclipse.equinox.p2.iu' name='mine-e4-application-product.executable.win32.win32.x86_64' range='[1.0.0.201402221922,1.0.0.201402221922]'/>
+    </hostRequirements>
+    <properties size='1'>
+      <property name='org.eclipse.equinox.p2.type.fragment' value='true'/>
+    </properties>
+    <provides size='1'>
+      <provided namespace='org.eclipse.equinox.p2.iu' name='toolingmine-e4-application-product.executable.win32.win32.x86_64' version='1.0.0.201402221922'/>
+    </provides>
+    <requires size='1'>
+      <required namespace='org.eclipse.equinox.p2.iu' name='mine-e4-application-product.executable.win32.win32.x86_64' range='[1.0.0.201402221922,1.0.0.201402221922]'/>
+    </requires>
+    <filter>
+      (&amp;(osgi.arch=x86_64)(osgi.os=win32)(osgi.ws=win32))
+    </filter>
+    <touchpoint id='org.eclipse.equinox.p2.native' version='1.0.0'/>
+    <touchpointData size='1'>
+      <instructions size='2'>
+        <instruction key='install'>
+          unzip(source:@artifact, target:${installFolder});
+        </instruction>
+        <instruction key='uninstall'>
+          cleanupzip(source:@artifact, target:${installFolder});
+        </instruction>
+      </instructions>
+    </touchpointData>
+  </unit>
+  <unit id='mine-e4-application-product.executable.win32.win32.x86_64' version='1.0.0.201402221922'>
+    <provides size='2'>
+      <provided namespace='org.eclipse.equinox.p2.iu' name='mine-e4-application-product.executable.win32.win32.x86_64' version='1.0.0.201402221922'/>
+      <provided namespace='toolingmine-e4-application-product' name='mine-e4-application-product.executable' version='1.0.0.201402221922'/>
+    </provides>
+    <requires size='1'>
+      <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.equinox.launcher.win32.win32.x86_64' range='0.0.0'>
+        <filter>
+          (&amp;(osgi.arch=x86_64)(osgi.os=win32)(osgi.ws=win32))
+        </filter>
+      </required>
+    </requires>
+    <filter>
+      (&amp;(osgi.arch=x86_64)(osgi.os=win32)(osgi.ws=win32))
+    </filter>
+    <artifacts size='1'>
+      <artifact classifier='binary' id='mine-e4-application-product.executable.win32.win32.x86_64' version='1.0.0.201402221922'/>
+    </artifacts>
+    <touchpoint id='org.eclipse.equinox.p2.native' version='1.0.0'/>
+  </unit>
+  <unit id='toolingmine-e4-application-product.ini.cocoa.macosx.x86_64' version='1.0.0.201402221922' singleton='false'>
+    <provides size='2'>
+      <provided namespace='org.eclipse.equinox.p2.iu' name='toolingmine-e4-application-product.ini.cocoa.macosx.x86_64' version='1.0.0.201402221922'/>
+      <provided namespace='toolingmine-e4-application-product' name='mine-e4-application-product.ini' version='1.0.0.201402221922'/>
+    </provides>
+    <filter>
+      (&amp;(osgi.arch=x86_64)(osgi.os=macosx)(osgi.ws=cocoa))
+    </filter>
+    <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+    <touchpointData size='1'>
+      <instructions size='2'>
+        <instruction key='unconfigure'>
+          removeJvmArg(jvmArg:-XstartOnFirstThread);removeJvmArg(jvmArg:-Dorg.eclipse.swt.internal.carbon.smallFonts);removeProgramArg(programArg:-clearPersistedState);
+        </instruction>
+        <instruction key='configure'>
+          addJvmArg(jvmArg:-XstartOnFirstThread);addJvmArg(jvmArg:-Dorg.eclipse.swt.internal.carbon.smallFonts);addProgramArg(programArg:-clearPersistedState);
+        </instruction>
+      </instructions>
+    </touchpointData>
+  </unit>
+  <unit id='toolingmine-e4-application-product.config.win32.win32.x86' version='1.0.0.201402221922' singleton='false'>
+    <provides size='2'>
+      <provided namespace='org.eclipse.equinox.p2.iu' name='toolingmine-e4-application-product.config.win32.win32.x86' version='1.0.0.201402221922'/>
+      <provided namespace='toolingmine-e4-application-product' name='mine-e4-application-product.config' version='1.0.0.201402221922'/>
+    </provides>
+    <filter>
+      (&amp;(osgi.arch=x86)(osgi.os=win32)(osgi.ws=win32))
+    </filter>
+    <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+    <touchpointData size='1'>
+      <instructions size='2'>
+        <instruction key='unconfigure'>
+          setProgramProperty(propName:eclipse.application,propValue:);setProgramProperty(propName:eclipse.product,propValue:);
+        </instruction>
+        <instruction key='configure'>
+          setProgramProperty(propName:eclipse.application,propValue:org.eclipse.e4.ui.workbench.swt.E4Application);setProgramProperty(propName:eclipse.product,propValue:ru.mine.product.application.product);
         </instruction>
       </instructions>
     </touchpointData>

@@ -3,7 +3,7 @@
 <setAttribute key="additional_plugins"/>
 <booleanAttribute key="append.args" value="true"/>
 <stringAttribute key="application" value="org.eclipse.e4.ui.workbench.swt.E4Application"/>
-<booleanAttribute key="askclear" value="true"/>
+<booleanAttribute key="askclear" value="false"/>
 <booleanAttribute key="automaticAdd" value="false"/>
 <booleanAttribute key="automaticValidate" value="false"/>
 <stringAttribute key="bootstrap" value=""/>
@@ -25,15 +25,13 @@
 <stringAttribute key="org.eclipse.jdt.launching.SOURCE_PATH_PROVIDER" value="org.eclipse.pde.ui.workbenchClasspathProvider"/>
 <stringAttribute key="org.eclipse.jdt.launching.VM_ARGUMENTS" value=""/>
 <stringAttribute key="pde.version" value="3.3"/>
-<stringAttribute key="product" value="ru.mine.application.product"/>
+<stringAttribute key="product" value="ru.mine.product.application.product"/>
 <stringAttribute key="productFile" value="\ru.mine.product\ru.mine.application.product"/>
 <setAttribute key="selected_features">
 <setEntry value="org.eclipse.cvs.source:default"/>
 <setEntry value="org.eclipse.cvs:default"/>
 <setEntry value="org.eclipse.e4.rcp.source:default"/>
 <setEntry value="org.eclipse.e4.rcp:default"/>
-<setEntry value="org.eclipse.emf.common:default"/>
-<setEntry value="org.eclipse.emf.ecore:default"/>
 <setEntry value="org.eclipse.equinox.executable:default"/>
 <setEntry value="org.eclipse.equinox.p2.core.feature.source:default"/>
 <setEntry value="org.eclipse.equinox.p2.core.feature:default"/>
@@ -58,12 +56,12 @@
 <setEntry value="ru.mine.feature:default"/>
 </setAttribute>
 <stringAttribute key="selected_target_plugins" value="org.eclipse.emf.ecore@default:default,org.eclipse.emf.ecore.xmi@default:default,org.eclipse.emf.common@default:default,org.eclipse.emf.ecore.change@default:default,"/>
-<stringAttribute key="selected_workspace_plugins" value="ru.mine.lib.logging@default:default,"/>
+<stringAttribute key="selected_workspace_plugins" value="ru.mine.product.application@default:default,"/>
 <booleanAttribute key="show_selected_only" value="false"/>
 <booleanAttribute key="tracing" value="false"/>
-<booleanAttribute key="useCustomFeatures" value="true"/>
+<booleanAttribute key="useCustomFeatures" value="false"/>
 <booleanAttribute key="useDefaultConfig" value="true"/>
 <booleanAttribute key="useDefaultConfigArea" value="true"/>
-<booleanAttribute key="useProduct" value="true"/>
+<booleanAttribute key="useProduct" value="false"/>
 <booleanAttribute key="usefeatures" value="false"/>
 </launchConfiguration>

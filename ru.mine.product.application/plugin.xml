@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin>
+
+   <extension
+         id="product"
+         point="org.eclipse.core.runtime.products">
+      <product
+            name="ru.mine.application.product"
+            application="org.eclipse.e4.ui.workbench.swt.E4Application">
+         <property
+               name="appName"
+               value="ru.mine.application.product">
+         </property>
+      </product>
+   </extension>
+   <extension
+         id="applicationproduct"
+         point="org.eclipse.core.runtime.products">
+      <product
+            application="org.eclipse.e4.ui.workbench.swt.E4Application"
+            name="ru.mine.product">
+         <property
+               name="appName"
+               value="ru.mine.product">
+         </property>
+         <property
+               name="applicationCSS"
+               value="platform:/plugin/ru.mine.application/css/default.css">
+         </property>
+      </product>
+   </extension>
+
+</plugin>

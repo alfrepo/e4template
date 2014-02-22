@@ -7,11 +7,11 @@
 	<packaging>pom</packaging>
 
 	<modules>
-		<module>../ru.mine.application</module>
 		<module>../ru.mine.feature</module>
 		<module>../ru.mine.product</module>
 		<module>../ru.mine.target</module>
 		<module>../ru.mine.lib.logging</module>
+		<module>../ru.mine.product.application</module>
 	</modules>
 
 	<properties>

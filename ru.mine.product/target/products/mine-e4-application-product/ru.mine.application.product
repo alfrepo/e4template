@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?pde version="3.5"?>
 
-<product name="ru.mine.application" uid="mine-e4-application-product" id="ru.mine.application.product" application="org.eclipse.e4.ui.workbench.swt.E4Application" version="1.0.0.201402202313" useFeatures="true" includeLaunchers="true">
+<product name="ru.mine.application.product" uid="mine-e4-application-product" id="ru.mine.product.application.product" application="org.eclipse.e4.ui.workbench.swt.E4Application" version="1.0.0.201402221922" useFeatures="true" includeLaunchers="true">
 
    <configIni use="default">
    </configIni>

@@ -2,7 +2,7 @@
 <feature
       id="ru.mine.feature"
       label="Feature"
-      version="1.0.0.201402202313"
+      version="1.0.0.201402221922"
       provider-name="Alexander">
 
    <description url="http://www.example.com/description">
@@ -16,5 +16,18 @@
    <license url="http://www.example.com/license">
       [Enter License Description here.]
    </license>
+
+   <plugin
+         id="ru.mine.lib.logging"
+         download-size="562"
+         install-size="628"
+         version="1.0.0.201402221922"/>
+
+   <plugin
+         id="ru.mine.product.application"
+         download-size="10"
+         install-size="17"
+         version="1.0.0.201402221922"
+         unpack="false"/>
 
 </feature>
