@@ -5,10 +5,10 @@
          point="org.eclipse.core.runtime.products">
       <product
             application="org.eclipse.e4.ui.workbench.swt.E4Application"
-            name="product">
+            name="Application Product">
          <property
                name="appName"
-               value="product">
+               value="Application Product">
          </property>
       </product>
    </extension>

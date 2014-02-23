@@ -1,192 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <units size='43'>
-  <unit id='toolingapp-product.configuration' version='1.0.0.201402222004'>
-    <provides size='1'>
-      <provided namespace='org.eclipse.equinox.p2.iu' name='toolingapp-product.configuration' version='1.0.0.201402222004'/>
-    </provides>
-    <requires size='8'>
-      <required namespace='org.eclipse.equinox.p2.iu' name='toolingapp-product.ini.cocoa.macosx.x86' range='[1.0.0.201402222004,1.0.0.201402222004]'>
-        <filter>
-          (&amp;(osgi.arch=x86)(osgi.os=macosx)(osgi.ws=cocoa))
-        </filter>
-      </required>
-      <required namespace='org.eclipse.equinox.p2.iu' name='toolingapp-product.config.gtk.linux.x86_64' range='[1.0.0.201402222004,1.0.0.201402222004]'>
-        <filter>
-          (&amp;(osgi.arch=x86_64)(osgi.os=linux)(osgi.ws=gtk))
-        </filter>
-      </required>
-      <required namespace='org.eclipse.equinox.p2.iu' name='toolingapp-product.ini.cocoa.macosx.x86_64' range='[1.0.0.201402222004,1.0.0.201402222004]'>
-        <filter>
-          (&amp;(osgi.arch=x86_64)(osgi.os=macosx)(osgi.ws=cocoa))
-        </filter>
-      </required>
-      <required namespace='org.eclipse.equinox.p2.iu' name='toolingapp-product.config.win32.win32.x86_64' range='[1.0.0.201402222004,1.0.0.201402222004]'>
-        <filter>
-          (&amp;(osgi.arch=x86_64)(osgi.os=win32)(osgi.ws=win32))
-        </filter>
-      </required>
-      <required namespace='org.eclipse.equinox.p2.iu' name='toolingapp-product.config.gtk.linux.x86' range='[1.0.0.201402222004,1.0.0.201402222004]'>
-        <filter>
-          (&amp;(osgi.arch=x86)(osgi.os=linux)(osgi.ws=gtk))
-        </filter>
-      </required>
-      <required namespace='org.eclipse.equinox.p2.iu' name='toolingapp-product.config.cocoa.macosx.x86_64' range='[1.0.0.201402222004,1.0.0.201402222004]'>
-        <filter>
-          (&amp;(osgi.arch=x86_64)(osgi.os=macosx)(osgi.ws=cocoa))
-        </filter>
-      </required>
-      <required namespace='org.eclipse.equinox.p2.iu' name='toolingapp-product.config.win32.win32.x86' range='[1.0.0.201402222004,1.0.0.201402222004]'>
-        <filter>
-          (&amp;(osgi.arch=x86)(osgi.os=win32)(osgi.ws=win32))
-        </filter>
-      </required>
-      <required namespace='org.eclipse.equinox.p2.iu' name='toolingapp-product.config.cocoa.macosx.x86' range='[1.0.0.201402222004,1.0.0.201402222004]'>
-        <filter>
-          (&amp;(osgi.arch=x86)(osgi.os=macosx)(osgi.ws=cocoa))
-        </filter>
-      </required>
-    </requires>
-    <touchpoint id='null' version='0.0.0'/>
-  </unit>
-  <unit id='toolingapp-product.application' version='1.0.0.201402222004'>
-    <provides size='1'>
-      <provided namespace='org.eclipse.equinox.p2.iu' name='toolingapp-product.application' version='1.0.0.201402222004'/>
-    </provides>
-    <requires size='27'>
-      <required namespace='org.eclipse.equinox.p2.iu' name='toolingapp-product.executable.gtk.linux.x86' range='[1.0.0.201402222004,1.0.0.201402222004]'>
-        <filter>
-          (&amp;(osgi.arch=x86)(osgi.os=linux)(osgi.ws=gtk))
-        </filter>
-      </required>
-      <required namespace='org.eclipse.equinox.p2.iu' name='app-product.executable.cocoa.macosx.x86' range='[1.0.0.201402222004,1.0.0.201402222004]'>
-        <filter>
-          (&amp;(osgi.arch=x86)(osgi.os=macosx)(osgi.ws=cocoa))
-        </filter>
-      </required>
-      <required namespace='org.eclipse.equinox.p2.iu' name='toolingapp-product.executable.cocoa.macosx.x86_64-bundled' range='[1.0.0.201402222004,1.0.0.201402222004]'>
-        <filter>
-          (&amp;(macosx-bundled=true)(osgi.arch=x86_64)(osgi.os=macosx)(osgi.ws=cocoa))
-        </filter>
-      </required>
-      <required namespace='org.eclipse.equinox.p2.iu' name='app-product.executable.win32.win32.x86_64.eclipse' range='[1.0.0.201402222004,1.0.0.201402222004]'>
-        <filter>
-          (&amp;(osgi.arch=x86_64)(osgi.os=win32)(osgi.ws=win32))
-        </filter>
-      </required>
-      <required namespace='org.eclipse.equinox.p2.iu' name='toolingapp-product.executable.cocoa.macosx.x86' range='[1.0.0.201402222004,1.0.0.201402222004]'>
-        <filter>
-          (&amp;(!(macosx-bundled=*))(osgi.arch=x86)(osgi.os=macosx)(osgi.ws=cocoa))
-        </filter>
-      </required>
-      <required namespace='org.eclipse.equinox.p2.iu' name='toolingorg.eclipse.equinox.launcher.win32.win32.x86' range='[1.1.200.v20130807-1835,1.1.200.v20130807-1835]'>
-        <filter>
-          (&amp;(osgi.arch=x86)(osgi.os=win32)(osgi.ws=win32))
-        </filter>
-      </required>
-      <required namespace='org.eclipse.equinox.p2.iu' name='app-product.executable.gtk.linux.x86' range='[1.0.0.201402222004,1.0.0.201402222004]'>
-        <filter>
-          (&amp;(osgi.arch=x86)(osgi.os=linux)(osgi.ws=gtk))
-        </filter>
-      </required>
-      <required namespace='org.eclipse.equinox.p2.iu' name='app-product.executable.cocoa.macosx.x86_64.eclipse' range='[1.0.0.201402222004,1.0.0.201402222004]'>
-        <filter>
-          (&amp;(osgi.arch=x86_64)(osgi.os=macosx)(osgi.ws=cocoa))
-        </filter>
-      </required>
-      <required namespace='org.eclipse.equinox.p2.iu' name='app-product.executable.cocoa.macosx.x86_64' range='[1.0.0.201402222004,1.0.0.201402222004]'>
-        <filter>
-          (&amp;(osgi.arch=x86_64)(osgi.os=macosx)(osgi.ws=cocoa))
-        </filter>
-      </required>
-      <required namespace='org.eclipse.equinox.p2.iu' name='app-product.executable.win32.win32.x86' range='[1.0.0.201402222004,1.0.0.201402222004]'>
-        <filter>
-          (&amp;(osgi.arch=x86)(osgi.os=win32)(osgi.ws=win32))
-        </filter>
-      </required>
-      <required namespace='org.eclipse.equinox.p2.iu' name='toolingorg.eclipse.equinox.launcher' range='[1.3.0.v20130327-1440,1.3.0.v20130327-1440]'/>
-      <required namespace='org.eclipse.equinox.p2.iu' name='app-product.executable.gtk.linux.x86_64.eclipse' range='[1.0.0.201402222004,1.0.0.201402222004]'>
-        <filter>
-          (&amp;(osgi.arch=x86_64)(osgi.os=linux)(osgi.ws=gtk))
-        </filter>
-      </required>
-      <required namespace='org.eclipse.equinox.p2.iu' name='toolingapp-product.executable.gtk.linux.x86_64' range='[1.0.0.201402222004,1.0.0.201402222004]'>
-        <filter>
-          (&amp;(osgi.arch=x86_64)(osgi.os=linux)(osgi.ws=gtk))
-        </filter>
-      </required>
-      <required namespace='org.eclipse.equinox.p2.iu' name='app-product.executable.gtk.linux.x86.eclipse' range='[1.0.0.201402222004,1.0.0.201402222004]'>
-        <filter>
-          (&amp;(osgi.arch=x86)(osgi.os=linux)(osgi.ws=gtk))
-        </filter>
-      </required>
-      <required namespace='org.eclipse.equinox.p2.iu' name='toolingapp-product.executable.cocoa.macosx.x86-bundled' range='[1.0.0.201402222004,1.0.0.201402222004]'>
-        <filter>
-          (&amp;(macosx-bundled=true)(osgi.arch=x86)(osgi.os=macosx)(osgi.ws=cocoa))
-        </filter>
-      </required>
-      <required namespace='org.eclipse.equinox.p2.iu' name='toolingapp-product.executable.win32.win32.x86' range='[1.0.0.201402222004,1.0.0.201402222004]'>
-        <filter>
-          (&amp;(osgi.arch=x86)(osgi.os=win32)(osgi.ws=win32))
-        </filter>
-      </required>
-      <required namespace='org.eclipse.equinox.p2.iu' name='toolingapp-product.executable.win32.win32.x86_64' range='[1.0.0.201402222004,1.0.0.201402222004]'>
-        <filter>
-          (&amp;(osgi.arch=x86_64)(osgi.os=win32)(osgi.ws=win32))
-        </filter>
-      </required>
-      <required namespace='org.eclipse.equinox.p2.iu' name='toolingorg.eclipse.equinox.launcher.gtk.linux.x86_64' range='[1.1.200.v20130807-1835,1.1.200.v20130807-1835]'>
-        <filter>
-          (&amp;(osgi.arch=x86_64)(osgi.os=linux)(osgi.ws=gtk))
-        </filter>
-      </required>
-      <required namespace='org.eclipse.equinox.p2.iu' name='toolingorg.eclipse.equinox.launcher.gtk.linux.x86' range='[1.1.200.v20130807-1835,1.1.200.v20130807-1835]'>
-        <filter>
-          (&amp;(osgi.arch=x86)(osgi.os=linux)(osgi.ws=gtk))
-        </filter>
-      </required>
-      <required namespace='org.eclipse.equinox.p2.iu' name='toolingapp-product.executable.cocoa.macosx.x86_64' range='[1.0.0.201402222004,1.0.0.201402222004]'>
-        <filter>
-          (&amp;(!(macosx-bundled=*))(osgi.arch=x86_64)(osgi.os=macosx)(osgi.ws=cocoa))
-        </filter>
-      </required>
-      <required namespace='org.eclipse.equinox.p2.iu' name='toolingorg.eclipse.equinox.launcher.cocoa.macosx' range='[1.1.200.v20130807-1835,1.1.200.v20130807-1835]'>
-        <filter>
-          (&amp;(osgi.arch=x86)(osgi.os=macosx)(osgi.ws=cocoa))
-        </filter>
-      </required>
-      <required namespace='org.eclipse.equinox.p2.iu' name='toolingorg.eclipse.equinox.launcher.cocoa.macosx.x86_64' range='[1.1.200.v20130807-1835,1.1.200.v20130807-1835]'>
-        <filter>
-          (&amp;(osgi.arch=x86_64)(osgi.os=macosx)(osgi.ws=cocoa))
-        </filter>
-      </required>
-      <required namespace='org.eclipse.equinox.p2.iu' name='app-product.executable.gtk.linux.x86_64' range='[1.0.0.201402222004,1.0.0.201402222004]'>
-        <filter>
-          (&amp;(osgi.arch=x86_64)(osgi.os=linux)(osgi.ws=gtk))
-        </filter>
-      </required>
-      <required namespace='org.eclipse.equinox.p2.iu' name='toolingorg.eclipse.equinox.launcher.win32.win32.x86_64' range='[1.1.200.v20130807-1835,1.1.200.v20130807-1835]'>
-        <filter>
-          (&amp;(osgi.arch=x86_64)(osgi.os=win32)(osgi.ws=win32))
-        </filter>
-      </required>
-      <required namespace='org.eclipse.equinox.p2.iu' name='app-product.executable.win32.win32.x86.eclipse' range='[1.0.0.201402222004,1.0.0.201402222004]'>
-        <filter>
-          (&amp;(osgi.arch=x86)(osgi.os=win32)(osgi.ws=win32))
-        </filter>
-      </required>
-      <required namespace='org.eclipse.equinox.p2.iu' name='app-product.executable.cocoa.macosx.x86.eclipse' range='[1.0.0.201402222004,1.0.0.201402222004]'>
-        <filter>
-          (&amp;(osgi.arch=x86)(osgi.os=macosx)(osgi.ws=cocoa))
-        </filter>
-      </required>
-      <required namespace='org.eclipse.equinox.p2.iu' name='app-product.executable.win32.win32.x86_64' range='[1.0.0.201402222004,1.0.0.201402222004]'>
-        <filter>
-          (&amp;(osgi.arch=x86_64)(osgi.os=win32)(osgi.ws=win32))
-        </filter>
-      </required>
-    </requires>
-    <touchpoint id='null' version='0.0.0'/>
-  </unit>
   <unit id='tooling.source.default' version='1.0.0' singleton='false'>
     <hostRequirements size='1'>
       <required namespace='org.eclipse.equinox.p2.eclipse.type' name='source' range='0.0.0' optional='true' multiple='true' greedy='false'/>
@@ -450,6 +263,193 @@
       </instructions>
     </touchpointData>
   </unit>
+  <unit id='toolingapp-product.application' version='1.0.0.201402222144'>
+    <provides size='1'>
+      <provided namespace='org.eclipse.equinox.p2.iu' name='toolingapp-product.application' version='1.0.0.201402222144'/>
+    </provides>
+    <requires size='27'>
+      <required namespace='org.eclipse.equinox.p2.iu' name='toolingapp-product.executable.gtk.linux.x86_64' range='[1.0.0.201402222144,1.0.0.201402222144]'>
+        <filter>
+          (&amp;(osgi.arch=x86_64)(osgi.os=linux)(osgi.ws=gtk))
+        </filter>
+      </required>
+      <required namespace='org.eclipse.equinox.p2.iu' name='app-product.executable.cocoa.macosx.x86.eclipse' range='[1.0.0.201402222144,1.0.0.201402222144]'>
+        <filter>
+          (&amp;(osgi.arch=x86)(osgi.os=macosx)(osgi.ws=cocoa))
+        </filter>
+      </required>
+      <required namespace='org.eclipse.equinox.p2.iu' name='app-product.executable.win32.win32.x86_64.eclipse' range='[1.0.0.201402222144,1.0.0.201402222144]'>
+        <filter>
+          (&amp;(osgi.arch=x86_64)(osgi.os=win32)(osgi.ws=win32))
+        </filter>
+      </required>
+      <required namespace='org.eclipse.equinox.p2.iu' name='app-product.executable.cocoa.macosx.x86' range='[1.0.0.201402222144,1.0.0.201402222144]'>
+        <filter>
+          (&amp;(osgi.arch=x86)(osgi.os=macosx)(osgi.ws=cocoa))
+        </filter>
+      </required>
+      <required namespace='org.eclipse.equinox.p2.iu' name='toolingorg.eclipse.equinox.launcher.win32.win32.x86' range='[1.1.200.v20130807-1835,1.1.200.v20130807-1835]'>
+        <filter>
+          (&amp;(osgi.arch=x86)(osgi.os=win32)(osgi.ws=win32))
+        </filter>
+      </required>
+      <required namespace='org.eclipse.equinox.p2.iu' name='toolingapp-product.executable.win32.win32.x86_64' range='[1.0.0.201402222144,1.0.0.201402222144]'>
+        <filter>
+          (&amp;(osgi.arch=x86_64)(osgi.os=win32)(osgi.ws=win32))
+        </filter>
+      </required>
+      <required namespace='org.eclipse.equinox.p2.iu' name='toolingapp-product.executable.cocoa.macosx.x86' range='[1.0.0.201402222144,1.0.0.201402222144]'>
+        <filter>
+          (&amp;(!(macosx-bundled=*))(osgi.arch=x86)(osgi.os=macosx)(osgi.ws=cocoa))
+        </filter>
+      </required>
+      <required namespace='org.eclipse.equinox.p2.iu' name='app-product.executable.win32.win32.x86_64' range='[1.0.0.201402222144,1.0.0.201402222144]'>
+        <filter>
+          (&amp;(osgi.arch=x86_64)(osgi.os=win32)(osgi.ws=win32))
+        </filter>
+      </required>
+      <required namespace='org.eclipse.equinox.p2.iu' name='toolingapp-product.executable.gtk.linux.x86' range='[1.0.0.201402222144,1.0.0.201402222144]'>
+        <filter>
+          (&amp;(osgi.arch=x86)(osgi.os=linux)(osgi.ws=gtk))
+        </filter>
+      </required>
+      <required namespace='org.eclipse.equinox.p2.iu' name='app-product.executable.win32.win32.x86' range='[1.0.0.201402222144,1.0.0.201402222144]'>
+        <filter>
+          (&amp;(osgi.arch=x86)(osgi.os=win32)(osgi.ws=win32))
+        </filter>
+      </required>
+      <required namespace='org.eclipse.equinox.p2.iu' name='toolingapp-product.executable.cocoa.macosx.x86_64-bundled' range='[1.0.0.201402222144,1.0.0.201402222144]'>
+        <filter>
+          (&amp;(macosx-bundled=true)(osgi.arch=x86_64)(osgi.os=macosx)(osgi.ws=cocoa))
+        </filter>
+      </required>
+      <required namespace='org.eclipse.equinox.p2.iu' name='app-product.executable.gtk.linux.x86' range='[1.0.0.201402222144,1.0.0.201402222144]'>
+        <filter>
+          (&amp;(osgi.arch=x86)(osgi.os=linux)(osgi.ws=gtk))
+        </filter>
+      </required>
+      <required namespace='org.eclipse.equinox.p2.iu' name='app-product.executable.cocoa.macosx.x86_64.eclipse' range='[1.0.0.201402222144,1.0.0.201402222144]'>
+        <filter>
+          (&amp;(osgi.arch=x86_64)(osgi.os=macosx)(osgi.ws=cocoa))
+        </filter>
+      </required>
+      <required namespace='org.eclipse.equinox.p2.iu' name='toolingorg.eclipse.equinox.launcher' range='[1.3.0.v20130327-1440,1.3.0.v20130327-1440]'/>
+      <required namespace='org.eclipse.equinox.p2.iu' name='app-product.executable.gtk.linux.x86.eclipse' range='[1.0.0.201402222144,1.0.0.201402222144]'>
+        <filter>
+          (&amp;(osgi.arch=x86)(osgi.os=linux)(osgi.ws=gtk))
+        </filter>
+      </required>
+      <required namespace='org.eclipse.equinox.p2.iu' name='app-product.executable.gtk.linux.x86_64.eclipse' range='[1.0.0.201402222144,1.0.0.201402222144]'>
+        <filter>
+          (&amp;(osgi.arch=x86_64)(osgi.os=linux)(osgi.ws=gtk))
+        </filter>
+      </required>
+      <required namespace='org.eclipse.equinox.p2.iu' name='toolingapp-product.executable.cocoa.macosx.x86-bundled' range='[1.0.0.201402222144,1.0.0.201402222144]'>
+        <filter>
+          (&amp;(macosx-bundled=true)(osgi.arch=x86)(osgi.os=macosx)(osgi.ws=cocoa))
+        </filter>
+      </required>
+      <required namespace='org.eclipse.equinox.p2.iu' name='toolingapp-product.executable.win32.win32.x86' range='[1.0.0.201402222144,1.0.0.201402222144]'>
+        <filter>
+          (&amp;(osgi.arch=x86)(osgi.os=win32)(osgi.ws=win32))
+        </filter>
+      </required>
+      <required namespace='org.eclipse.equinox.p2.iu' name='toolingorg.eclipse.equinox.launcher.gtk.linux.x86_64' range='[1.1.200.v20130807-1835,1.1.200.v20130807-1835]'>
+        <filter>
+          (&amp;(osgi.arch=x86_64)(osgi.os=linux)(osgi.ws=gtk))
+        </filter>
+      </required>
+      <required namespace='org.eclipse.equinox.p2.iu' name='toolingorg.eclipse.equinox.launcher.gtk.linux.x86' range='[1.1.200.v20130807-1835,1.1.200.v20130807-1835]'>
+        <filter>
+          (&amp;(osgi.arch=x86)(osgi.os=linux)(osgi.ws=gtk))
+        </filter>
+      </required>
+      <required namespace='org.eclipse.equinox.p2.iu' name='app-product.executable.gtk.linux.x86_64' range='[1.0.0.201402222144,1.0.0.201402222144]'>
+        <filter>
+          (&amp;(osgi.arch=x86_64)(osgi.os=linux)(osgi.ws=gtk))
+        </filter>
+      </required>
+      <required namespace='org.eclipse.equinox.p2.iu' name='toolingorg.eclipse.equinox.launcher.cocoa.macosx' range='[1.1.200.v20130807-1835,1.1.200.v20130807-1835]'>
+        <filter>
+          (&amp;(osgi.arch=x86)(osgi.os=macosx)(osgi.ws=cocoa))
+        </filter>
+      </required>
+      <required namespace='org.eclipse.equinox.p2.iu' name='toolingorg.eclipse.equinox.launcher.cocoa.macosx.x86_64' range='[1.1.200.v20130807-1835,1.1.200.v20130807-1835]'>
+        <filter>
+          (&amp;(osgi.arch=x86_64)(osgi.os=macosx)(osgi.ws=cocoa))
+        </filter>
+      </required>
+      <required namespace='org.eclipse.equinox.p2.iu' name='toolingorg.eclipse.equinox.launcher.win32.win32.x86_64' range='[1.1.200.v20130807-1835,1.1.200.v20130807-1835]'>
+        <filter>
+          (&amp;(osgi.arch=x86_64)(osgi.os=win32)(osgi.ws=win32))
+        </filter>
+      </required>
+      <required namespace='org.eclipse.equinox.p2.iu' name='app-product.executable.cocoa.macosx.x86_64' range='[1.0.0.201402222144,1.0.0.201402222144]'>
+        <filter>
+          (&amp;(osgi.arch=x86_64)(osgi.os=macosx)(osgi.ws=cocoa))
+        </filter>
+      </required>
+      <required namespace='org.eclipse.equinox.p2.iu' name='app-product.executable.win32.win32.x86.eclipse' range='[1.0.0.201402222144,1.0.0.201402222144]'>
+        <filter>
+          (&amp;(osgi.arch=x86)(osgi.os=win32)(osgi.ws=win32))
+        </filter>
+      </required>
+      <required namespace='org.eclipse.equinox.p2.iu' name='toolingapp-product.executable.cocoa.macosx.x86_64' range='[1.0.0.201402222144,1.0.0.201402222144]'>
+        <filter>
+          (&amp;(!(macosx-bundled=*))(osgi.arch=x86_64)(osgi.os=macosx)(osgi.ws=cocoa))
+        </filter>
+      </required>
+    </requires>
+    <touchpoint id='null' version='0.0.0'/>
+  </unit>
+  <unit id='toolingapp-product.configuration' version='1.0.0.201402222144'>
+    <provides size='1'>
+      <provided namespace='org.eclipse.equinox.p2.iu' name='toolingapp-product.configuration' version='1.0.0.201402222144'/>
+    </provides>
+    <requires size='8'>
+      <required namespace='org.eclipse.equinox.p2.iu' name='toolingapp-product.ini.cocoa.macosx.x86' range='[1.0.0.201402222144,1.0.0.201402222144]'>
+        <filter>
+          (&amp;(osgi.arch=x86)(osgi.os=macosx)(osgi.ws=cocoa))
+        </filter>
+      </required>
+      <required namespace='org.eclipse.equinox.p2.iu' name='toolingapp-product.config.win32.win32.x86_64' range='[1.0.0.201402222144,1.0.0.201402222144]'>
+        <filter>
+          (&amp;(osgi.arch=x86_64)(osgi.os=win32)(osgi.ws=win32))
+        </filter>
+      </required>
+      <required namespace='org.eclipse.equinox.p2.iu' name='toolingapp-product.ini.cocoa.macosx.x86_64' range='[1.0.0.201402222144,1.0.0.201402222144]'>
+        <filter>
+          (&amp;(osgi.arch=x86_64)(osgi.os=macosx)(osgi.ws=cocoa))
+        </filter>
+      </required>
+      <required namespace='org.eclipse.equinox.p2.iu' name='toolingapp-product.config.gtk.linux.x86_64' range='[1.0.0.201402222144,1.0.0.201402222144]'>
+        <filter>
+          (&amp;(osgi.arch=x86_64)(osgi.os=linux)(osgi.ws=gtk))
+        </filter>
+      </required>
+      <required namespace='org.eclipse.equinox.p2.iu' name='toolingapp-product.config.cocoa.macosx.x86_64' range='[1.0.0.201402222144,1.0.0.201402222144]'>
+        <filter>
+          (&amp;(osgi.arch=x86_64)(osgi.os=macosx)(osgi.ws=cocoa))
+        </filter>
+      </required>
+      <required namespace='org.eclipse.equinox.p2.iu' name='toolingapp-product.config.win32.win32.x86' range='[1.0.0.201402222144,1.0.0.201402222144]'>
+        <filter>
+          (&amp;(osgi.arch=x86)(osgi.os=win32)(osgi.ws=win32))
+        </filter>
+      </required>
+      <required namespace='org.eclipse.equinox.p2.iu' name='toolingapp-product.config.gtk.linux.x86' range='[1.0.0.201402222144,1.0.0.201402222144]'>
+        <filter>
+          (&amp;(osgi.arch=x86)(osgi.os=linux)(osgi.ws=gtk))
+        </filter>
+      </required>
+      <required namespace='org.eclipse.equinox.p2.iu' name='toolingapp-product.config.cocoa.macosx.x86' range='[1.0.0.201402222144,1.0.0.201402222144]'>
+        <filter>
+          (&amp;(osgi.arch=x86)(osgi.os=macosx)(osgi.ws=cocoa))
+        </filter>
+      </required>
+    </requires>
+    <touchpoint id='null' version='0.0.0'/>
+  </unit>
   <unit id='config.a.jre.javase' version='1.6.0' singleton='false'>
     <hostRequirements size='1'>
       <required namespace='org.eclipse.equinox.p2.iu' name='a.jre.javase' range='1.6.0'/>
@@ -472,10 +472,10 @@
       </instructions>
     </touchpointData>
   </unit>
-  <unit id='toolingapp-product.ini.cocoa.macosx.x86' version='1.0.0.201402222004' singleton='false'>
+  <unit id='toolingapp-product.ini.cocoa.macosx.x86' version='1.0.0.201402222144' singleton='false'>
     <provides size='2'>
-      <provided namespace='org.eclipse.equinox.p2.iu' name='toolingapp-product.ini.cocoa.macosx.x86' version='1.0.0.201402222004'/>
-      <provided namespace='toolingapp-product' name='app-product.ini' version='1.0.0.201402222004'/>
+      <provided namespace='org.eclipse.equinox.p2.iu' name='toolingapp-product.ini.cocoa.macosx.x86' version='1.0.0.201402222144'/>
+      <provided namespace='toolingapp-product' name='app-product.ini' version='1.0.0.201402222144'/>
     </provides>
     <filter>
       (&amp;(osgi.arch=x86)(osgi.os=macosx)(osgi.ws=cocoa))
@@ -492,21 +492,21 @@
       </instructions>
     </touchpointData>
   </unit>
-  <unit id='toolingapp-product.executable.gtk.linux.x86' version='1.0.0.201402222004' singleton='false'>
+  <unit id='toolingapp-product.executable.gtk.linux.x86_64' version='1.0.0.201402222144' singleton='false'>
     <hostRequirements size='1'>
-      <required namespace='org.eclipse.equinox.p2.iu' name='app-product.executable.gtk.linux.x86' range='[1.0.0.201402222004,1.0.0.201402222004]'/>
+      <required namespace='org.eclipse.equinox.p2.iu' name='app-product.executable.gtk.linux.x86_64' range='[1.0.0.201402222144,1.0.0.201402222144]'/>
     </hostRequirements>
     <properties size='1'>
       <property name='org.eclipse.equinox.p2.type.fragment' value='true'/>
     </properties>
     <provides size='1'>
-      <provided namespace='org.eclipse.equinox.p2.iu' name='toolingapp-product.executable.gtk.linux.x86' version='1.0.0.201402222004'/>
+      <provided namespace='org.eclipse.equinox.p2.iu' name='toolingapp-product.executable.gtk.linux.x86_64' version='1.0.0.201402222144'/>
     </provides>
     <requires size='1'>
-      <required namespace='org.eclipse.equinox.p2.iu' name='app-product.executable.gtk.linux.x86' range='[1.0.0.201402222004,1.0.0.201402222004]'/>
+      <required namespace='org.eclipse.equinox.p2.iu' name='app-product.executable.gtk.linux.x86_64' range='[1.0.0.201402222144,1.0.0.201402222144]'/>
     </requires>
     <filter>
-      (&amp;(osgi.arch=x86)(osgi.os=linux)(osgi.ws=gtk))
+      (&amp;(osgi.arch=x86_64)(osgi.os=linux)(osgi.ws=gtk))
     </filter>
     <touchpoint id='org.eclipse.equinox.p2.native' version='1.0.0'/>
     <touchpointData size='1'>
@@ -520,13 +520,13 @@
       </instructions>
     </touchpointData>
   </unit>
-  <unit id='toolingapp-product.config.gtk.linux.x86_64' version='1.0.0.201402222004' singleton='false'>
+  <unit id='toolingapp-product.config.win32.win32.x86_64' version='1.0.0.201402222144' singleton='false'>
     <provides size='2'>
-      <provided namespace='org.eclipse.equinox.p2.iu' name='toolingapp-product.config.gtk.linux.x86_64' version='1.0.0.201402222004'/>
-      <provided namespace='toolingapp-product' name='app-product.config' version='1.0.0.201402222004'/>
+      <provided namespace='org.eclipse.equinox.p2.iu' name='toolingapp-product.config.win32.win32.x86_64' version='1.0.0.201402222144'/>
+      <provided namespace='toolingapp-product' name='app-product.config' version='1.0.0.201402222144'/>
     </provides>
     <filter>
-      (&amp;(osgi.arch=x86_64)(osgi.os=linux)(osgi.ws=gtk))
+      (&amp;(osgi.arch=x86_64)(osgi.os=win32)(osgi.ws=win32))
     </filter>
     <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
     <touchpointData size='1'>
@@ -540,83 +540,9 @@
       </instructions>
     </touchpointData>
   </unit>
-  <unit id='app-product.executable.cocoa.macosx.x86' version='1.0.0.201402222004'>
-    <provides size='2'>
-      <provided namespace='org.eclipse.equinox.p2.iu' name='app-product.executable.cocoa.macosx.x86' version='1.0.0.201402222004'/>
-      <provided namespace='toolingapp-product' name='app-product.executable' version='1.0.0.201402222004'/>
-    </provides>
-    <requires size='1'>
-      <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.equinox.launcher.cocoa.macosx' range='0.0.0'>
-        <filter>
-          (&amp;(osgi.arch=x86)(osgi.os=macosx)(osgi.ws=cocoa))
-        </filter>
-      </required>
-    </requires>
-    <filter>
-      (&amp;(osgi.arch=x86)(osgi.os=macosx)(osgi.ws=cocoa))
-    </filter>
-    <artifacts size='1'>
-      <artifact classifier='binary' id='app-product.executable.cocoa.macosx.x86' version='1.0.0.201402222004'/>
-    </artifacts>
-    <touchpoint id='org.eclipse.equinox.p2.native' version='1.0.0'/>
-  </unit>
-  <unit id='app-product' version='1.0.0.201402222004'>
-    <update id='app-product' range='0.0.0' severity='0'/>
-    <properties size='3'>
-      <property name='org.eclipse.equinox.p2.name' value='Application Product'/>
-      <property name='org.eclipse.equinox.p2.type.product' value='true'/>
-      <property name='org.eclipse.equinox.p2.type.group' value='true'/>
-    </properties>
+  <unit id='app-product.executable.win32.win32.x86_64.eclipse' version='1.0.0.201402222144' singleton='false'>
     <provides size='1'>
-      <provided namespace='org.eclipse.equinox.p2.iu' name='app-product' version='1.0.0.201402222004'/>
-    </provides>
-    <requires size='7'>
-      <required namespace='org.eclipse.equinox.p2.iu' name='toolingapp-product.configuration' range='[1.0.0.201402222004,1.0.0.201402222004]'/>
-      <required namespace='org.eclipse.equinox.p2.iu' name='tooling.source.default' range='[1.0.0,1.0.0]'/>
-      <required namespace='org.eclipse.equinox.p2.iu' name='toolingapp-product.application' range='[1.0.0.201402222004,1.0.0.201402222004]'/>
-      <required namespace='org.eclipse.equinox.p2.iu' name='a.jre.javase' range='[1.6.0,1.6.0]'/>
-      <required namespace='org.eclipse.equinox.p2.iu' name='tooling.osgi.bundle.default' range='[1.0.0,1.0.0]'/>
-      <required namespace='org.eclipse.equinox.p2.iu' name='tooling.org.eclipse.update.feature.default' range='[1.0.0,1.0.0]'>
-        <filter>
-          (org.eclipse.update.install.features=true)
-        </filter>
-      </required>
-      <required namespace='org.eclipse.equinox.p2.iu' name='config.a.jre.javase' range='[1.6.0,1.6.0]'/>
-    </requires>
-    <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
-  </unit>
-  <unit id='toolingapp-product.executable.cocoa.macosx.x86_64-bundled' version='1.0.0.201402222004' singleton='false'>
-    <hostRequirements size='1'>
-      <required namespace='org.eclipse.equinox.p2.iu' name='app-product.executable.cocoa.macosx.x86_64' range='[1.0.0.201402222004,1.0.0.201402222004]'/>
-    </hostRequirements>
-    <properties size='1'>
-      <property name='org.eclipse.equinox.p2.type.fragment' value='true'/>
-    </properties>
-    <provides size='2'>
-      <provided namespace='org.eclipse.equinox.p2.iu' name='toolingapp-product.executable.cocoa.macosx.x86_64' version='1.0.0.201402222004'/>
-      <provided namespace='org.eclipse.equinox.p2.iu' name='toolingapp-product.executable.cocoa.macosx.x86_64-bundled' version='1.0.0.201402222004'/>
-    </provides>
-    <requires size='1'>
-      <required namespace='org.eclipse.equinox.p2.iu' name='app-product.executable.cocoa.macosx.x86_64' range='[1.0.0.201402222004,1.0.0.201402222004]'/>
-    </requires>
-    <filter>
-      (&amp;(macosx-bundled=true)(osgi.arch=x86_64)(osgi.os=macosx)(osgi.ws=cocoa))
-    </filter>
-    <touchpoint id='org.eclipse.equinox.p2.native' version='1.0.0'/>
-    <touchpointData size='1'>
-      <instructions size='2'>
-        <instruction key='install'>
-          unzip(source:@artifact, target:${installFolder}, path:Eclipse.app); chmod(targetDir:${installFolder}/Contents/MacOS/, targetFile:eclipse, permissions:755);
-        </instruction>
-        <instruction key='uninstall'>
-          cleanupzip(source:@artifact, target:${installFolder});
-        </instruction>
-      </instructions>
-    </touchpointData>
-  </unit>
-  <unit id='app-product.executable.win32.win32.x86_64.eclipse' version='1.0.0.201402222004' singleton='false'>
-    <provides size='1'>
-      <provided namespace='org.eclipse.equinox.p2.iu' name='app-product.executable.win32.win32.x86_64.eclipse' version='1.0.0.201402222004'/>
+      <provided namespace='org.eclipse.equinox.p2.iu' name='app-product.executable.win32.win32.x86_64.eclipse' version='1.0.0.201402222144'/>
     </provides>
     <filter>
       (&amp;(osgi.arch=x86_64)(osgi.os=win32)(osgi.ws=win32))
@@ -633,30 +559,61 @@
       </instructions>
     </touchpointData>
   </unit>
-  <unit id='toolingapp-product.executable.cocoa.macosx.x86' version='1.0.0.201402222004' singleton='false'>
-    <hostRequirements size='1'>
-      <required namespace='org.eclipse.equinox.p2.iu' name='app-product.executable.cocoa.macosx.x86' range='[1.0.0.201402222004,1.0.0.201402222004]'/>
-    </hostRequirements>
-    <properties size='1'>
-      <property name='org.eclipse.equinox.p2.type.fragment' value='true'/>
-    </properties>
+  <unit id='app-product.executable.cocoa.macosx.x86.eclipse' version='1.0.0.201402222144' singleton='false'>
     <provides size='1'>
-      <provided namespace='org.eclipse.equinox.p2.iu' name='toolingapp-product.executable.cocoa.macosx.x86' version='1.0.0.201402222004'/>
+      <provided namespace='org.eclipse.equinox.p2.iu' name='app-product.executable.cocoa.macosx.x86.eclipse' version='1.0.0.201402222144'/>
     </provides>
-    <requires size='1'>
-      <required namespace='org.eclipse.equinox.p2.iu' name='app-product.executable.cocoa.macosx.x86' range='[1.0.0.201402222004,1.0.0.201402222004]'/>
-    </requires>
     <filter>
-      (&amp;(!(macosx-bundled=*))(osgi.arch=x86)(osgi.os=macosx)(osgi.ws=cocoa))
+      (&amp;(osgi.arch=x86)(osgi.os=macosx)(osgi.ws=cocoa))
     </filter>
-    <touchpoint id='org.eclipse.equinox.p2.native' version='1.0.0'/>
+    <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
     <touchpointData size='1'>
       <instructions size='2'>
-        <instruction key='install'>
-          unzip(source:@artifact, target:${installFolder}); chmod(targetDir:${installFolder}/Eclipse.app/Contents/MacOS/, targetFile:eclipse, permissions:755); ln(targetDir:${installFolder}, linkTarget:Eclipse.app/Contents/MacOS/eclipse, linkName:eclipse);
+        <instruction key='unconfigure'>
+          setLauncherName()
         </instruction>
-        <instruction key='uninstall'>
-          cleanupzip(source:@artifact, target:${installFolder});
+        <instruction key='configure'>
+          setLauncherName(name:eclipse)
+        </instruction>
+      </instructions>
+    </touchpointData>
+  </unit>
+  <unit id='app-product.executable.cocoa.macosx.x86' version='1.0.0.201402222144'>
+    <provides size='2'>
+      <provided namespace='org.eclipse.equinox.p2.iu' name='app-product.executable.cocoa.macosx.x86' version='1.0.0.201402222144'/>
+      <provided namespace='toolingapp-product' name='app-product.executable' version='1.0.0.201402222144'/>
+    </provides>
+    <requires size='1'>
+      <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.equinox.launcher.cocoa.macosx' range='0.0.0'>
+        <filter>
+          (&amp;(osgi.arch=x86)(osgi.os=macosx)(osgi.ws=cocoa))
+        </filter>
+      </required>
+    </requires>
+    <filter>
+      (&amp;(osgi.arch=x86)(osgi.os=macosx)(osgi.ws=cocoa))
+    </filter>
+    <artifacts size='1'>
+      <artifact classifier='binary' id='app-product.executable.cocoa.macosx.x86' version='1.0.0.201402222144'/>
+    </artifacts>
+    <touchpoint id='org.eclipse.equinox.p2.native' version='1.0.0'/>
+  </unit>
+  <unit id='toolingapp-product.config.gtk.linux.x86' version='1.0.0.201402222144' singleton='false'>
+    <provides size='2'>
+      <provided namespace='org.eclipse.equinox.p2.iu' name='toolingapp-product.config.gtk.linux.x86' version='1.0.0.201402222144'/>
+      <provided namespace='toolingapp-product' name='app-product.config' version='1.0.0.201402222144'/>
+    </provides>
+    <filter>
+      (&amp;(osgi.arch=x86)(osgi.os=linux)(osgi.ws=gtk))
+    </filter>
+    <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+    <touchpointData size='1'>
+      <instructions size='2'>
+        <instruction key='unconfigure'>
+          setProgramProperty(propName:eclipse.application,propValue:);setProgramProperty(propName:eclipse.product,propValue:);
+        </instruction>
+        <instruction key='configure'>
+          setProgramProperty(propName:eclipse.application,propValue:org.eclipse.e4.ui.workbench.swt.E4Application);setProgramProperty(propName:eclipse.product,propValue:ru.mine.product.application.product);
         </instruction>
       </instructions>
     </touchpointData>
@@ -698,10 +655,134 @@
       </instructions>
     </touchpointData>
   </unit>
-  <unit id='app-product.executable.gtk.linux.x86' version='1.0.0.201402222004'>
+  <unit id='toolingapp-product.executable.win32.win32.x86_64' version='1.0.0.201402222144' singleton='false'>
+    <hostRequirements size='1'>
+      <required namespace='org.eclipse.equinox.p2.iu' name='app-product.executable.win32.win32.x86_64' range='[1.0.0.201402222144,1.0.0.201402222144]'/>
+    </hostRequirements>
+    <properties size='1'>
+      <property name='org.eclipse.equinox.p2.type.fragment' value='true'/>
+    </properties>
+    <provides size='1'>
+      <provided namespace='org.eclipse.equinox.p2.iu' name='toolingapp-product.executable.win32.win32.x86_64' version='1.0.0.201402222144'/>
+    </provides>
+    <requires size='1'>
+      <required namespace='org.eclipse.equinox.p2.iu' name='app-product.executable.win32.win32.x86_64' range='[1.0.0.201402222144,1.0.0.201402222144]'/>
+    </requires>
+    <filter>
+      (&amp;(osgi.arch=x86_64)(osgi.os=win32)(osgi.ws=win32))
+    </filter>
+    <touchpoint id='org.eclipse.equinox.p2.native' version='1.0.0'/>
+    <touchpointData size='1'>
+      <instructions size='2'>
+        <instruction key='install'>
+          unzip(source:@artifact, target:${installFolder});
+        </instruction>
+        <instruction key='uninstall'>
+          cleanupzip(source:@artifact, target:${installFolder});
+        </instruction>
+      </instructions>
+    </touchpointData>
+  </unit>
+  <unit id='toolingapp-product.executable.cocoa.macosx.x86' version='1.0.0.201402222144' singleton='false'>
+    <hostRequirements size='1'>
+      <required namespace='org.eclipse.equinox.p2.iu' name='app-product.executable.cocoa.macosx.x86' range='[1.0.0.201402222144,1.0.0.201402222144]'/>
+    </hostRequirements>
+    <properties size='1'>
+      <property name='org.eclipse.equinox.p2.type.fragment' value='true'/>
+    </properties>
+    <provides size='1'>
+      <provided namespace='org.eclipse.equinox.p2.iu' name='toolingapp-product.executable.cocoa.macosx.x86' version='1.0.0.201402222144'/>
+    </provides>
+    <requires size='1'>
+      <required namespace='org.eclipse.equinox.p2.iu' name='app-product.executable.cocoa.macosx.x86' range='[1.0.0.201402222144,1.0.0.201402222144]'/>
+    </requires>
+    <filter>
+      (&amp;(!(macosx-bundled=*))(osgi.arch=x86)(osgi.os=macosx)(osgi.ws=cocoa))
+    </filter>
+    <touchpoint id='org.eclipse.equinox.p2.native' version='1.0.0'/>
+    <touchpointData size='1'>
+      <instructions size='2'>
+        <instruction key='install'>
+          unzip(source:@artifact, target:${installFolder}); chmod(targetDir:${installFolder}/Eclipse.app/Contents/MacOS/, targetFile:eclipse, permissions:755); ln(targetDir:${installFolder}, linkTarget:Eclipse.app/Contents/MacOS/eclipse, linkName:eclipse);
+        </instruction>
+        <instruction key='uninstall'>
+          cleanupzip(source:@artifact, target:${installFolder});
+        </instruction>
+      </instructions>
+    </touchpointData>
+  </unit>
+  <unit id='app-product.executable.win32.win32.x86_64' version='1.0.0.201402222144'>
     <provides size='2'>
-      <provided namespace='org.eclipse.equinox.p2.iu' name='app-product.executable.gtk.linux.x86' version='1.0.0.201402222004'/>
-      <provided namespace='toolingapp-product' name='app-product.executable' version='1.0.0.201402222004'/>
+      <provided namespace='org.eclipse.equinox.p2.iu' name='app-product.executable.win32.win32.x86_64' version='1.0.0.201402222144'/>
+      <provided namespace='toolingapp-product' name='app-product.executable' version='1.0.0.201402222144'/>
+    </provides>
+    <requires size='1'>
+      <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.equinox.launcher.win32.win32.x86_64' range='0.0.0'>
+        <filter>
+          (&amp;(osgi.arch=x86_64)(osgi.os=win32)(osgi.ws=win32))
+        </filter>
+      </required>
+    </requires>
+    <filter>
+      (&amp;(osgi.arch=x86_64)(osgi.os=win32)(osgi.ws=win32))
+    </filter>
+    <artifacts size='1'>
+      <artifact classifier='binary' id='app-product.executable.win32.win32.x86_64' version='1.0.0.201402222144'/>
+    </artifacts>
+    <touchpoint id='org.eclipse.equinox.p2.native' version='1.0.0'/>
+  </unit>
+  <unit id='toolingapp-product.executable.gtk.linux.x86' version='1.0.0.201402222144' singleton='false'>
+    <hostRequirements size='1'>
+      <required namespace='org.eclipse.equinox.p2.iu' name='app-product.executable.gtk.linux.x86' range='[1.0.0.201402222144,1.0.0.201402222144]'/>
+    </hostRequirements>
+    <properties size='1'>
+      <property name='org.eclipse.equinox.p2.type.fragment' value='true'/>
+    </properties>
+    <provides size='1'>
+      <provided namespace='org.eclipse.equinox.p2.iu' name='toolingapp-product.executable.gtk.linux.x86' version='1.0.0.201402222144'/>
+    </provides>
+    <requires size='1'>
+      <required namespace='org.eclipse.equinox.p2.iu' name='app-product.executable.gtk.linux.x86' range='[1.0.0.201402222144,1.0.0.201402222144]'/>
+    </requires>
+    <filter>
+      (&amp;(osgi.arch=x86)(osgi.os=linux)(osgi.ws=gtk))
+    </filter>
+    <touchpoint id='org.eclipse.equinox.p2.native' version='1.0.0'/>
+    <touchpointData size='1'>
+      <instructions size='2'>
+        <instruction key='install'>
+          unzip(source:@artifact, target:${installFolder}); chmod(targetDir:${installFolder}, targetFile:eclipse, permissions:755); chmod(targetDir:${installFolder}, targetFile:icon.xpm, permissions:755);
+        </instruction>
+        <instruction key='uninstall'>
+          cleanupzip(source:@artifact, target:${installFolder});
+        </instruction>
+      </instructions>
+    </touchpointData>
+  </unit>
+  <unit id='app-product.executable.win32.win32.x86' version='1.0.0.201402222144'>
+    <provides size='2'>
+      <provided namespace='org.eclipse.equinox.p2.iu' name='app-product.executable.win32.win32.x86' version='1.0.0.201402222144'/>
+      <provided namespace='toolingapp-product' name='app-product.executable' version='1.0.0.201402222144'/>
+    </provides>
+    <requires size='1'>
+      <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.equinox.launcher.win32.win32.x86' range='0.0.0'>
+        <filter>
+          (&amp;(osgi.arch=x86)(osgi.os=win32)(osgi.ws=win32))
+        </filter>
+      </required>
+    </requires>
+    <filter>
+      (&amp;(osgi.arch=x86)(osgi.os=win32)(osgi.ws=win32))
+    </filter>
+    <artifacts size='1'>
+      <artifact classifier='binary' id='app-product.executable.win32.win32.x86' version='1.0.0.201402222144'/>
+    </artifacts>
+    <touchpoint id='org.eclipse.equinox.p2.native' version='1.0.0'/>
+  </unit>
+  <unit id='app-product.executable.gtk.linux.x86' version='1.0.0.201402222144'>
+    <provides size='2'>
+      <provided namespace='org.eclipse.equinox.p2.iu' name='app-product.executable.gtk.linux.x86' version='1.0.0.201402222144'/>
+      <provided namespace='toolingapp-product' name='app-product.executable' version='1.0.0.201402222144'/>
     </provides>
     <requires size='1'>
       <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.equinox.launcher.gtk.linux.x86' range='0.0.0'>
@@ -714,13 +795,42 @@
       (&amp;(osgi.arch=x86)(osgi.os=linux)(osgi.ws=gtk))
     </filter>
     <artifacts size='1'>
-      <artifact classifier='binary' id='app-product.executable.gtk.linux.x86' version='1.0.0.201402222004'/>
+      <artifact classifier='binary' id='app-product.executable.gtk.linux.x86' version='1.0.0.201402222144'/>
     </artifacts>
     <touchpoint id='org.eclipse.equinox.p2.native' version='1.0.0'/>
   </unit>
-  <unit id='app-product.executable.cocoa.macosx.x86_64.eclipse' version='1.0.0.201402222004' singleton='false'>
+  <unit id='toolingapp-product.executable.cocoa.macosx.x86_64-bundled' version='1.0.0.201402222144' singleton='false'>
+    <hostRequirements size='1'>
+      <required namespace='org.eclipse.equinox.p2.iu' name='app-product.executable.cocoa.macosx.x86_64' range='[1.0.0.201402222144,1.0.0.201402222144]'/>
+    </hostRequirements>
+    <properties size='1'>
+      <property name='org.eclipse.equinox.p2.type.fragment' value='true'/>
+    </properties>
+    <provides size='2'>
+      <provided namespace='org.eclipse.equinox.p2.iu' name='toolingapp-product.executable.cocoa.macosx.x86_64' version='1.0.0.201402222144'/>
+      <provided namespace='org.eclipse.equinox.p2.iu' name='toolingapp-product.executable.cocoa.macosx.x86_64-bundled' version='1.0.0.201402222144'/>
+    </provides>
+    <requires size='1'>
+      <required namespace='org.eclipse.equinox.p2.iu' name='app-product.executable.cocoa.macosx.x86_64' range='[1.0.0.201402222144,1.0.0.201402222144]'/>
+    </requires>
+    <filter>
+      (&amp;(macosx-bundled=true)(osgi.arch=x86_64)(osgi.os=macosx)(osgi.ws=cocoa))
+    </filter>
+    <touchpoint id='org.eclipse.equinox.p2.native' version='1.0.0'/>
+    <touchpointData size='1'>
+      <instructions size='2'>
+        <instruction key='install'>
+          unzip(source:@artifact, target:${installFolder}, path:Eclipse.app); chmod(targetDir:${installFolder}/Contents/MacOS/, targetFile:eclipse, permissions:755);
+        </instruction>
+        <instruction key='uninstall'>
+          cleanupzip(source:@artifact, target:${installFolder});
+        </instruction>
+      </instructions>
+    </touchpointData>
+  </unit>
+  <unit id='app-product.executable.cocoa.macosx.x86_64.eclipse' version='1.0.0.201402222144' singleton='false'>
     <provides size='1'>
-      <provided namespace='org.eclipse.equinox.p2.iu' name='app-product.executable.cocoa.macosx.x86_64.eclipse' version='1.0.0.201402222004'/>
+      <provided namespace='org.eclipse.equinox.p2.iu' name='app-product.executable.cocoa.macosx.x86_64.eclipse' version='1.0.0.201402222144'/>
     </provides>
     <filter>
       (&amp;(osgi.arch=x86_64)(osgi.os=macosx)(osgi.ws=cocoa))
@@ -736,46 +846,6 @@
         </instruction>
       </instructions>
     </touchpointData>
-  </unit>
-  <unit id='app-product.executable.cocoa.macosx.x86_64' version='1.0.0.201402222004'>
-    <provides size='2'>
-      <provided namespace='org.eclipse.equinox.p2.iu' name='app-product.executable.cocoa.macosx.x86_64' version='1.0.0.201402222004'/>
-      <provided namespace='toolingapp-product' name='app-product.executable' version='1.0.0.201402222004'/>
-    </provides>
-    <requires size='1'>
-      <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.equinox.launcher.cocoa.macosx.x86_64' range='0.0.0'>
-        <filter>
-          (&amp;(osgi.arch=x86_64)(osgi.os=macosx)(osgi.ws=cocoa))
-        </filter>
-      </required>
-    </requires>
-    <filter>
-      (&amp;(osgi.arch=x86_64)(osgi.os=macosx)(osgi.ws=cocoa))
-    </filter>
-    <artifacts size='1'>
-      <artifact classifier='binary' id='app-product.executable.cocoa.macosx.x86_64' version='1.0.0.201402222004'/>
-    </artifacts>
-    <touchpoint id='org.eclipse.equinox.p2.native' version='1.0.0'/>
-  </unit>
-  <unit id='app-product.executable.win32.win32.x86' version='1.0.0.201402222004'>
-    <provides size='2'>
-      <provided namespace='org.eclipse.equinox.p2.iu' name='app-product.executable.win32.win32.x86' version='1.0.0.201402222004'/>
-      <provided namespace='toolingapp-product' name='app-product.executable' version='1.0.0.201402222004'/>
-    </provides>
-    <requires size='1'>
-      <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.equinox.launcher.win32.win32.x86' range='0.0.0'>
-        <filter>
-          (&amp;(osgi.arch=x86)(osgi.os=win32)(osgi.ws=win32))
-        </filter>
-      </required>
-    </requires>
-    <filter>
-      (&amp;(osgi.arch=x86)(osgi.os=win32)(osgi.ws=win32))
-    </filter>
-    <artifacts size='1'>
-      <artifact classifier='binary' id='app-product.executable.win32.win32.x86' version='1.0.0.201402222004'/>
-    </artifacts>
-    <touchpoint id='org.eclipse.equinox.p2.native' version='1.0.0'/>
   </unit>
   <unit id='toolingorg.eclipse.equinox.launcher' version='1.3.0.v20130327-1440' singleton='false'>
     <hostRequirements size='2'>
@@ -811,32 +881,13 @@
       </instructions>
     </touchpointData>
   </unit>
-  <unit id='app-product.executable.gtk.linux.x86_64.eclipse' version='1.0.0.201402222004' singleton='false'>
-    <provides size='1'>
-      <provided namespace='org.eclipse.equinox.p2.iu' name='app-product.executable.gtk.linux.x86_64.eclipse' version='1.0.0.201402222004'/>
+  <unit id='toolingapp-product.config.gtk.linux.x86_64' version='1.0.0.201402222144' singleton='false'>
+    <provides size='2'>
+      <provided namespace='org.eclipse.equinox.p2.iu' name='toolingapp-product.config.gtk.linux.x86_64' version='1.0.0.201402222144'/>
+      <provided namespace='toolingapp-product' name='app-product.config' version='1.0.0.201402222144'/>
     </provides>
     <filter>
       (&amp;(osgi.arch=x86_64)(osgi.os=linux)(osgi.ws=gtk))
-    </filter>
-    <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
-    <touchpointData size='1'>
-      <instructions size='2'>
-        <instruction key='unconfigure'>
-          setLauncherName()
-        </instruction>
-        <instruction key='configure'>
-          setLauncherName(name:eclipse)
-        </instruction>
-      </instructions>
-    </touchpointData>
-  </unit>
-  <unit id='toolingapp-product.config.gtk.linux.x86' version='1.0.0.201402222004' singleton='false'>
-    <provides size='2'>
-      <provided namespace='org.eclipse.equinox.p2.iu' name='toolingapp-product.config.gtk.linux.x86' version='1.0.0.201402222004'/>
-      <provided namespace='toolingapp-product' name='app-product.config' version='1.0.0.201402222004'/>
-    </provides>
-    <filter>
-      (&amp;(osgi.arch=x86)(osgi.os=linux)(osgi.ws=gtk))
     </filter>
     <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
     <touchpointData size='1'>
@@ -850,37 +901,9 @@
       </instructions>
     </touchpointData>
   </unit>
-  <unit id='toolingapp-product.executable.gtk.linux.x86_64' version='1.0.0.201402222004' singleton='false'>
-    <hostRequirements size='1'>
-      <required namespace='org.eclipse.equinox.p2.iu' name='app-product.executable.gtk.linux.x86_64' range='[1.0.0.201402222004,1.0.0.201402222004]'/>
-    </hostRequirements>
-    <properties size='1'>
-      <property name='org.eclipse.equinox.p2.type.fragment' value='true'/>
-    </properties>
+  <unit id='app-product.executable.gtk.linux.x86.eclipse' version='1.0.0.201402222144' singleton='false'>
     <provides size='1'>
-      <provided namespace='org.eclipse.equinox.p2.iu' name='toolingapp-product.executable.gtk.linux.x86_64' version='1.0.0.201402222004'/>
-    </provides>
-    <requires size='1'>
-      <required namespace='org.eclipse.equinox.p2.iu' name='app-product.executable.gtk.linux.x86_64' range='[1.0.0.201402222004,1.0.0.201402222004]'/>
-    </requires>
-    <filter>
-      (&amp;(osgi.arch=x86_64)(osgi.os=linux)(osgi.ws=gtk))
-    </filter>
-    <touchpoint id='org.eclipse.equinox.p2.native' version='1.0.0'/>
-    <touchpointData size='1'>
-      <instructions size='2'>
-        <instruction key='install'>
-          unzip(source:@artifact, target:${installFolder}); chmod(targetDir:${installFolder}, targetFile:eclipse, permissions:755); chmod(targetDir:${installFolder}, targetFile:icon.xpm, permissions:755);
-        </instruction>
-        <instruction key='uninstall'>
-          cleanupzip(source:@artifact, target:${installFolder});
-        </instruction>
-      </instructions>
-    </touchpointData>
-  </unit>
-  <unit id='app-product.executable.gtk.linux.x86.eclipse' version='1.0.0.201402222004' singleton='false'>
-    <provides size='1'>
-      <provided namespace='org.eclipse.equinox.p2.iu' name='app-product.executable.gtk.linux.x86.eclipse' version='1.0.0.201402222004'/>
+      <provided namespace='org.eclipse.equinox.p2.iu' name='app-product.executable.gtk.linux.x86.eclipse' version='1.0.0.201402222144'/>
     </provides>
     <filter>
       (&amp;(osgi.arch=x86)(osgi.os=linux)(osgi.ws=gtk))
@@ -897,19 +920,38 @@
       </instructions>
     </touchpointData>
   </unit>
-  <unit id='toolingapp-product.executable.cocoa.macosx.x86-bundled' version='1.0.0.201402222004' singleton='false'>
+  <unit id='app-product.executable.gtk.linux.x86_64.eclipse' version='1.0.0.201402222144' singleton='false'>
+    <provides size='1'>
+      <provided namespace='org.eclipse.equinox.p2.iu' name='app-product.executable.gtk.linux.x86_64.eclipse' version='1.0.0.201402222144'/>
+    </provides>
+    <filter>
+      (&amp;(osgi.arch=x86_64)(osgi.os=linux)(osgi.ws=gtk))
+    </filter>
+    <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+    <touchpointData size='1'>
+      <instructions size='2'>
+        <instruction key='unconfigure'>
+          setLauncherName()
+        </instruction>
+        <instruction key='configure'>
+          setLauncherName(name:eclipse)
+        </instruction>
+      </instructions>
+    </touchpointData>
+  </unit>
+  <unit id='toolingapp-product.executable.cocoa.macosx.x86-bundled' version='1.0.0.201402222144' singleton='false'>
     <hostRequirements size='1'>
-      <required namespace='org.eclipse.equinox.p2.iu' name='app-product.executable.cocoa.macosx.x86' range='[1.0.0.201402222004,1.0.0.201402222004]'/>
+      <required namespace='org.eclipse.equinox.p2.iu' name='app-product.executable.cocoa.macosx.x86' range='[1.0.0.201402222144,1.0.0.201402222144]'/>
     </hostRequirements>
     <properties size='1'>
       <property name='org.eclipse.equinox.p2.type.fragment' value='true'/>
     </properties>
     <provides size='2'>
-      <provided namespace='org.eclipse.equinox.p2.iu' name='toolingapp-product.executable.cocoa.macosx.x86' version='1.0.0.201402222004'/>
-      <provided namespace='org.eclipse.equinox.p2.iu' name='toolingapp-product.executable.cocoa.macosx.x86-bundled' version='1.0.0.201402222004'/>
+      <provided namespace='org.eclipse.equinox.p2.iu' name='toolingapp-product.executable.cocoa.macosx.x86' version='1.0.0.201402222144'/>
+      <provided namespace='org.eclipse.equinox.p2.iu' name='toolingapp-product.executable.cocoa.macosx.x86-bundled' version='1.0.0.201402222144'/>
     </provides>
     <requires size='1'>
-      <required namespace='org.eclipse.equinox.p2.iu' name='app-product.executable.cocoa.macosx.x86' range='[1.0.0.201402222004,1.0.0.201402222004]'/>
+      <required namespace='org.eclipse.equinox.p2.iu' name='app-product.executable.cocoa.macosx.x86' range='[1.0.0.201402222144,1.0.0.201402222144]'/>
     </requires>
     <filter>
       (&amp;(macosx-bundled=true)(osgi.arch=x86)(osgi.os=macosx)(osgi.ws=cocoa))
@@ -926,18 +968,18 @@
       </instructions>
     </touchpointData>
   </unit>
-  <unit id='toolingapp-product.executable.win32.win32.x86' version='1.0.0.201402222004' singleton='false'>
+  <unit id='toolingapp-product.executable.win32.win32.x86' version='1.0.0.201402222144' singleton='false'>
     <hostRequirements size='1'>
-      <required namespace='org.eclipse.equinox.p2.iu' name='app-product.executable.win32.win32.x86' range='[1.0.0.201402222004,1.0.0.201402222004]'/>
+      <required namespace='org.eclipse.equinox.p2.iu' name='app-product.executable.win32.win32.x86' range='[1.0.0.201402222144,1.0.0.201402222144]'/>
     </hostRequirements>
     <properties size='1'>
       <property name='org.eclipse.equinox.p2.type.fragment' value='true'/>
     </properties>
     <provides size='1'>
-      <provided namespace='org.eclipse.equinox.p2.iu' name='toolingapp-product.executable.win32.win32.x86' version='1.0.0.201402222004'/>
+      <provided namespace='org.eclipse.equinox.p2.iu' name='toolingapp-product.executable.win32.win32.x86' version='1.0.0.201402222144'/>
     </provides>
     <requires size='1'>
-      <required namespace='org.eclipse.equinox.p2.iu' name='app-product.executable.win32.win32.x86' range='[1.0.0.201402222004,1.0.0.201402222004]'/>
+      <required namespace='org.eclipse.equinox.p2.iu' name='app-product.executable.win32.win32.x86' range='[1.0.0.201402222144,1.0.0.201402222144]'/>
     </requires>
     <filter>
       (&amp;(osgi.arch=x86)(osgi.os=win32)(osgi.ws=win32))
@@ -954,38 +996,10 @@
       </instructions>
     </touchpointData>
   </unit>
-  <unit id='toolingapp-product.executable.win32.win32.x86_64' version='1.0.0.201402222004' singleton='false'>
-    <hostRequirements size='1'>
-      <required namespace='org.eclipse.equinox.p2.iu' name='app-product.executable.win32.win32.x86_64' range='[1.0.0.201402222004,1.0.0.201402222004]'/>
-    </hostRequirements>
-    <properties size='1'>
-      <property name='org.eclipse.equinox.p2.type.fragment' value='true'/>
-    </properties>
-    <provides size='1'>
-      <provided namespace='org.eclipse.equinox.p2.iu' name='toolingapp-product.executable.win32.win32.x86_64' version='1.0.0.201402222004'/>
-    </provides>
-    <requires size='1'>
-      <required namespace='org.eclipse.equinox.p2.iu' name='app-product.executable.win32.win32.x86_64' range='[1.0.0.201402222004,1.0.0.201402222004]'/>
-    </requires>
-    <filter>
-      (&amp;(osgi.arch=x86_64)(osgi.os=win32)(osgi.ws=win32))
-    </filter>
-    <touchpoint id='org.eclipse.equinox.p2.native' version='1.0.0'/>
-    <touchpointData size='1'>
-      <instructions size='2'>
-        <instruction key='install'>
-          unzip(source:@artifact, target:${installFolder});
-        </instruction>
-        <instruction key='uninstall'>
-          cleanupzip(source:@artifact, target:${installFolder});
-        </instruction>
-      </instructions>
-    </touchpointData>
-  </unit>
-  <unit id='toolingapp-product.ini.cocoa.macosx.x86_64' version='1.0.0.201402222004' singleton='false'>
+  <unit id='toolingapp-product.config.cocoa.macosx.x86_64' version='1.0.0.201402222144' singleton='false'>
     <provides size='2'>
-      <provided namespace='org.eclipse.equinox.p2.iu' name='toolingapp-product.ini.cocoa.macosx.x86_64' version='1.0.0.201402222004'/>
-      <provided namespace='toolingapp-product' name='app-product.ini' version='1.0.0.201402222004'/>
+      <provided namespace='org.eclipse.equinox.p2.iu' name='toolingapp-product.config.cocoa.macosx.x86_64' version='1.0.0.201402222144'/>
+      <provided namespace='toolingapp-product' name='app-product.config' version='1.0.0.201402222144'/>
     </provides>
     <filter>
       (&amp;(osgi.arch=x86_64)(osgi.os=macosx)(osgi.ws=cocoa))
@@ -994,10 +1008,10 @@
     <touchpointData size='1'>
       <instructions size='2'>
         <instruction key='unconfigure'>
-          removeJvmArg(jvmArg:-XstartOnFirstThread);removeJvmArg(jvmArg:-Dorg.eclipse.swt.internal.carbon.smallFonts);
+          setProgramProperty(propName:eclipse.application,propValue:);setProgramProperty(propName:eclipse.product,propValue:);
         </instruction>
         <instruction key='configure'>
-          addJvmArg(jvmArg:-XstartOnFirstThread);addJvmArg(jvmArg:-Dorg.eclipse.swt.internal.carbon.smallFonts);
+          setProgramProperty(propName:eclipse.application,propValue:org.eclipse.e4.ui.workbench.swt.E4Application);setProgramProperty(propName:eclipse.product,propValue:ru.mine.product.application.product);
         </instruction>
       </instructions>
     </touchpointData>
@@ -1039,34 +1053,6 @@
       </instructions>
     </touchpointData>
   </unit>
-  <unit id='toolingapp-product.executable.cocoa.macosx.x86_64' version='1.0.0.201402222004' singleton='false'>
-    <hostRequirements size='1'>
-      <required namespace='org.eclipse.equinox.p2.iu' name='app-product.executable.cocoa.macosx.x86_64' range='[1.0.0.201402222004,1.0.0.201402222004]'/>
-    </hostRequirements>
-    <properties size='1'>
-      <property name='org.eclipse.equinox.p2.type.fragment' value='true'/>
-    </properties>
-    <provides size='1'>
-      <provided namespace='org.eclipse.equinox.p2.iu' name='toolingapp-product.executable.cocoa.macosx.x86_64' version='1.0.0.201402222004'/>
-    </provides>
-    <requires size='1'>
-      <required namespace='org.eclipse.equinox.p2.iu' name='app-product.executable.cocoa.macosx.x86_64' range='[1.0.0.201402222004,1.0.0.201402222004]'/>
-    </requires>
-    <filter>
-      (&amp;(!(macosx-bundled=*))(osgi.arch=x86_64)(osgi.os=macosx)(osgi.ws=cocoa))
-    </filter>
-    <touchpoint id='org.eclipse.equinox.p2.native' version='1.0.0'/>
-    <touchpointData size='1'>
-      <instructions size='2'>
-        <instruction key='install'>
-          unzip(source:@artifact, target:${installFolder}); chmod(targetDir:${installFolder}/Eclipse.app/Contents/MacOS/, targetFile:eclipse, permissions:755); ln(targetDir:${installFolder}, linkTarget:Eclipse.app/Contents/MacOS/eclipse, linkName:eclipse);
-        </instruction>
-        <instruction key='uninstall'>
-          cleanupzip(source:@artifact, target:${installFolder});
-        </instruction>
-      </instructions>
-    </touchpointData>
-  </unit>
   <unit id='toolingorg.eclipse.equinox.launcher.gtk.linux.x86' version='1.1.200.v20130807-1835' singleton='false'>
     <hostRequirements size='2'>
       <required namespace='osgi.bundle' name='org.eclipse.equinox.launcher.gtk.linux.x86' range='1.1.200.v20130807-1835'/>
@@ -1100,6 +1086,46 @@
         </instruction>
         <instruction key='configure'>
           addProgramArg(programArg:--launcher.library);addProgramArg(programArg:@artifact);
+        </instruction>
+      </instructions>
+    </touchpointData>
+  </unit>
+  <unit id='app-product.executable.gtk.linux.x86_64' version='1.0.0.201402222144'>
+    <provides size='2'>
+      <provided namespace='org.eclipse.equinox.p2.iu' name='app-product.executable.gtk.linux.x86_64' version='1.0.0.201402222144'/>
+      <provided namespace='toolingapp-product' name='app-product.executable' version='1.0.0.201402222144'/>
+    </provides>
+    <requires size='1'>
+      <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.equinox.launcher.gtk.linux.x86_64' range='0.0.0'>
+        <filter>
+          (&amp;(osgi.arch=x86_64)(osgi.os=linux)(osgi.ws=gtk))
+        </filter>
+      </required>
+    </requires>
+    <filter>
+      (&amp;(osgi.arch=x86_64)(osgi.os=linux)(osgi.ws=gtk))
+    </filter>
+    <artifacts size='1'>
+      <artifact classifier='binary' id='app-product.executable.gtk.linux.x86_64' version='1.0.0.201402222144'/>
+    </artifacts>
+    <touchpoint id='org.eclipse.equinox.p2.native' version='1.0.0'/>
+  </unit>
+  <unit id='toolingapp-product.config.win32.win32.x86' version='1.0.0.201402222144' singleton='false'>
+    <provides size='2'>
+      <provided namespace='org.eclipse.equinox.p2.iu' name='toolingapp-product.config.win32.win32.x86' version='1.0.0.201402222144'/>
+      <provided namespace='toolingapp-product' name='app-product.config' version='1.0.0.201402222144'/>
+    </provides>
+    <filter>
+      (&amp;(osgi.arch=x86)(osgi.os=win32)(osgi.ws=win32))
+    </filter>
+    <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+    <touchpointData size='1'>
+      <instructions size='2'>
+        <instruction key='unconfigure'>
+          setProgramProperty(propName:eclipse.application,propValue:);setProgramProperty(propName:eclipse.product,propValue:);
+        </instruction>
+        <instruction key='configure'>
+          setProgramProperty(propName:eclipse.application,propValue:org.eclipse.e4.ui.workbench.swt.E4Application);setProgramProperty(propName:eclipse.product,propValue:ru.mine.product.application.product);
         </instruction>
       </instructions>
     </touchpointData>
@@ -1141,26 +1167,6 @@
       </instructions>
     </touchpointData>
   </unit>
-  <unit id='toolingapp-product.config.win32.win32.x86' version='1.0.0.201402222004' singleton='false'>
-    <provides size='2'>
-      <provided namespace='org.eclipse.equinox.p2.iu' name='toolingapp-product.config.win32.win32.x86' version='1.0.0.201402222004'/>
-      <provided namespace='toolingapp-product' name='app-product.config' version='1.0.0.201402222004'/>
-    </provides>
-    <filter>
-      (&amp;(osgi.arch=x86)(osgi.os=win32)(osgi.ws=win32))
-    </filter>
-    <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
-    <touchpointData size='1'>
-      <instructions size='2'>
-        <instruction key='unconfigure'>
-          setProgramProperty(propName:eclipse.application,propValue:);setProgramProperty(propName:eclipse.product,propValue:);
-        </instruction>
-        <instruction key='configure'>
-          setProgramProperty(propName:eclipse.application,propValue:org.eclipse.e4.ui.workbench.swt.E4Application);setProgramProperty(propName:eclipse.product,propValue:ru.mine.product.application.product);
-        </instruction>
-      </instructions>
-    </touchpointData>
-  </unit>
   <unit id='toolingorg.eclipse.equinox.launcher.cocoa.macosx.x86_64' version='1.1.200.v20130807-1835' singleton='false'>
     <hostRequirements size='2'>
       <required namespace='osgi.bundle' name='org.eclipse.equinox.launcher.cocoa.macosx.x86_64' range='1.1.200.v20130807-1835'/>
@@ -1198,25 +1204,30 @@
       </instructions>
     </touchpointData>
   </unit>
-  <unit id='app-product.executable.gtk.linux.x86_64' version='1.0.0.201402222004'>
-    <provides size='2'>
-      <provided namespace='org.eclipse.equinox.p2.iu' name='app-product.executable.gtk.linux.x86_64' version='1.0.0.201402222004'/>
-      <provided namespace='toolingapp-product' name='app-product.executable' version='1.0.0.201402222004'/>
+  <unit id='app-product' version='1.0.0.201402222144'>
+    <update id='app-product' range='0.0.0' severity='0'/>
+    <properties size='3'>
+      <property name='org.eclipse.equinox.p2.name' value='Application Product'/>
+      <property name='org.eclipse.equinox.p2.type.product' value='true'/>
+      <property name='org.eclipse.equinox.p2.type.group' value='true'/>
+    </properties>
+    <provides size='1'>
+      <provided namespace='org.eclipse.equinox.p2.iu' name='app-product' version='1.0.0.201402222144'/>
     </provides>
-    <requires size='1'>
-      <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.equinox.launcher.gtk.linux.x86_64' range='0.0.0'>
+    <requires size='7'>
+      <required namespace='org.eclipse.equinox.p2.iu' name='tooling.source.default' range='[1.0.0,1.0.0]'/>
+      <required namespace='org.eclipse.equinox.p2.iu' name='a.jre.javase' range='[1.6.0,1.6.0]'/>
+      <required namespace='org.eclipse.equinox.p2.iu' name='tooling.osgi.bundle.default' range='[1.0.0,1.0.0]'/>
+      <required namespace='org.eclipse.equinox.p2.iu' name='tooling.org.eclipse.update.feature.default' range='[1.0.0,1.0.0]'>
         <filter>
-          (&amp;(osgi.arch=x86_64)(osgi.os=linux)(osgi.ws=gtk))
+          (org.eclipse.update.install.features=true)
         </filter>
       </required>
+      <required namespace='org.eclipse.equinox.p2.iu' name='toolingapp-product.application' range='[1.0.0.201402222144,1.0.0.201402222144]'/>
+      <required namespace='org.eclipse.equinox.p2.iu' name='toolingapp-product.configuration' range='[1.0.0.201402222144,1.0.0.201402222144]'/>
+      <required namespace='org.eclipse.equinox.p2.iu' name='config.a.jre.javase' range='[1.6.0,1.6.0]'/>
     </requires>
-    <filter>
-      (&amp;(osgi.arch=x86_64)(osgi.os=linux)(osgi.ws=gtk))
-    </filter>
-    <artifacts size='1'>
-      <artifact classifier='binary' id='app-product.executable.gtk.linux.x86_64' version='1.0.0.201402222004'/>
-    </artifacts>
-    <touchpoint id='org.eclipse.equinox.p2.native' version='1.0.0'/>
+    <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
   </unit>
   <unit id='toolingorg.eclipse.equinox.launcher.win32.win32.x86_64' version='1.1.200.v20130807-1835' singleton='false'>
     <hostRequirements size='2'>
@@ -1255,28 +1266,49 @@
       </instructions>
     </touchpointData>
   </unit>
-  <unit id='app-product.executable.cocoa.macosx.x86.eclipse' version='1.0.0.201402222004' singleton='false'>
-    <provides size='1'>
-      <provided namespace='org.eclipse.equinox.p2.iu' name='app-product.executable.cocoa.macosx.x86.eclipse' version='1.0.0.201402222004'/>
+  <unit id='toolingapp-product.ini.cocoa.macosx.x86_64' version='1.0.0.201402222144' singleton='false'>
+    <provides size='2'>
+      <provided namespace='org.eclipse.equinox.p2.iu' name='toolingapp-product.ini.cocoa.macosx.x86_64' version='1.0.0.201402222144'/>
+      <provided namespace='toolingapp-product' name='app-product.ini' version='1.0.0.201402222144'/>
     </provides>
     <filter>
-      (&amp;(osgi.arch=x86)(osgi.os=macosx)(osgi.ws=cocoa))
+      (&amp;(osgi.arch=x86_64)(osgi.os=macosx)(osgi.ws=cocoa))
     </filter>
     <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
     <touchpointData size='1'>
       <instructions size='2'>
         <instruction key='unconfigure'>
-          setLauncherName()
+          removeJvmArg(jvmArg:-XstartOnFirstThread);removeJvmArg(jvmArg:-Dorg.eclipse.swt.internal.carbon.smallFonts);
         </instruction>
         <instruction key='configure'>
-          setLauncherName(name:eclipse)
+          addJvmArg(jvmArg:-XstartOnFirstThread);addJvmArg(jvmArg:-Dorg.eclipse.swt.internal.carbon.smallFonts);
         </instruction>
       </instructions>
     </touchpointData>
   </unit>
-  <unit id='app-product.executable.win32.win32.x86.eclipse' version='1.0.0.201402222004' singleton='false'>
+  <unit id='app-product.executable.cocoa.macosx.x86_64' version='1.0.0.201402222144'>
+    <provides size='2'>
+      <provided namespace='org.eclipse.equinox.p2.iu' name='app-product.executable.cocoa.macosx.x86_64' version='1.0.0.201402222144'/>
+      <provided namespace='toolingapp-product' name='app-product.executable' version='1.0.0.201402222144'/>
+    </provides>
+    <requires size='1'>
+      <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.equinox.launcher.cocoa.macosx.x86_64' range='0.0.0'>
+        <filter>
+          (&amp;(osgi.arch=x86_64)(osgi.os=macosx)(osgi.ws=cocoa))
+        </filter>
+      </required>
+    </requires>
+    <filter>
+      (&amp;(osgi.arch=x86_64)(osgi.os=macosx)(osgi.ws=cocoa))
+    </filter>
+    <artifacts size='1'>
+      <artifact classifier='binary' id='app-product.executable.cocoa.macosx.x86_64' version='1.0.0.201402222144'/>
+    </artifacts>
+    <touchpoint id='org.eclipse.equinox.p2.native' version='1.0.0'/>
+  </unit>
+  <unit id='app-product.executable.win32.win32.x86.eclipse' version='1.0.0.201402222144' singleton='false'>
     <provides size='1'>
-      <provided namespace='org.eclipse.equinox.p2.iu' name='app-product.executable.win32.win32.x86.eclipse' version='1.0.0.201402222004'/>
+      <provided namespace='org.eclipse.equinox.p2.iu' name='app-product.executable.win32.win32.x86.eclipse' version='1.0.0.201402222144'/>
     </provides>
     <filter>
       (&amp;(osgi.arch=x86)(osgi.os=win32)(osgi.ws=win32))
@@ -1293,50 +1325,10 @@
       </instructions>
     </touchpointData>
   </unit>
-  <unit id='toolingapp-product.config.win32.win32.x86_64' version='1.0.0.201402222004' singleton='false'>
+  <unit id='toolingapp-product.config.cocoa.macosx.x86' version='1.0.0.201402222144' singleton='false'>
     <provides size='2'>
-      <provided namespace='org.eclipse.equinox.p2.iu' name='toolingapp-product.config.win32.win32.x86_64' version='1.0.0.201402222004'/>
-      <provided namespace='toolingapp-product' name='app-product.config' version='1.0.0.201402222004'/>
-    </provides>
-    <filter>
-      (&amp;(osgi.arch=x86_64)(osgi.os=win32)(osgi.ws=win32))
-    </filter>
-    <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
-    <touchpointData size='1'>
-      <instructions size='2'>
-        <instruction key='unconfigure'>
-          setProgramProperty(propName:eclipse.application,propValue:);setProgramProperty(propName:eclipse.product,propValue:);
-        </instruction>
-        <instruction key='configure'>
-          setProgramProperty(propName:eclipse.application,propValue:org.eclipse.e4.ui.workbench.swt.E4Application);setProgramProperty(propName:eclipse.product,propValue:ru.mine.product.application.product);
-        </instruction>
-      </instructions>
-    </touchpointData>
-  </unit>
-  <unit id='toolingapp-product.config.cocoa.macosx.x86_64' version='1.0.0.201402222004' singleton='false'>
-    <provides size='2'>
-      <provided namespace='org.eclipse.equinox.p2.iu' name='toolingapp-product.config.cocoa.macosx.x86_64' version='1.0.0.201402222004'/>
-      <provided namespace='toolingapp-product' name='app-product.config' version='1.0.0.201402222004'/>
-    </provides>
-    <filter>
-      (&amp;(osgi.arch=x86_64)(osgi.os=macosx)(osgi.ws=cocoa))
-    </filter>
-    <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
-    <touchpointData size='1'>
-      <instructions size='2'>
-        <instruction key='unconfigure'>
-          setProgramProperty(propName:eclipse.application,propValue:);setProgramProperty(propName:eclipse.product,propValue:);
-        </instruction>
-        <instruction key='configure'>
-          setProgramProperty(propName:eclipse.application,propValue:org.eclipse.e4.ui.workbench.swt.E4Application);setProgramProperty(propName:eclipse.product,propValue:ru.mine.product.application.product);
-        </instruction>
-      </instructions>
-    </touchpointData>
-  </unit>
-  <unit id='toolingapp-product.config.cocoa.macosx.x86' version='1.0.0.201402222004' singleton='false'>
-    <provides size='2'>
-      <provided namespace='org.eclipse.equinox.p2.iu' name='toolingapp-product.config.cocoa.macosx.x86' version='1.0.0.201402222004'/>
-      <provided namespace='toolingapp-product' name='app-product.config' version='1.0.0.201402222004'/>
+      <provided namespace='org.eclipse.equinox.p2.iu' name='toolingapp-product.config.cocoa.macosx.x86' version='1.0.0.201402222144'/>
+      <provided namespace='toolingapp-product' name='app-product.config' version='1.0.0.201402222144'/>
     </provides>
     <filter>
       (&amp;(osgi.arch=x86)(osgi.os=macosx)(osgi.ws=cocoa))
@@ -1353,24 +1345,32 @@
       </instructions>
     </touchpointData>
   </unit>
-  <unit id='app-product.executable.win32.win32.x86_64' version='1.0.0.201402222004'>
-    <provides size='2'>
-      <provided namespace='org.eclipse.equinox.p2.iu' name='app-product.executable.win32.win32.x86_64' version='1.0.0.201402222004'/>
-      <provided namespace='toolingapp-product' name='app-product.executable' version='1.0.0.201402222004'/>
+  <unit id='toolingapp-product.executable.cocoa.macosx.x86_64' version='1.0.0.201402222144' singleton='false'>
+    <hostRequirements size='1'>
+      <required namespace='org.eclipse.equinox.p2.iu' name='app-product.executable.cocoa.macosx.x86_64' range='[1.0.0.201402222144,1.0.0.201402222144]'/>
+    </hostRequirements>
+    <properties size='1'>
+      <property name='org.eclipse.equinox.p2.type.fragment' value='true'/>
+    </properties>
+    <provides size='1'>
+      <provided namespace='org.eclipse.equinox.p2.iu' name='toolingapp-product.executable.cocoa.macosx.x86_64' version='1.0.0.201402222144'/>
     </provides>
     <requires size='1'>
-      <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.equinox.launcher.win32.win32.x86_64' range='0.0.0'>
-        <filter>
-          (&amp;(osgi.arch=x86_64)(osgi.os=win32)(osgi.ws=win32))
-        </filter>
-      </required>
+      <required namespace='org.eclipse.equinox.p2.iu' name='app-product.executable.cocoa.macosx.x86_64' range='[1.0.0.201402222144,1.0.0.201402222144]'/>
     </requires>
     <filter>
-      (&amp;(osgi.arch=x86_64)(osgi.os=win32)(osgi.ws=win32))
+      (&amp;(!(macosx-bundled=*))(osgi.arch=x86_64)(osgi.os=macosx)(osgi.ws=cocoa))
     </filter>
-    <artifacts size='1'>
-      <artifact classifier='binary' id='app-product.executable.win32.win32.x86_64' version='1.0.0.201402222004'/>
-    </artifacts>
     <touchpoint id='org.eclipse.equinox.p2.native' version='1.0.0'/>
+    <touchpointData size='1'>
+      <instructions size='2'>
+        <instruction key='install'>
+          unzip(source:@artifact, target:${installFolder}); chmod(targetDir:${installFolder}/Eclipse.app/Contents/MacOS/, targetFile:eclipse, permissions:755); ln(targetDir:${installFolder}, linkTarget:Eclipse.app/Contents/MacOS/eclipse, linkName:eclipse);
+        </instruction>
+        <instruction key='uninstall'>
+          cleanupzip(source:@artifact, target:${installFolder});
+        </instruction>
+      </instructions>
+    </touchpointData>
   </unit>
 </units>
