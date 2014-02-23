@@ -29,7 +29,7 @@ import org.eclipse.swt.widgets.Text;
 public class SamplePart {
 	
 //	org.apache.commons.logging.LogFactory factory;
-//	org.eclipse.nebula.widgets.nattable.NatTable natTable;
+	org.eclipse.nebula.widgets.nattable.NatTable natTable;
 	
 	private Text txtInput;
 	private TableViewer tableViewer;
