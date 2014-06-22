@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?pde version="3.8"?><target name="luna" sequenceNumber="23">
+<locations>
+<location includeAllPlatforms="false" includeConfigurePhase="true" includeMode="planner" includeSource="true" type="InstallableUnit">
+<unit id="org.eclipse.nebula.widgets.nattable.core.feature.feature.group" version="0.0.0"/>
+<unit id="org.eclipse.nebula.widgets.nattable.core.source.feature.feature.group" version="0.0.0"/>
+<repository location="http://download.eclipse.org/nattable/releases/1.0.1/repository/"/>
+</location>
+<location includeAllPlatforms="false" includeConfigurePhase="true" includeMode="planner" includeSource="true" type="InstallableUnit">
+<unit id="org.eclipse.sapphire.sdk.feature.group" version="0.0.0"/>
+<unit id="org.eclipse.scout.feature.group" version="0.0.0"/>
+<unit id="org.eclipse.sapphire.ui.swt.xml.editor.feature.group" version="0.0.0"/>
+<unit id="org.eclipse.sapphire.source.feature.group" version="0.0.0"/>
+<unit id="org.eclipse.sapphire.osgi.feature.group" version="0.0.0"/>
+<unit id="org.eclipse.sapphire.platform.feature.group" version="0.0.0"/>
+<unit id="org.eclipse.sapphire.modeling.xml.feature.group" version="0.0.0"/>
+<unit id="org.eclipse.sapphire.java.jdt.feature.group" version="0.0.0"/>
+<unit id="org.eclipse.sapphire.feature.group" version="0.0.0"/>
+<unit id="org.eclipse.sapphire.ui.feature.group" version="0.0.0"/>
+<unit id="org.eclipse.sapphire.ui.swt.gef.feature.group" version="0.0.0"/>
+<unit id="org.eclipse.sapphire.java.feature.group" version="0.0.0"/>
+<repository location="http://download.eclipse.org/releases/luna"/>
+</location>
+<location includeAllPlatforms="false" includeConfigurePhase="true" includeMode="planner" includeSource="true" type="InstallableUnit">
+<unit id="org.eclipse.e4.tools.orion.css.editor.feature.feature.group" version="0.15.0.v20140404-1904"/>
+<unit id="org.eclipse.e4.tools.orion.css.editor.feature.source.feature.group" version="0.15.0.v20140404-1904"/>
+<unit id="org.eclipse.e4.tools.css.editor.feature.source.feature.group" version="0.14.0.v20140221-1650"/>
+<unit id="org.eclipse.e4.tools.event.spy.feature.feature.group" version="0.15.0.v20140529-0919"/>
+<unit id="org.eclipse.e4.tools.css.spy.feature.source.feature.group" version="0.14.0.v20140402-1524"/>
+<unit id="org.eclipse.e4.core.tools.feature.feature.group" version="0.14.0.v20140617-0352"/>
+<unit id="org.eclipse.e4.tools.event.spy.feature.source.feature.group" version="0.15.0.v20140529-0919"/>
+<unit id="org.eclipse.e4.tools.css.editor.feature.feature.group" version="0.14.0.v20140221-1650"/>
+<unit id="org.eclipse.e4.core.tools.feature.source.feature.group" version="0.14.0.v20140617-0352"/>
+<unit id="org.eclipse.e4.tools.css.spy.feature.feature.group" version="0.14.0.v20140402-1524"/>
+<unit id="org.eclipse.e4.tools.context.spy.feature.feature.group" version="0.1.0.v20140529-0919"/>
+<repository location="http://download.vogella.com/luna/e4tools"/>
+</location>
+</locations>
+</target>
